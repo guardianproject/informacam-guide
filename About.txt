@@ -1,1 +1,29 @@
 ### InformaCam User Guide
+
+## TRUST (BUT VERIFY!) WHAT YOUR EYES SEE
+
+InformaCam uses the built in sensors in modern smartphones as well wi-fi, bluetooth, and cell tower information to create a snapshot of the environment in which an image or video was captured. This validates the date, time and location of capture. Digital signatures and encryption ensure that your media hasn't been tampered with and can only be opened by the intended recipient.
+
+## Easy To Use
+
+The easiest way to capture and share secure photos and videos on a smartphone or tablet.
+
+## Sensor Smart
+
+Turn sensor inputs like compass, light, temperature, location and more into "metadata for good".
+
+## Share Media and Metadata
+
+Upload and share media captured from InformaCam wherever you choose, and people can trust what their eyes see.
+
+## Crypto-Power
+
+InformaCam has strong encryption and network security built-in using OpenPGP, IOCipher and Tor.
+
+## Secure-Net
+
+InformaCam uses Tor Hidden Services to defend against surveillance and filtering.
+
+## Open and Free
+
+Open-source and freely licensed for use by any individual or organization.
