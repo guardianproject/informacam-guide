@@ -1,0 +1,32 @@
+# Chapter 4: More Details on Sensor Input
+
+|J3M TAG|SOURCE: Sensors / Component / Radio / Other|DESCRIPTION|
+|-----------:|---------------------------------:|-----------------------|
+|timestamp|	System clock + NMEA data from GPS|	UNIX timestamp of when data from sensor is read|
+|pressureAltitude||	Calculated from the "pressureHPAOrMBAR" value & sea level value	meters from the atmospheric pressure and the pressure at sea level|
+|pressureHPAOrMBAR|	Barometer / Pressure sensor|Measures the ambient air (atmospheric) pressure in hPa or mbar.|
+|lightMeterValue|	Ambient Light & Proximity sensor|	Ambient light level in SI lux units
+|bearingDegrees|	Accelerometer + Compass/Magnetometer|	the accelerometer is used to figure out how you are holding your phone so that the magno readings can be adjusted properly
+|acc_z, acc_y, acc_x|	Accelerometer|This is an accelerometer event, showing X,Y,Z motion data
+|pitch, roll, azimuth|	Gyroscope sensor|This is an orientation event, containing azimuth, pitch and roll, in raw format based on the orientation the user is holding their phone"
+|pitchCorrected, rollCorrected, azimuthCorrected|	interpreted data from pitch, roll, azimuth||
+|temperature|Temperature sensor|Ambient temperature in Celsius (only some phones have this sensor)
+|"""gps_coords"" ""gps_accuracy"" ""gps_bearing"" ""gps_altitude"" 
+“gps_speed” “nmeatime” ""nmeamessage"""|GPS|GPS location event - latitude, longitude and current accuracy of the sensor, based on whether it is coming from satellite, wifi, cell towers. GPS data is being continously collected and timestamped (vs. EXIF contains only one instance of gps data).
+|visibleWifiNetworks| "bssid, ssid, wifiLevel, wifiFreq"|	WiFi radio API	"BSSID and SSIDs broadcast by other wifi routers.  ""bssid"" (MAC address), ”ssid"" (name of wifi), ”wifiLevel"" (Signal strength), ”wifiFreq"" (Frequency)"|
+|cellTowerId|	SIM card	|ID of cellular network tower the phone is currently registered with.| 
+|MCC|	SIM card|	Mobile Country Code - identifies the country of origin of the SIM card|
+|LAC|	SIM card|	Location Area Code|
+|"bluetoothDeviceAddress" "bluetoothDeviceName":|	Bluetooth radio API|	MAC Addresses of bluetooth devices noticed in the area. The bluetooth device address does NOT display the name of the actual device MAC address, but instead shows a one-way hash value. This was an attempt to preserve some privacy for individuals who might be in the area.|
+|exif|	Jpeg EXIF Header Data|	Basic EXIF metadata from the capture device: "exposure", "orientation","flash", "iso", "aperture" "duration","height", "width", "location","whiteBalance","focalLength", "make", "model", "timestamp".|
+|userAppendedData|	|User annotations, based on Open Data Kit forms	Descriptive metadata entered by the user.
+|"intakeData":{"data" (???)|	App	|???|
+|"intakeData":{ … "signature"|	App	|the PGP signature of all the sensor data|
+|"ownershipType"	|App|	???|
+|“alias":	|App|	(Name/ nickname provided on setting up the app)|
+|"pgpKeyFingerprint"|	App| 	OpenPGP public key fingerprint for the user/app (Fingerprint of device + app instance)|
+|genealogy: (“localMediaPath”)|	App|	Represents where the file was originally stored|
+|"dateCreated"|	System clock and NMEA data from GPS|	UNIX timestamp value for when the media capture occured.|
+|"hashes"|	SHA-1 (pic) / MD5 (video)|	checksum of all the pixel values of the image or video frames "j3m_version"	App	Version|
+|"createdOnDevice"|	App|	OpenPGP public key fingerprint for the user/app (Fingerprint of device + app instance)|
+|"signature"|		PGP signature for the entire J3M content||

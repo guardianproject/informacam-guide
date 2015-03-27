@@ -6,6 +6,8 @@ something here
 
 ## 3 Things You Can Quickly Do
 
+You can view an online presentation of this here: https://docs.google.com/presentation/d/1BMfL1vHBN1ogAMDhsYC5qRAu0XL9v_eOtZooRS27R4U/edit?usp=sharing
+
 1) Take pictures or video with synchronized sensor metadata capture for later use in verification, analysis, proof or other “blackbox” purposes
 
 2) Publicly notarize captured photos and videos by sharing unique hash ID’s & sensor metadata through any communication app or social media
