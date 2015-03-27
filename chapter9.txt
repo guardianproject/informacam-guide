@@ -1,0 +1,3 @@
+# Chapter 9: Scenarios of Use
+
+This chapter will talk through a few different plausible scenarios where this app could be used, and the right steps to make that happen successfully.
