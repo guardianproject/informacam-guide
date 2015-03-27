@@ -11,8 +11,7 @@
 |pitch, roll, azimuth|	Gyroscope sensor|This is an orientation event, containing azimuth, pitch and roll, in raw format based on the orientation the user is holding their phone"
 |pitchCorrected, rollCorrected, azimuthCorrected|	interpreted data from pitch, roll, azimuth||
 |temperature|Temperature sensor|Ambient temperature in Celsius (only some phones have this sensor)
-|"""gps_coords"" ""gps_accuracy"" ""gps_bearing"" ""gps_altitude"" 
-“gps_speed” “nmeatime” ""nmeamessage"""|GPS|GPS location event - latitude, longitude and current accuracy of the sensor, based on whether it is coming from satellite, wifi, cell towers. GPS data is being continously collected and timestamped (vs. EXIF contains only one instance of gps data).
+|"""gps_coords"" ""gps_accuracy"" ""gps_bearing"" ""gps_altitude"" “gps_speed” “nmeatime” ""nmeamessage"""|GPS|GPS location event - latitude, longitude and current accuracy of the sensor, based on whether it is coming from satellite, wifi, cell towers. GPS data is being continously collected and timestamped (vs. EXIF contains only one instance of gps data).
 |visibleWifiNetworks| "bssid, ssid, wifiLevel, wifiFreq"|	WiFi radio API	"BSSID and SSIDs broadcast by other wifi routers.  ""bssid"" (MAC address), ”ssid"" (name of wifi), ”wifiLevel"" (Signal strength), ”wifiFreq"" (Frequency)"|
 |cellTowerId|	SIM card	|ID of cellular network tower the phone is currently registered with.| 
 |MCC|	SIM card|	Mobile Country Code - identifies the country of origin of the SIM card|
