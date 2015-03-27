@@ -1,0 +1,3 @@
+# Chapter 8: Using "Proof Mode" with Any Camera App
+
+This chapter shows you how to active the app's "Proof Mode" feature in order to capture content from any camera app that stores photos and video in the public external storage.
