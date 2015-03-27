@@ -1,3 +1,92 @@
-# Chapter 3
+# Chapter 3: Is This For Real?
 
-Write here...
+Is This For Real? How InformaCam Improves Verification of Mobile Media Files
+Posted on January 15, 2013	by Witness Administrator
+Originally posted here: http://blog.witness.org/2013/01/how-informacam-improves-verification-of-mobile-media-files/
+
+There is currently a deluge of media coming from the world’s mobile devices for potential use as evidence or trusted sources for journalists.  WITNESS and the Guardian Project are working to provide a mechanism, InformaCam, to verify and authenticate this footage.
+
+JANUARY 17, 2013: WE’RE PLEASED TO ANNOUNCE THAT WITNESS AND THE GUARDIAN PROJECT HAVE JUST BEEN NAMED ONE OF EIGHT WINNERS OF THE KNIGHT NEWS CHALLENGE FOR MOBILE. DETAILS HERE.
+
+Late last year, antivirus software pioneer, John Mcafee was arrested in Guatemala having fled his home in Belize where he was wanted for questioning related to the murder of his next door neighbor.  McAfee’s location was inadvertently disclosed through the embedded metadata in the iPhone photo published by the journalists interviewing him.
+
+Pictures taken with mobile phones often contain embedded information, known as metadata, which can record information including: the type of camera that took the picture and the date and time.  They can also contain location information like GPS coordinates which can be used to determine where an image or video was captured. Sometimes metadata can expose information that the user doesn’t want shared.
+
+Here at WITNESS we’ve been training human rights defenders about the security risks posed by metadata in digital files for a while. Capturing video with sensitive information can put people in harm’s way. In response, we developed with our partners at the Guardian Project,  ObscuraCam, a mobile phone app that as well as stripping out metadata automatically detects and blurs out faces in videos and images. About six months ago, YouTube introduced a similar blurring feature on their website.
+
+
+Facebook user Gregory Michael shared this false photo supposedly showing a shark in post-superstorm Sandy waters in New Jersey, USA
+However, there are times when citizen journalists and human rights defenders might need to preserve more information rather than less, to ensure their digital files can be accessed later for legal evidence or for archival purposes. Or they may want to have the geolocation metadata, additional detailed information about what they are capturing, and the ability to encrypt it, in an effort to help media outlets trust and verify the content. In an age where digital manipulation of images and video is commonplace, news agencies have to contend with the possibility that digitally altered media is being passed off as unadulterated truth.
+
+Syria is one such example where mobile video has been used extensively to document potential war crimes as well as to serve as possible propaganda. More mundane scenarios exist in every situations from the incredible photo of a tornado in Alabama to the notorious claims of sharks swimming in flood waters after Hurricane Sandy hit the U.S.’ northeast coast.
+
+To address those needs we’ve been working on InformaCam, a mobile app that allows Android devices to take images and videos, embed them with geotemporal and other metadata, sign them with a digital signature unique to the device’s camera censor, encrypt and then send those files to someone they trust who maintains a secure server. Among other elements, the process preserves the chain of custody of the media, making it more likely to be admissible in a court of law.
+
+Since we first announced the project, we’ve been working on refining the functionality of the app and building the prototype of a secure server which stores and verifies the chain of custody of the media. Together WITNESS, The Guardian Project and our partners at the International Bar Association, hope to have a pilot secure repository ready for testing the next few months. Eventually the plan is to create an installer that will allow anyone to quickly and easily set up their own secure repositories.
+
+Here is a walkthrough of how InformaCam works:
+
+When a user runs InformaCam for the first time, a setup wizard goes through the steps to create a password for the application and how to generate an encryption key based on the unique properties of the camera sensor.  Since every camera has a unique pattern of sensor noise, it’s possible to create a “fingerprint” of the device’s camera.  This key will be used to verify that any piece of media captured using the app and uploaded to the secure server came from this specific camera.
+
+ 
+
+InformaCam Walk-Through
+SC20130104-165815
+Step 1: When running InformaCam for the first time a set up wizard launches.
+The user is asked to enter a name or pseudonym.
+Step 2: The user is asked to enter a name or pseudonym.
+Users need to create a password of at least 10 characters.
+Step 3: Users need to create a password of at least 10 characters.
+Users can decide how long they wish to remain logged into the app.
+Step 4: Users can decide how long they wish to remain logged into the app.
+During the set up a sample picture is taken to create a “fingerprint” of the camera sensor, which can then be used to validate subsequent images taken by InformaCam
+Step 5: During the set up, a sample picture is taken to create a “fingerprint” of the camera sensor, which can then be used to validate subsequent images taken by InformaCam.
+InformaCam generating the camera’s “fingerprint”
+Step 6: InformaCam generates the camera’s “fingerprint”.
+Set up complete
+Step 7: Set up is complete.
+InformaCam main screen
+Step 8: InformaCam’s main screen.
+ 
+
+Then what happens?
+
+Once the setup is complete, the user has a choice of taking a picture or shooting a video.  During the shooting process, InformCam continuously accesses the various sensors in the mobile device.  These sensors include:
+
+Motion, such as accelerometers which record any movement occurring during the recording process – this will help to determine if the person was in a vehicle while recording for example.
+Position, such as GPS which will provide fairly exact coordinates where the image or video was taken – this data can later be plotted on a map
+Environmental, such as thermometers which can be later referenced against recorded temperature or other climatic data
+This sensor data creates a digital snapshot of the environment in which the media was captured and allows for later analysis to confirm that not only was the media captured by a specific device in a specific date, time, and place, but also enables the cross checking of this information against weather conditions at the time.  It will also record what wifi networks and bluetooth devices were in the vicinity so that these can be used for corroboration, and (in the case of mobile phones) which cell towers the device was communicating with.
+
+The enhanced metadata captured by InformaCam uses the JSON data format and we are calling it J3M, JSON Evidentiary Mobile Media Metadata. Since JSON data is portable, open and language independent, we hope other developers and projects adopt it as a standard. To quote Harlo Holmes, the lead developer on InformaCam:
+
+We’re building a powerful tool to create iron-clad digital images and video that could, should the occasion arise, be used in courts of law to bring justice…we are helping create the first evidentiary standards for digital media in the social networking age.
+
+
+
+ 
+
+This enhanced metadata is bundled within the mediafile and both, encrypted and hashed, creating a small piece of text that acts as a “digital signature.”  Since this digital signature is so short, it can quickly be sent via email or sms text to a secure server or other 3rd party and used to verify that neither the media nor the metadata was altered in any way since the time of capture. This can be very useful in cases where the user has limited access to a high speed data connection.
+
+For example, if a user recording footage in a rural area of Kenya in which there is a limited GSM coverage but no data service, InformaCam can send the hash of the media file via SMS to the secure server. A week later when the user gets back to her office with a high speed data connection, InformaCam will complete the upload process and the incoming media file can be checked against the hash received from the field.
+
+InformaCam backend server
+Images taken with the InformaCam app are uploaded to a secure server. Here the metadata is decrypted and available for viewing.
+Once the file arrives at the secure server, it is checked against the file’s original digital signature and indexed.  This indexed metadata allows the file to be searchable by date and time, location or any other parameter.
+
+InformaCam backend server
+Map View of media captured with InformaCam shows the image was taken in Nairobi, Kenya
+Any annotations to the image or video are viewable (for example, if someone added information on the consent of people in an image) and new annotations can be added.  Any changes to the metadata are recorded and stored separately and the original file is left untouched.
+
+InformaCam Notations
+Media uploaded to the server can be annotated from the InformaCam app or on the server. All annotation are logged and the orignal media file is untouched.
+ 
+
+The Future of Mobile Media as Evidence
+
+At WITNESS, we’re often asked what the best camera is to use for human rights video and as most photographers know, the best camera is the one you have have with you when you need to take a picture. Whether it’s taking a photo of a fender bender to submit to your insurance company or documenting war crimes in Syria the majority of images and videos taken by ordinary people are done so using mobile phones.
+
+The ability to automatically verify these videos and images is important to human rights defenders, a journalist, or a regular person. These phones more often than not, contain additional information that could compromise the person taking the image or video, but this same data can also provide valuable evidence that could help verify that something happened at a particular time and place. InformCam uses the built in features of mobile phones to collect this data, protect it, and provide a mechanism by which to verify that it wasn’t tampered with. This preserves the chain of custody, adding to the evidentiary value of the images and videos captured.
+
+Our hope is that InformaCam as well as it’s features, such as J3M, are adopted by users and developers of technology. We want commercial providers to incorporate these “witnessing” functionalities into their own products and platforms – such as a “witness” mode on your camera or an opt-in choice when you upload or share a video on YouTube, Twitter or Facebook. In the future we’d like to see the capacity to be a “citizen witness” enhanced for any person around the world documenting a news event or a human rights violation.
+

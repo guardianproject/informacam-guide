@@ -1,3 +1,44 @@
-# Chapter 1 (Example Chapter)
+# Chapter 1: Quick Start Guide
 
-I was born in the year 1632, in the city of York, of a good family...
+## Getting Started with Secure & Verified Mobile Media
+
+something here
+
+## 3 Things You Can Quickly Do
+
+1) Take pictures or video with synchronized sensor metadata capture for later use in verification, analysis, proof or other “blackbox” purposes
+
+2) Publicly notarize captured photos and videos by sharing unique hash ID’s & sensor metadata through any communication app or social media
+
+3) Share photos and videos securely over Tor to a private repository, or share it publicly to any service with sensor metadata securely embedded in the photo and video
+
+## Taking a Photo With Sensors
+
+Sensors automatically activate when you start capture. Enable Location, Bluetooth and Wifi services in Android Settings to allow InformaCam to use those sensors.
+
+## Enable Sensors
+
+- You control if Wi-fi, Bluetooth, GPS are used
+- For GPS/Location, you can control the type of location service
+- To disable mobile network sensors, put phone into airplane mode
+
+## Taking a Video With Sensors
+
+Sensors automatically activate when you start capture. Enable Location, Bluetooth and Wifi services in Android Settings to allow InformaCam to use those sensors.
+
+## Viewing Photos and Video in the Gallery
+
+Gallery button opens multiple thumbnail screen. Tap on thumbnail to open detailed view.
+
+Check mark icon for multiple selection and deletion.
+
+## Sharing Options
+
+SHARE options:
+Share Media
+Share Metadata
+Notarize
+
+Share Metadata metadata only shared as JSON plaintext
+Notarize: unique ID for media and link to media page on secure test bed
+
