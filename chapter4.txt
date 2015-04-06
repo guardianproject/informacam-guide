@@ -1,4 +1,6 @@
-# Chapter 4: More Details on Sensor Input
+# Chapter 4: More Details on Sensor Metadata and Inputs
+
+The metadata captured by the CameraV app comes from different chips and sensor components in the smartphones. The table below details how the different pieces of data are generated, and where they come from.
 
 |J3M TAG|SOURCE: Sensors / Component / Radio / Other|DESCRIPTION|
 |-----------:|---------------------------------:|-----------------------|
