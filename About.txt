@@ -2,28 +2,26 @@
 
 ## TRUST (BUT VERIFY!) WHAT YOUR EYES SEE
 
-InformaCam uses the built in sensors in modern smartphones as well wi-fi, bluetooth, and cell tower information to create a snapshot of the environment in which an image or video was captured. This validates the date, time and location of capture. Digital signatures and encryption ensure that your media hasn't been tampered with and can only be opened by the intended recipient.
+InformaCam is a system that uses the built in sensors in modern smartphones as well wi-fi, bluetooth, and cell tower information to create a snapshot of the environment around you, while you are taking a photo or video. This extra metadata (the data about the data!) helps verify and validate the date, time and location of capture, and provides an entirely new layer of context and meaning out of "invisible" energy for use in any way you choose. Finally digital signatures and encryption ensure that your media hasn't been tampered with since capture and that it can only be seen by the people you choose.
+
+Currently, you can use InformaCam by installing the CameraV app for Android smartphones. CameraV uses V for Verification, Veritas (Truth!) and Vaulted (secured!). It is also evokes the "V" hand sign for victory and peace. 
 
 ## Easy To Use
 
-The easiest way to capture and share secure photos and videos on a smartphone or tablet.
+CameraV is the easiest way to capture and share secure photos and videos on a smartphone or tablet.
 
 ## Sensor Smart
 
-Turn sensor inputs like compass, light, temperature, location and more into "metadata for good".
+CameraV turns sensor inputs like compass, light, temperature, location and more into "metadata for good".
 
 ## Share Media and Metadata
 
-Upload and share media captured from InformaCam wherever you choose, and people can trust what their eyes see.
+Upload and share media captured from CameraV wherever you choose, and people can trust what their eyes see.
 
 ## Crypto-Power
 
-InformaCam has strong encryption and network security built-in using OpenPGP, IOCipher and Tor.
-
-## Secure-Net
-
-InformaCam uses Tor Hidden Services to defend against surveillance and filtering.
+CameraV has strong encryption and network security built-in using technology OpenPGP, IOCipher and Tor.
 
 ## Open and Free
 
-Open-source and freely licensed for use by any individual or organization.
+CameraV, and the InformaCam system, is open-source and freely licensed for use by any individual or organization.
