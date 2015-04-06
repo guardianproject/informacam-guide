@@ -1,6 +1,6 @@
-# Chapter 2: About Sensors and Metadata
+# Chapter 3: About Sensors and Metadata
 
-This covers the sensors that InformaCam taps into on the phone and the format (JSON Mobile Media Metadata (J3M)) we use to store the data.
+This covers the sensors that InformaCam taps into on the phone and the J3M format (JSON Mobile Media Metadata) we use to store the data.
 
 ## Relevant Links
 
@@ -14,9 +14,9 @@ This covers the sensors that InformaCam taps into on the phone and the format (J
 
 ## Sample J3M File
 
-Below is annotated version of the JSON data in a typical J3M bundle. You can view more actual J3M data through our public testbed at https://j3m.info
+Below is annotated version of the JSON data in a typical J3M bundle.
 
-This represents where the file was original stored on the InformaCam app's encrypted internal storage. This will be rarely used, but could be helpful in extreme situations where inspection of the capture device is necessary:
+Th "asset_path" represents where the file was original stored on the InformaCam app's encrypted internal storage. This will be rarely used, but could be helpful in extreme situations where inspection of the capture device is necessary:
 > {"asset_path": "submissions/45454ac1ade36ebec3749e8dc2aedc4b", 
 
 The Genealogy tag provides the basic data about the source of the media. "hashes" is an MD5 hash of all the pixel values of the image or video frames. "createdOnDevice" is the OpenPGP public key fingerprint for the user/app. "dateCreated" is a timestamp value for when the media capture occured.
