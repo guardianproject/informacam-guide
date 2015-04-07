@@ -35,9 +35,13 @@ The CameraV app is compromised of three essential views:
 
 The Home view is what you are presented with when you enter the app for the first time. It allows you to quickly see the last few media items captured, and swipe through all of them. You can tap on any media preview image to switch to the Media view, which will show the full photo or video.
 
+![home.png](images/home.png)![homeview.png](images/homeview.png)
+
 From this view, is also where you open the camera or navigate to the Gallery view. The three buttons at the bottom of the screen represent Still Camera, Video Camera and Gallery, in that order. The camera buttons open up the camera for capturing media in the indicated formats. The Gallery button opens up the Gallery view for filtering and batch processing of media.
 
 You can also lock the app from the menu option, to sign out, and remove all cached information from memory. The app will then require you to enter a password the next time you open it. Finally, there is also the "Panic Button" action available on this screen, from which you can quickly erase all media and app data from CameraV. We will talk more about all the security capabilities in another chapter.
+
+![lockscreen.png](images/lockscreen.png)
 
 ### The Media View
 
