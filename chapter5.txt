@@ -10,8 +10,9 @@ Before you can use the CameraV app, you must install it. You can find download l
 
 The first-time you use CameraV, you must configure it with basic identity information. The app asks for an identifying name of some sort, which can be your real name or a pseudonum. You can also optionally include an email address, which again, may be your standard email, or a special one you setup just for use with this app. By providing an email address, you ensure that someone who may later find a photo or video captured and shared with CameraV, can contact you.
 
-![welcome.png](images/welcome.png) ![wizard1.png](images/wizard1.png)![setup.png](images/setup.png) 
-
+![welcome.png](images/welcome.png) 
+![wizard1.png](images/wizard1.png)
+![setup.png](images/setup.png) 
 
 You must also enter and confirm a password to use with CameraV. This is a new password that is used to protect the photos, video, and sensor metadata stored within the app itself. It is, in a sense, the secret combination for the vault of data the app is protecting.
 
