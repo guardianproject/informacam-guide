@@ -2,12 +2,6 @@
 
 This covers the sensors that InformaCam taps into on the phone and the J3M format (JSON Mobile Media Metadata) we use to store the data.
 
-## Useful Code
-
-* Javascript JQuery J3M Parser Sample: https://github.com/guardianproject/UnveillanceViewer/blob/master/web/js/j3mviewer.js
-* C library for embedding and reading J3M in JPEG files: https://github.com/harlo/Jpeg-Redaction-Library
-* Java code for parsing J3M data: https://github.com/harlo/j3mifier/
-
 ## Sample J3M File
 
 Below is annotated version of the JSON data in a typical J3M bundle.
