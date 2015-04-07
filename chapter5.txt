@@ -30,6 +30,8 @@ The Home view is what you are presented with when you enter the app for the firs
 
 From this view, is also where you open the camera or navigate to the Gallery view. The three buttons at the bottom of the screen represent Still Camera, Video Camera and Gallery, in that order. The camera buttons open up the camera for capturing media in the indicated formats. The Gallery button opens up the Gallery view for filtering and batch processing of media.
 
+You can also lock the app from the menu option, to sign out, and remove all cached information from memory. The app will then require you to enter a password the next time you open it. Finally, there is also the "Panic Button" action available on this screen, from which you can quickly erase all media and app data from CameraV. We will talk more about all the security capabilities in another chapter.
+
 ### The Media View
 
 The Media View, or Detailed View, presents a captured photo or video in it's entirety. You can see the entire photo captured, and pinch and zoom it to get a closer look. You can also rotate your phone into landscape mode, if it is a landscape image. You can watch a video in this view, as well. It may take a few seconds to load, but then you can press play to view the video. You can also drag the playback cursor to scrub, or move frame by frame, through the video.

@@ -1,3 +1,21 @@
 # Chapter 8: Using "Proof Mode" with Any Camera App
 
 This chapter shows you how to active the app's "Proof Mode" feature in order to capture content from any camera app that stores photos and video in the public external storage.
+
+## What is "Proof Mode"?
+
+One way to use the CameraV app is for a specific purpose, for documenting a specific incident, item or recording a specific testimonial. In that case, you know to select the CameraV app, open it, choose the camera you want to use, and then capture the media. However, in some cases, you may not be sure when you want to use it, but you do want to ensure that you have the benefit of the sensor metadata, the signing metadata, and more, when you need it. You may also want to take many pictures and videos, say at a protest march or over the course of many hours, and not have to think about which camera app you are using. It is in cases like this, where "Proof Mode" come to play.
+
+## How to Activate
+
+"Proof Mode" is the background, always-on way to run CameraV and the InformaCam system on your device. When you unlock the CameraV app, on the Home view, you can open the menu through the three dots action, or a menu key on your device, and you will see the "Proof Mode" option. Selecting this will activate the always-on background service, and will show a persistent notification to indicate this.
+
+At this point, you can switch away from the CameraV app, and return to the Android launcher screen. From here, if you select any camera or media capture app that creates new photos or videos in the expected, standard locations, CameraV will detect this. The new media will be imported into the CameraV database and attached to the sensor metadata, just as if you had taken the photo or video from within the CameraV app.
+
+## How to Deactivate
+
+To deactivate "Proof Mode" and return to the standard use of CameraV, open the notification area of Android, and select the Proof Mode persistent notification display there. This will bring up the CameraV Proof Mode view, from which you can press the button to deactivate the feature.
+
+## Managing Imported Data
+
+In the Gallery view, you should see all the photos and videos that were captured while Proof Mode was activated. You can use the multi-select mode to delete any that you do not want to keep, or use it to batch export media or metadata of the many files captured. You can also use the Media view to review specific photos and videos. 

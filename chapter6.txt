@@ -1,3 +1,18 @@
 # Chapter 6: Sharing and Using Metadata
 
 This chapter will show you how to share the sensor and verification metadata associated with every photo and video you've captured using the app.
+
+## How to Share Metadata
+
+From the Media view, you can select the 'Share' action, and then the 'Share Metadata' from the second menu. This will generate a plain text document (more on this below), that you can share with any app on your device that will accept that kind of content.
+
+You can also 'Share Metadata' from the Gallery view, and share multiple metadata documents in batch, using the multi-select capability.
+
+## What is the Metadata?
+
+The metadata you can share from CameraV is the collection of sensor and network event data captured around the time that the photo or video was captured. It is organized and store using the Javascript Object Notation (JSON) format, and more specifically, as JSON Mobile Media Metadata, or J3M (pronounced as in "Gem"). The J3M file is a plain text, human readable format, that are various groups of name=value pairs, grouped in brackets like {name: value}, or {name { name0: value0, name1: value1}, and so on.
+
+## Why would I want to share it?
+
+Sharing the metadata allows you to share all the information about your media, without sharing the media file itself. This might make sense if your bandwidth is low, or if you only want to share the where, when and what you have captured, and not the visuals. The metadata also includes cryptographic signatures of the data and the media file itself, which provides proof of authenticity. If the receipient of your metadata later receives the media itself, they can compare the media to the unique signatures provided in the metadata to ensure the file was not tampered in the interim time.
+
