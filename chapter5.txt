@@ -80,6 +80,8 @@ The Gallery view provides a thumbnail view of many media items at once. You can 
 
 From the Home view, you can launch either the Still Camera or the Video Camera. By default, the app will launch the built-in external camera apps that are available on your phone. It will monitor these external camera apps, and when new photos or videos are captured, it will inspect them, extract their metadata, and store a thumnail and the data in the internal encrypted storage. While they will show up in the Gallery view, the actual media file are stored unencrypted in the standard device media storage location on the external memory or SD Card.
 
+![camera.png](images/camera.png)
+
 To use the encrypted camera capabilities of CameraV, you must go into the CameraV Settings, and uncheck the "Use External Camera Apps" option. Then, the camera action buttons on the Home view will launch the built-in encrypted camera feature. This provides a basic still and video camera capability, with the outputed photo or video file written directly to encrypted storage. This means that only CameraV can see the media, and that if you delete a file it is completely deleted from the device, and not recoverable.
 
 ![useinternal.png](images/useinternal.png)
