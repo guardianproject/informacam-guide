@@ -9,7 +9,8 @@ Currently, you can use InformaCam by installing the CameraV app for Android smar
 ## Easy To Use
 
 
-<img src="https://www.penflip.com/n8fr8/informacam-guide/blob/master/images/web_hi_res_512.png?raw=true" width="125"/> CameraV is the easiest way to capture and share secure photos and videos on a smartphone or tablet.
+<img src="https://www.penflip.com/n8fr8/informacam-guide/blob/master/images/web_hi_res_512.png?raw=true" width="125"/>
+CameraV is the easiest way to capture and share secure photos and videos on a smartphone or tablet.
 
 
 
