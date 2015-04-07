@@ -1,0 +1,29 @@
+### Brukerveiledning for InformaCam systemet og CameraV
+
+## STOL PÅ (MEN BEKREFT!) DET ØYNENE DINE SER
+
+InformaCam is a system that uses the built-in sensors in modern smartphones for tracking movement, light and other environmental inputs, along with Wi-Fi, Bluetooth, and cellular network information to capture a snapshot of the environment around you, while you are taking a photo or video. This extra metadata (the data about the data!) helps verify and validate the date, time and location of capture, and provides an entirely new layer of context and meaning out of "invisible" energy for use in any way you choose. Finally digital signatures and encryption ensure that your media hasn't been tampered with since capture and that it can only be seen by the people you choose.
+
+Foreløpig kan du bare bruke InformaCam ved å installere CameraV-programmet for Androidtelefoner. CameraV bruker V for verifisering, Veritias (Sannhet!) og Velv (sikret!). Det hentyder også V-tegnet for seier og fred. 
+
+## Enkelt å bruke
+
+CameraV er den enkleste måten å ta og dele sikrede bilder og videoer på en smart-telefon eller nettbrett.
+
+![web_hi_res_512.png](images/web_hi_res_512.png)
+
+## Sensor Smart
+
+CameraV gjør sensorinformasjon som kompasskurs, lys, temperatur, plassering med mer til "metadata i det godes ærende".
+
+## Del mediafiler og metadata
+
+Last opp og del media delt fra CameraV nårhen du ønsker, og folk kan stole på det øynene deres ser.
+
+## Krypterings-kraft
+
+CameraV har sterk kryptering og nettverkssikkerhet ved bruk av innebygd OpenPGP, IOCipher og Tor.
+
+## Åpent og fritt
+
+CameraV, og InformaCam-systemet, er åpen kildekode, fritt lisensiert til bruk for enhver privatperson eller organisasjon.

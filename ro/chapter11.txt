@@ -1,0 +1,41 @@
+# Chapter 11: Security Features
+
+This chapter will give you an overview of all the security features of CameraV and the InformaCam system in one place.
+
+## Storage Encryption
+
+CameraV contains a fully encrypted storage capability, that appears as a single file on the device storage. It uses the IOCipher virtual file system for this, and enables metadata and metadata to be direclty stored in encrypted format, without ever being stored in the clear on the device. This is important, since once you store something unencrypted on a mobile device, you open it up to being copied or intercepted by other apps, or being forensically recovered at a future time. 
+
+Photos and videos are only encrypted if you use CameraV's built-in encrypted camera capability, and not external camera apps. Import of unencrypted media into the encrypted storage is not currently supported or ideal.
+
+## App Locking via Passphrase
+
+As part of the encrypted storage, the app supports locking access to itself and data behind a passphrase. When you first open the app after a device start, you will be required to enter the passphrase you chose on setup. The app should then remain unlocked until you manually lock the app, or restart your device.
+
+![lockaction.png](images/lockaction.png)
+
+## Media and Metadata Signing via PGP
+
+CameraV includes built-in OpenPGP (Pretty Good Privacy) capabilities for signing and encryption of data. All metadata is signed by the private key of the user that is generated during the app setup. This signature data is included in the J3M document when you export it. 
+
+It is also possible for entire metadata documents to be encrypted for sharing to a remote recipient, but this requires a specific "trusted profile" to be configured and setup.
+
+## Media Hash Generation
+
+SHA-1 hashes are generated for each media file, and included in the exported J3M documents. This hash is also used as the visual media fingerprint for the notarization process.
+
+# Application Permissions
+
+The CameraV app does require access to a large set of permissions, in order to have access to all of the sensor and device metadata capabilities required. Below is the list of the primary required permissions, and a short explanation about why they are needed.
+
+* Full network access: Allows the app to make network connections of any sort, including access to remote servers
+* Approximate and Precise Location: Allows the app to get your location through a variety of means including using the GPS and Network-based location features
+* Read Phone Status and Identity: Allows the app to access your device identifier, which helps create the unique identifier associated with your media files. This is part of the proof that it really came from your device. However, this data is never publicly shared, so that your real identity is only shared if you choose to.
+* Retrieve Running Apps: Allows to the app to retrieve information about currently and recently running apps. This is used as a countermeasure against third-party apps that may be faking metadata sensor information. 
+* Access Bluetooth Settings: This allows to the app to activate and manage your Bluetooth connection. This is used to gather data about Bluetooth devices in your area, and add that into the sensor metadata.
+* Connect/Disconnect from the Wireless LAN (WLAN): As it says, this allows the app to manage WiFI and WLAN connections, which like with Bluetooth, is used to gather data about the networks in your immediate vicinity, as part of the sensor metadata. 
+* Control vibration: As it says, thought not 100% sure why we need this, to be honest!
+* Find Accounts on Device: Allows the app to get the list of accounts known by the phone. This is used by the app if you want to share to Google Drive, so we can see which google accounts are available and active.
+* Modify or Delete Contents of the SD Card: This is used to read and write data to SD Card external storage. Only media or files related to CameraV are every accessed or removed.
+* Record Audio / Take Pictures and Videos: Self-explanatory... it is a camera app after all!
+

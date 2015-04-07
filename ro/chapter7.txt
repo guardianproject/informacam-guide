@@ -1,0 +1,29 @@
+# Chapter 7: Notarizing Your Photos and Videos
+
+This chapter will show you how to notarize the photos and videos captured through the app, to prove that they exist and belong to you!
+
+## What is Notarization?
+
+Traditionally, the process of having a notary sign a document, proves that that you are who you say you are, or that some document has been verified by a trusted authority. In the case of InformaCam and the CameraV app, the notarize process is key to using media as proof of something. 
+
+Notarization is also very useful, because it only requires you to share a very small, short message, that can easily be sent via something like an SMS text message. It does not require a full Internet connection on your device to share a notarization.
+
+![notarizenote.png](images/notarizenote.png)
+
+## What happens when I notarize media?
+
+When you choose the 'Notarize' option, a short message is generated that includes the unique identifier, or "fingerprint", of the media file. This message can then be shared with any of the apps on your device that allow you to share messages, like SMS, email, Twitter, Facebook or other apps of that sort.
+
+![notarizesms.png](images/notarizesms.png)
+
+## Public versus Private Notarization
+
+You can choose to publish the notarization message publicly, which then would create a public timestamp that this media existed in this specific state, for all to see.
+
+You can also choose to share the notarization message privately, which then can be used by the recipient to compare to the media or metadata when they receive the file at a later date.
+
+
+
+
+
+
