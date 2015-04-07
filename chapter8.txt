@@ -10,7 +10,11 @@ One way to use the CameraV app is for a specific purpose, for documenting a spec
 
 "Proof Mode" is the background, always-on way to run CameraV and the InformaCam system on your device. When you unlock the CameraV app, on the Home view, you can open the menu through the three dots action, or a menu key on your device, and you will see the "Proof Mode" option. Selecting this will activate the always-on background service, and will show a persistent notification to indicate this.
 
+![proofmode.png](images/proofmode.png)
+
 At this point, you can switch away from the CameraV app, and return to the Android launcher screen. From here, if you select any camera or media capture app that creates new photos or videos in the expected, standard locations, CameraV will detect this. The new media will be imported into the CameraV database and attached to the sensor metadata, just as if you had taken the photo or video from within the CameraV app.
+
+![proofnotif.png](images/proofnotif.png)
 
 ## How to Deactivate
 
