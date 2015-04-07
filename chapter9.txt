@@ -12,6 +12,12 @@ A secondary goal could be for advocacy and awareness. Using CameraV in this case
 
 ## To Record a Video Eyewitness Testimonial
 
+In many war crimes events, evidence is gathered after the fact through testimonial interviews with victims, witneesses, or others with knowledge of the incident. It is of prime importance that these interviews are protected, only accessible to those who need access.
+
 ## To Document a Protest March and Public Gathering  
 
+It is a common sight to see hundreds of phones emerging out of the crowd, documenting whatever they can see, during any large public gathering.
+
 ## To Add a "Data Journalism" Layer To Your Story
+
+The sensor metadata captured by CameraV provides a fascinating additional layer of real-world data and context that is normally invisible to the naked eye.
