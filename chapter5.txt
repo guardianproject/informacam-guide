@@ -16,11 +16,13 @@ The first-time you use CameraV, you must configure it with basic identity inform
 
 You must also enter and confirm a password to use with CameraV. This is a new password that is used to protect the photos, video, and sensor metadata stored within the app itself. It is, in a sense, the secret combination for the vault of data the app is protecting.
 
-![password.png](images/password.png)![password2.png](images/password2.png)
+![password.png](images/password.png)
+![password2.png](images/password2.png)
 
 Finally, you must take six sample photos with the CameraV app during the setup process. This generates a visual fingerprint of your camera sensor, that can be used later to prove that a specific image or video did or did not come from your camera. The app will ask you to take a "boring" photo, which means a blank wall, table or some other uncomplicated surface. The need for "boring" is a technical detail related to the visual fingerprint process.
 
-![boring.png](images/boring.png)![boring2.png](images/boring2.png)
+![boring.png](images/boring.png)
+![boring2.png](images/boring2.png)
 
 Once you complete all of these steps, the setup process is complete, and you will be taken to the CameraV app homescreen.
 
