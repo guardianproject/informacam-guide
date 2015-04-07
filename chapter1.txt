@@ -8,15 +8,9 @@ This document will go into greater detail about the entire InformaCam concept la
 
 1) Take pictures or video with synchronized sensor metadata capture for later use in verification, analysis, proof or other “blackbox” purposes.
 
-![camera.png](images/camera.png)
-
 2) Notarize captured photos and videos by sharing the unique ID and sensor metadata through email, SMS or social media.
 
-![notarizesms.png](images/notarizesms.png)
-
 3) Share photos and videos privately or publicly with the sensor metadata embedded in the media, for later verification and use.
-
-![mediashare.png](images/mediashare.png)
 
 ## Taking a Photo or Video With Sensor Metadata
 
