@@ -26,10 +26,15 @@ The CameraV sensors automatically activate when you start capture. You can optio
 
 Gallery button opens multiple thumbnail screen. Tap on thumbnail to open detailed view.
 
+![gallerythumb.png](images/gallerythumb.png)
+
 Check mark icon for multiple selection and deletion.
+
+![gallerymulti.png](images/gallerymulti.png)
 
 ## Notarizing Captured Photos and Video
 
+You can generate a unique visual fingerprint identifer, basically a unique code, for each media file captured. Then you can share this code a short message that you share through SMS, email or more publicly on social media.
 
 ## Sharing Photos, Videos and Sensor Metadata 
 
