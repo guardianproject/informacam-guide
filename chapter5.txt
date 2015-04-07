@@ -53,9 +53,9 @@ At the bottom of the view, you will see a "History" section. This is where all a
 
 At the top of the Media view, you will see three action icons: the Informa View "I", the Share action, and the Edit "Pencil" action.
 
-![editmode.png](images/editmode.png)![edittext.png](images/edittext.png)
-
 The Informa View provides full access to the raw sensor metadata captured when you took the picture or recorded the video. It is shown in the "J3M" format you can learn about elsewhere in this guide.
+
+![metadata.png](images/metadata.png)
 
 Tapping on the Share action will reveal three more options: Share Media, Share Metadata and Notarize. 'Share Media' will package up the media file with the metadata, and generate a new JPEG or MPEG-4 file that can be shared with any app, to send via email, post on social media, or upload to a website. 'Share Metadata' will just share the sensor metadata as a plaintext file in the J3M format.
 
@@ -64,6 +64,9 @@ Tapping on the Share action will reveal three more options: Share Media, Share M
 'Notarize' will share a short snippet of text containing the media file's unique visual fingerprint identifier, that can be easily shared via SMS, email, Twitter or some other short message channel. This provides a way to timestamp the media with a third-party, and ensure that any tampering or modification of the media can be later detected.
 
 Tapping on the 'Edit' action will allow you 'Write Text' in order to provide a basic description of what the capture media item is about, or some other context you wish to provide. 'Add Tags' will allow you to place a tag box on the media at a certain place, or time in the case of video. You can then tap on that tag box to enter more detailed information about what it is you were tagging, and why.
+
+![editmode.png](images/editmode.png)![edittext.png](images/edittext.png)
+
 
 You can return to the Home View by pressing the top-left hand back arrow, or by pressing the back key on your device.
 
