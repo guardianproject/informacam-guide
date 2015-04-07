@@ -36,6 +36,8 @@ Check mark icon for multiple selection and deletion.
 
 You can generate a unique visual fingerprint identifer, basically a unique code, for each media file captured. Then you can share this code a short message that you share through SMS, email or more publicly on social media.
 
+![notarizesms.png](images/notarizesms.png)
+
 ## Sharing Photos, Videos and Sensor Metadata 
 
 ## Sharing Options
