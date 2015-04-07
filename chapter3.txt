@@ -2,10 +2,6 @@
 
 This covers the sensors that InformaCam taps into on the phone and the J3M format (JSON Mobile Media Metadata) we use to store the data.
 
-## Relevant Links
-
-* WITNESS Blog Post "Is This For Real?": http://blog.witness.org/2013/01/how-informacam-improves-verification-of-mobile-media-files/
-
 ## Useful Code
 
 * Javascript JQuery J3M Parser Sample: https://github.com/guardianproject/UnveillanceViewer/blob/master/web/js/j3mviewer.js
