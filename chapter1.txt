@@ -2,7 +2,7 @@
 
 ## Getting Started with Secure & Verified Mobile Media
 
-something here
+This document will go into greater detail about the entire InformaCam concept later, but for now we wanted to get your started with some simple useful capabilities. Using Google Play or FDroid.org, you will need to install the CameraV app on your Android phone, running Android OS version 4.0 or higher.
 
 ## 3 Things You Can Quickly Do With CameraV
 
