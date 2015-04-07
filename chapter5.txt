@@ -41,7 +41,7 @@ From this view, is also where you open the camera or navigate to the Gallery vie
 
 You can also lock the app from the menu option, to sign out, and remove all cached information from memory. The app will then require you to enter a password the next time you open it. Finally, there is also the "Panic Button" action available on this screen, from which you can quickly erase all media and app data from CameraV. We will talk more about all the security capabilities in another chapter.
 
-![lockscreen.png](images/lockscreen.png)
+![homemenu.png](images/homemenu.png)![lockscreen.png](images/lockscreen.png)
 
 ### The Media View
 
