@@ -4,7 +4,7 @@ Los metadatos capturados por la aplicación CameraV vienen de diferentes chips y
 
 |J3M TAG|FUENTE: Sensores / Componente / Radio / Otra|DESCRIPTION|
 |-----------:|---------------------------------:|-----------------------|
-|marca de tiempo|	Reloj de sistema + datos NMEA data del GPS|	Marca de tiempo UNIX de cuando se leyeron los datos del sensor|
+|timestamp|	Reloj de sistema + datis NMEA dek GPS|	UNIX timestamp of when data from sensor is read|
 |pressureAltitude||	Calculated from the "pressureHPAOrMBAR" value & sea level value	meters from the atmospheric pressure and the pressure at sea level|
 |pressureHPAOrMBAR|	Barometer / Pressure sensor|Measures the ambient air (atmospheric) pressure in hPa or mbar.|
 |lightMeterValue|	Ambient Light & Proximity sensor|	Ambient light level in SI lux units

@@ -8,47 +8,47 @@ Antes de que pueda usar la aplicación CameraV, tiene que instalarla. Puede enco
 
 ## Configuración de primer-vez
 
-The first-time you use CameraV, you must configure it with basic identity information. The app asks for an identifying name of some sort, which can be your real name or a pseudonum. You can also optionally include an email address, which again, may be your standard email, or a special one you setup just for use with this app. By providing an email address, you ensure that someone who may later find a photo or video captured and shared with CameraV, can contact you.
+La primera-vez que use CameraV, tiene que configurarlo con información básica de identidad. La aplicación pregunta por un nombre que le identifique, que puede ser su nombre real o un pseudónimo. Opcionalmente también puede incluir una dirección de correo electrónico, que de nuevo puede ser su correo estándar, o una cuenta especial que usted configure sólo para usar con esta aplicación. Al proporcionar una dirección de correo electrónico, usted se asegura de que alguien que más tarde pueda encontrar una foto o vídeo capturada y compartida con CameraV, pueda contactar con usted.
 
 ![welcome.png](images/welcome.png)![setup.png](images/setup.png) 
 
-You must also enter and confirm a password to use with CameraV. This is a new password that is used to protect the photos, video, and sensor metadata stored within the app itself. It is, in a sense, the secret combination for the vault of data the app is protecting.
+Tambien puede introducir y confirmar una contraseña para usar con CameraV. Esta es una contraseña nueva que se usa para proteger las fotos, vídeo, y metadatos de sensores almacenados en el interior de la apliación misma. En cierto sentido, es la combinación secreta para la boveda de seguridad de los datos que la aplicación está protegiendo.
 
 ![password.png](images/password.png)![password2.png](images/password2.png)
 
-Finally, you must take six sample photos with the CameraV app during the setup process. This generates a visual fingerprint of your camera sensor, that can be used later to prove that a specific image or video did or did not come from your camera. The app will ask you to take a "boring" photo, which means a blank wall, table or some other uncomplicated surface. The need for "boring" is a technical detail related to the visual fingerprint process.
+Finalmente, tiene que tomar seis fotos de ejemplo con la aplicación CameraV durante el proceso de configuración. Esto genera una huella de validación (fingerprint) de su sensor de cámara, que más tarde puede usarse para probar que una imagen o vídeo específico vino o no de su cámara. La aplicación le pedirá que tome una foto "sosa", lo cual se refiere a un muro blanco, un tablero, u otra superficie sin complicaciones. La necesidad de algo "soso" es un detalle técnico relativo al proceso de generación de la huella de validación visual.
 
 ![boring.png](images/boring.png)![boring2.png](images/boring2.png)
 
-Once you complete all of these steps, the setup process is complete, and you will be taken to the CameraV app homescreen.
+Una vez complete todos estos pasos, el proceso de configuración estará completo, y se le trasladará a la pantalla principal de la aplicación CameraV.
 
-## Three Essential Views
+## Tres vistas esenciales
 
-The CameraV app is compromised of three essential views:
+La aplicación CameraV comprende tres vistas esenciales:
 
-* First is the Home view, which allows you to quickly swipe from left-to-right through the latest captured media. The first-time you run the app, this screen will be empty.
-* Second is the Media view. If you tap any image or video preview or thumbnail, you will be taken into a detailed media via that allows you to see the full photo or video, and pinch and zoom the image, or playback and scrub the video. You can also perform operations like share on this screen through menu actionbar commands.
-* Third is the Gallery view, which provides thubmnail overview of all captured media, and the ability to filter and sort that media. You can also perform batch share and delete actions through this view.
+* Primero está la vista Principal, que le permite realizar un gesto de barrido de izquierda-a-derecha hacia el último adiovisual capturado. La primera-vez que ejecute la aplicación, esta pantalla estará vacía.
+* En segundo lugar está la vista de Audiovisuales. Si pulsa sobre cualquier previsualización o miniatura de una imagen o vídeo, se le llevará a una vista en detalle del audiovisual que le permitirá ver la foto o vídeo completo, y hacer zoom o desplazarse por la imagen, o reproducir y moverse por el vídeo. También puede realizar operaciones en esta pantalla como compartir a través de los comandos del menú de la barra de acciones.
+* En tercer lugar está la vista de Galería, que proporciona la vista general en miniatura de todos los audiovisuales capturados, y la capacidad de filtrar y ordenar esos audiovisuales. A través de esta vista también puede realizar acciones de compartición y borrado por lotes.
 
-### The Home View
+### La vista principal
 
-The Home view is what you are presented with when you enter the app for the first time. It allows you to quickly see the last few media items captured, and swipe through all of them. You can tap on any media preview image to switch to the Media view, which will show the full photo or video.
+La vista Principal es aquello que se le presenta cuando entra en la aplicación por primera vez. Le permite ver rápidamente los últimos pocos elementos audiovisuales capturados, y usar gestos de barrido para desplazarse por todos ellos. Puede pulsar sobre cualquier imagen de previsualización de un audiovisual para cambiar a la vista de Audiovisual, lo que le mostrará la foto o vídeo completo.
 
 ![home.png](images/home.png)![homeview.png](images/homeview.png)
 
-From this view, is also where you open the camera or navigate to the Gallery view. The three buttons at the bottom of the screen represent Still Camera, Video Camera and Gallery, in that order. The camera buttons open up the camera for capturing media in the indicated formats. The Gallery button opens up the Gallery view for filtering and batch processing of media.
+Desde esta vista es también desde donde abrirá la cámara o navegará a la vista de Galería. Los tres botones en el fondo de la pantalla representan una Cámara Fotográfica, una Vídeo Cámara, y la Galería, en ese orden. Los botones de Cámara abren la cámara para la captura de audiovisuales en los formatos indicados. El botón de Galería abre al vista de Galería para el filtrado y procesado por lotes de los audiovisuales.
 
-You can also lock the app from the menu option, to sign out, and remove all cached information from memory. The app will then require you to enter a password the next time you open it. Finally, there is also the "Panic Button" action available on this screen, from which you can quickly erase all media and app data from CameraV. We will talk more about all the security capabilities in another chapter.
+También puede bloquear la aplicación desde la opción del menú para cerrar sesión y eliminar toda la información almacenada en caché de la memoria. La aplicación requerirá entonces que introduzca una contraseña la próxima vez que la abra. Finalmente, también hay una acción de "Botón de Pánico" disponible en esta pantalla. desde la que puede borrar rápidamente todos los audiovisuales y datos de la aplicación CameraV. Le hablaremos más acerca de todas estas capacidades de seguridad en otro capítulo.
 
 ![homemenu.png](images/homemenu.png)![lockscreen.png](images/lockscreen.png)
 
-### The Media View
+### La Vista de Audiovisuales
 
-The Media View, or Detailed View, presents a captured photo or video in it's entirety. You can see the entire photo captured, and pinch and zoom it to get a closer look. You can also rotate your phone into landscape mode, if it is a landscape image. You can watch a video in this view, as well. It may take a few seconds to load, but then you can press play to view the video. You can also drag the playback cursor to scrub, or move frame by frame, through the video.
+La Vista de Audiovisuales o Vista Detallada, presenta una foto o vídeo capturada al completo. Puede ver la foto capturada en su totalidad, y hacer zoom y desplazarse por ella para conseguir una visión más cercana. También puede rotar su teléfono para mostrar el modo panorámico, si es una imagen de este tipo. Además puede reproducir un vídeo en esta vista. Puede que tarde unos pocos segundos en cargar, pero luego puede pulsar reproducir (play) para ver el vídeo. También puede arrastrar el cursor de reproducción para moverse, o avanzar fotograma a fotograma, a través del vídeo.
 
 ![mediaview.png](images/mediaview.png)
 
-At the bottom of the view, you will see a "History" section. This is where all actions on the stored media is recorded. This includes when you captured the media file, when you have exported and shared it, and so forth.
+Al fondo de esta vista, verá una sección "Historial". Allí es donde se registran todas las acciones sobre los audiovisuales almacenados. Esto incluye cuándo capturó el fichero de audiovisuales, cuándo lo ha exportado y compartido, y demás.
 
 At the top of the Media view, you will see three action icons: the Informa View "I", the Share action, and the Edit "Pencil" action.
 
