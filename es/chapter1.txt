@@ -1,51 +1,51 @@
-# Chapter 1: Quick Start Guide
+# Capítulo 1: Guía de inicio rápido
 
-## Getting Started with Secure & Verified Mobile Media
+## Iniciación a los audiovisuales asegurados y verificados con el móvil/celular
 
-This document will go into greater detail about the entire InformaCam concept later, but for now we wanted to get your started with some simple useful capabilities. Using Google Play or FDroid.org, you will need to install the CameraV app on your Android phone, running Android OS version 4.0 or higher.
+Este documento entrará en mayor detalle acerca del concepto de InformaCam al completo más tarde, pero por ahora quisimos iniciarle en algunas habilidades sencillas útiles. Usando Google Play o FDroid.org, tendrá que instalar la aplicación CameraV en su teléfono Android, que deberá correr un SO Android versión 4.0 o superior.
 
-## 3 Things You Can Quickly Do With CameraV
+## 3 Cosas que puede hacer rápidamente con CameraV
 
-1) Take pictures or video with synchronized sensor metadata capture for later use in verification, analysis, proof or other “blackbox” purposes.
+1) Tomar fotografías o vídeo con captura de metadatos con sensor sincronizado para su uso posterior en verificación, análisis, prueba, u otros propósitos forenses.
 
-2) Notarize captured photos and videos by sharing the unique ID and sensor metadata through email, SMS or social media.
+2) Certificar fotos y vídeos capturados al compartir la identificación única y los metadatos de los sensores a través de correo electrónico, SMS o medios sociales.
 
-3) Share photos and videos privately or publicly with the sensor metadata embedded in the media, for later verification and use.
+3) Compartir fotos y vídeos de forma privada o pública con los metadatos de sensores incrustados en los audiovisuales, para verificación y uso posterior.
 
-## Taking a Photo or Video With Sensor Metadata
+## Tomar una foto o vídeo con metadatos de sensores
 
-The CameraV sensors automatically activate when you start capture. You can optionally enable Location, Bluetooth and Wifi services in your Android Settings to allow the app to use those sensors.
+Los sensores de CameraV se activan automáticamente cuando inicia la captura. Opcionalmente puede habilitar los servicios de localización, Bluetooth y Wi-Fi en su Configuración de Android para permitir que la aplicación utilice esos sensores.
 
-### Enable Sensors
+### Habilitar sensores
 
-- You control if Wi-fi, Bluetooth, GPS are used
-- For Location, you can control the type of location service
-- To disable mobile network sensors, put phone into airplane or "flight" mode
+- Usted controla si se usan el Wi-Fi, el Bluetooth y el GPS
+- Para localización, puede controlar el tipo de servicio de localización
+- Para deshabilitar los sensores de red móvil/celular, ponga el teléfono en modo avión o "vuelo"
 
-### Viewing Photos and Video in the Gallery
+### Ver fotos y vídeo en la Galeria
 
-Gallery button opens multiple thumbnail screen. Tap on thumbnail to open detailed view.
+El botón de Galería abre una pantalla con múltiples miniaturas. Pulse sobre una miniatura para abrir la vista detallada.
 
 ![gallerythumb.png](images/gallerythumb.png)
 
-Check mark icon for multiple selection and deletion.
+Icono de marca de verificación para selección y borrado múltiple.
 
 ![gallerymulti.png](images/gallerymulti.png)
 
-## Notarizing Captured Photos and Video
+## Certificar fotos y vídeos capturados
 
-You can generate a unique visual fingerprint identifer, basically a unique code, for each media file captured. Then you can share this code a short message that you share through SMS, email or more publicly on social media.
+Puede generar un identificador de huella de validación visual único, básicamente un código único para cada fichero audiovisual capturado. Luego puede compartir este código como un mensaje corto que puede compartir a través de SMS, correo electrónico, o más públicamente en medios sociales.
 
 ![notarizesms.png](images/notarizesms.png)
 
-## Sharing Photos, Videos and Sensor Metadata 
+## Compartir fotos, vídeos y metadatos de sensores 
 
-## Sharing Options
+## Opciones de compartición
 
-SHARE options:
-Share Media
-Share Metadata
-Notarize
+Opciones de COMPARTICIÓN:
+Compartir audiovisuales
+Compartir metadatos
+Certificar
 
-Share Metadata metadata only shared as JSON plaintext
-Notarize: unique ID for media and link to media page on secure test bed
+'Compartir metadatos' sólo comparte los metadatos como texto no cifrado JSON
+Certificar: Crea una identificación única para audiovisuales y un enlace a una página de audiovisuales en un banco de pruebas seguro

@@ -1,12 +1,12 @@
-# Chapter 4: More Details on Sensor Metadata and Inputs
+# Kapittel 4: Ytterligere detaljer om sensor-metadata og inndata
 
-The metadata captured by the CameraV app comes from different chips and sensor components in the smartphones. The table below details how the different pieces of data are generated, and where they come from.
+Metadataen loggført av CameraV-programmet kommer fra forskjellige kretser og sensor-komponenter i smarttelefonene. Tabellen nedenfor går i detalj på hvordan forskjellige datadeler blir generert og hvor de kommer fra.
 
-|J3M TAG|SOURCE: Sensors / Component / Radio / Other|DESCRIPTION|
+|J3M TAG|SOURCE: Sensorer / Komponent / Radio / Annet|BESKRIVELSE|
 |-----------:|---------------------------------:|-----------------------|
-|timestamp|	System clock + NMEA data from GPS|	UNIX timestamp of when data from sensor is read|
-|pressureAltitude||	Calculated from the "pressureHPAOrMBAR" value & sea level value	meters from the atmospheric pressure and the pressure at sea level|
-|pressureHPAOrMBAR|	Barometer / Pressure sensor|Measures the ambient air (atmospheric) pressure in hPa or mbar.|
+|timestamp|	Systemklokke + NMEA-data fra GPS|	UNIX-tidsstempel fra når dataen fra sensoren ble lest|
+|pressureAltitude||	Kalkulert ut ifra "pressureHPAOrMBAR" verdien og havnivå-verdi⇥nivåer fra atmosfærisk trykk og trykk på havnivå-
+|pressureHPAOrMBAR|	Barometer / Trykksensor|Måler omgivelsesluft (atmosfærisk) trykk i hPa eller mbar.|
 |lightMeterValue|	Ambient Light & Proximity sensor|	Ambient light level in SI lux units
 |bearingDegrees|	Accelerometer + Compass/Magnetometer|	the accelerometer is used to figure out how you are holding your phone so that the magno readings can be adjusted properly
 |acc_z, acc_y, acc_x|	Accelerometer|This is an accelerometer event, showing X,Y,Z motion data

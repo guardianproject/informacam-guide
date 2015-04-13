@@ -2,28 +2,28 @@
 
 ## CONFÍE (¡PERO VERIFIQUE!) EN LO QUE VEN SUS OJOS
 
-InformaCam is a system that uses the built-in sensors in modern smartphones for tracking movement, light and other environmental inputs, along with Wi-Fi, Bluetooth, and cellular network information to capture a snapshot of the environment around you, while you are taking a photo or video. This extra metadata (the data about the data!) helps verify and validate the date, time and location of capture, and provides an entirely new layer of context and meaning out of "invisible" energy for use in any way you choose. Finally digital signatures and encryption ensure that your media hasn't been tampered with since capture and that it can only be seen by the people you choose.
+InformaCam es un sistema que utiliza los sensores integrados en los smartphones modernos para monitorizar movimiento, condiciones de luminosidad, y otros datos ambientales, junto con el Wi-Fi, Bluetooth, e información de la red móvil/celular, para capturar una instantánea del entorno a su alrededor, mientras usted está tomando una foto o vídeo. Estos metadatos (¡los datos acerca de los datos!) extra ayudan a verificar y validar la fecha, hora y ubicación de la captura, y proporcionan una capa de contexto y significación enteramente nueva proveniente de una energía "invisible" para que la use de cualquier forma que elija. Finalmente las firmas digitales y el cifrado aseguran que sus audiovisuales no han sido manipulados desde la captura y que sólo pueden ser vistos por las personas que usted elija.
 
-Currently, you can use InformaCam by installing the CameraV app for Android smartphones. CameraV uses V for Verification, Veritas (Truth!) and Vaulted (secured!). It is also evokes the "V" hand sign for victory and peace. 
+Actualmente, puede usar InformaCam instalando la aplicación CameraV para smartphones Android. En CameraV la V es por Verification (verificación), Veritas (verdad) y Vaulted (asegurado). También evoca el signo manual de la "V" por victoria y paz. 
 
-## Easy To Use
+## Fácil de usar
 
-CameraV is the easiest way to capture and share secure photos and videos on a smartphone or tablet.
+CameraV es la forma más fácil de capturar y compartir fotos y vídeos seguros en smartphone o tablet.
 
 ![web_hi_res_512.png](images/web_hi_res_512.png)
 
-## Sensor Smart
+## Inteligencia del sensor
 
-CameraV turns sensor inputs like compass, light, temperature, location and more into "metadata for good".
+CameraV convierte las entradas de los sensores como brújula, luz, temperatura, ubicación y demás, en "metadatos permanentes".
 
-## Share Media and Metadata
+## Compartir audiovisuales y metadatos
 
-Upload and share media captured from CameraV wherever you choose, and people can trust what their eyes see.
+Suba y comparta audiovisuales capturados con CameraV en cualquier lugar que elija, y la gente podrá confiar en lo que ven su ojos.
 
-## Crypto-Power
+## Capacidades-de-cifrado
 
-CameraV has strong encryption and network security built-in using technology OpenPGP, IOCipher and Tor.
+CameraV tiene un cifrado robusto y una seguridad de red integrada que utiliza las tecnologías OpenPGP, IOCipher y Tor.
 
-## Open and Free
+## Abierto y libre
 
-CameraV, and the InformaCam system, is open-source and freely licensed for use by any individual or organization.
+CameraV y el sistema InformaCam son de código-abierto y tienen licencia libre para su uso por cualquier individuo u organización.

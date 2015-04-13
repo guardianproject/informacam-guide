@@ -1,25 +1,25 @@
-# Chapter 8: Using "Proof Mode" with Any Camera App
+# Kapittel 8: Bruk av "Bevisførselsmodus" med vilkårlig kameraprogram
 
-This chapter shows you how to active the app's "Proof Mode" feature in order to capture content from any camera app that stores photos and video in the public external storage.
+Dette kapittelet viser deg hvordan du aktiverer programmets "bevisførselsmodus" for å kunne ta opp innhold fra hvilket som helst kameraprogram som lagrer bilder eller video i eksternt lagringsområde.
 
-## What is "Proof Mode"?
+## Hva er "Bevisførselsmodus"?
 
-One way to use the CameraV app is for a specific purpose, for documenting a specific incident, item or recording a specific testimonial. In that case, you know to select the CameraV app, open it, choose the camera you want to use, and then capture the media. However, in some cases, you may not be sure when you want to use it, but you do want to ensure that you have the benefit of the sensor metadata, the signing metadata, and more, when you need it. You may also want to take many pictures and videos, say at a protest march or over the course of many hours, and not have to think about which camera app you are using. It is in cases like this, where "Proof Mode" come to play.
+En måte å bruke CameraV på har en helt spesifikk hensikt, nemlig å dokumentere en gitt hendelse, ting eller uttalelse. Det du må gjøre er å velge CameraV-programmet, åpne det, velge hvilket kamera du skal bruke, for så å ta opp mediafila. Dog, i noen tilfeller, da du ikke er sikker på om du ønsker å bruke det, bør du forsikre deg om du har sensor-metadata, sjekksum-metadata med mer, når det behøves. Det kan også hende du ønsker å ta mange bilder eller videoer, for eksempel på en protestmarsj eller i løpet av mange timer, og ikke ønsker å ta stillinge til hvilket kamera du bruker. I slike tilfeller er det "bevisførselsmodus" kommer til sin rett.
 
-## How to Activate
+## Hvordan aktivere
 
-"Proof Mode" is the background, always-on way to run CameraV and the InformaCam system on your device. When you unlock the CameraV app, on the Home view, you can open the menu through the three dots action, or a menu key on your device, and you will see the "Proof Mode" option. Selecting this will activate the always-on background service, and will show a persistent notification to indicate this.
+"Bevisførselsmodus" er i bakgrunnen, en 'alltid på' måte å kjøre CameraV og InformaCam-systemet på din enhet. Når du låser opp CameraV-programmet i hjemmevisningen, kan du åpne det gjennom menyen med tre-prikkers-handlingen, eller menyknappen på din enheten. Du vil så se valget "Bevisførselsmodus". Å velge dette vil aktivere 'alltid-på' bakgrunnstjeneste, og du vil alltid se en merknad for å indikere dette.
 
 ![proofmode.png](images/proofmode.png)
 
-At this point, you can switch away from the CameraV app, and return to the Android launcher screen. From here, if you select any camera or media capture app that creates new photos or videos in the expected, standard locations, CameraV will detect this. The new media will be imported into the CameraV database and attached to the sensor metadata, just as if you had taken the photo or video from within the CameraV app.
+Du kan nå, fra CameraV-programmet, returnere til oppstartsskjermen til Android. Herfra kan du velge ethvert kamera eller opptaksprogram som tar opp nye bilder og video på den forventede måten til vanlig plassering, CameraV vil oppdage dette. Disse nye mediafilene vil bli importert til din CameraV-database og lagt til sensor-metadataen, akkurat som hvis du hadde tatt bildet eller videoen fra inne i CameraV-programmet.
 
 ![proofnotif.png](images/proofnotif.png)
 
-## How to Deactivate
+## Hvordan deaktivere
 
-To deactivate "Proof Mode" and return to the standard use of CameraV, open the notification area of Android, and select the Proof Mode persistent notification display there. This will bring up the CameraV Proof Mode view, from which you can press the button to deactivate the feature.
+For å deaktivere "Bevisførselsmodus" og returnere til vanlig CameraV-bruk åpner du merknadsområdet til Android, velg den vedvarende merknaden som er vist der. Dette gir deg CameraV i bevisførselsmodus-visning, derfra kan du trykke en knapp for å deaktivere funksjonen.
 
-## Managing Imported Data
+## Behandling av importert data
 
-In the Gallery view, you should see all the photos and videos that were captured while Proof Mode was activated. You can use the multi-select mode to delete any that you do not want to keep, or use it to batch export media or metadata of the many files captured. You can also use the Media view to review specific photos and videos. 
+I gallerivisning burde du se alle bilder og videoer som er tatt opp mens bevisførselsmodus var aktivert. Du kan bruke flervalgsmodus for å slette dem du ikke ønsker å beholde, eller bruke gruppe-eksport av media eller metadata av de mange filene som har blitt tatt opp. Du kan også bruke mediavisning for å bedømme spesifikke bilder og videoer. 

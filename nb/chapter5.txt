@@ -1,92 +1,92 @@
-# Chapter 5: Taking Photos and Videos Securely and Safely
+# Kapittel 5: Ta bilder og skyt video på en sikret og trygg måte
 
-This chapter will walk you through using the built-in camera and video (camcorder) features of the mobile app.
+Dette kapittelet veileder deg gjennom de innebygde kamera og video-opptagerfunksjonene i mobil-programmet.
 
-## Installation 
+## Installasjon 
 
-Before you can use the CameraV app, you must install it. You can find download links for the application at the following web URL: https://guardianproject.info/informa or search Google Play for "CameraV". If you install the app from outside of Google Play, via a direct APK file download, you will need to enable the  "(Allow) Unknown Sources" option, in your Android Settings->Security->Device Administrator section. Once you have installed the app, you can disable the "Unknown Sources" option.
+Før du kan installere CameraV-programmet, må du installere det. Nedlastingslenke for programmet er å finne på følgende nettadresse: https://guardianproject.info/informa eller søk etter "CameraV" på Google Play-butikken. Hvis du installerer programmet fra en APK-fil direkte må du først skru på "Ukjente kilder" i  Innstillinger->Sikkerhet. Når du har installert programmet, kan du skru det av igjen.
 
-## First-Time Setup
+## Førstegangsoppsett
 
-The first-time you use CameraV, you must configure it with basic identity information. The app asks for an identifying name of some sort, which can be your real name or a pseudonum. You can also optionally include an email address, which again, may be your standard email, or a special one you setup just for use with this app. By providing an email address, you ensure that someone who may later find a photo or video captured and shared with CameraV, can contact you.
+Første gang du bruker CameraV, må du sette det opp med oppstartsvis identitetsinformasjon. Programmet spør om et identifiseringsnavn, hvilket kan være ekte eller et pseudonym. Du kan også fritt etter eget eget ønske oppgi en e-post-adresse, som igjen, kan være din vanlige e-post, eller en egen du har satt opp for formålet. Ved å ha lagt inn en e-post-adresse forsikrer du deg om at noen som senere finner en video eller et bilde tatt opp med enheten delt med CameraV, kan kontakte deg.
 
 ![welcome.png](images/welcome.png)![setup.png](images/setup.png) 
 
-You must also enter and confirm a password to use with CameraV. This is a new password that is used to protect the photos, video, and sensor metadata stored within the app itself. It is, in a sense, the secret combination for the vault of data the app is protecting.
+Du må også skrive inn og bekrefte et passord for bruk med CameraV. Dette er et nytt passord som brukes for å beskytte bildene, video, og sensor-metadata lagret i selve programmet. Det er, på en måte, en hemmelig kombinasjon for datahvelvet det beskytter.
 
 ![password.png](images/password.png)![password2.png](images/password2.png)
 
-Finally, you must take six sample photos with the CameraV app during the setup process. This generates a visual fingerprint of your camera sensor, that can be used later to prove that a specific image or video did or did not come from your camera. The app will ask you to take a "boring" photo, which means a blank wall, table or some other uncomplicated surface. The need for "boring" is a technical detail related to the visual fingerprint process.
+Til sist, må du ta seks eksempelbilder med CameraV-programmet under oppsettsprosessen. Dette genererer et visuelt fingeravtrykk av din kamerasensor, hvilket senere kan brukes til å bevise at en gitt video eller et bilde ble laget med nettopp dette kameraet. Programmet ber deg om å ta et "kjedelig" bilde, hvilket betyr en blank vegg, et bord, eller en annen ukomplisert overflate. Grunnen til denne kjedsomheten er en teknisk detalj i opprettelsen av et fingeravtrykk.
 
 ![boring.png](images/boring.png)![boring2.png](images/boring2.png)
 
-Once you complete all of these steps, the setup process is complete, and you will be taken to the CameraV app homescreen.
+Når du har fullført alle disse stegene, er hovedoppsettsprosessen ferdig, og du vil bli presentert for vanlig visning av CameraV-programmet.
 
-## Three Essential Views
+## Tre essensielle innsynsvinkler
 
-The CameraV app is compromised of three essential views:
+CameraV-programmet kan ses på tre forskjellige måter:
 
-* First is the Home view, which allows you to quickly swipe from left-to-right through the latest captured media. The first-time you run the app, this screen will be empty.
-* Second is the Media view. If you tap any image or video preview or thumbnail, you will be taken into a detailed media via that allows you to see the full photo or video, and pinch and zoom the image, or playback and scrub the video. You can also perform operations like share on this screen through menu actionbar commands.
-* Third is the Gallery view, which provides thubmnail overview of all captured media, and the ability to filter and sort that media. You can also perform batch share and delete actions through this view.
+* Den første er hjemmeskjermen, som lar deg sveipe fra venstre til høyre gjennom de sist lagrede media-filene. Første gang du kjører dette programmet, vil hjemmeskjermen være tom.
+* Den andre er mediaoversikten. Hvis du rører ved et bilde eller en videoforhåndsvisning eller miniatyrbilde, vil du bli tatt til detaljert visning over mediaa, som lar deg se hele bilde eller videoen. Du kan spre eller samle fingrene mens du berører for å forminske eller forstørre et bilde, avspilling eller for å skippe gjennom video. Du kan også dele fra denne visningen gjennom kommandoer handlingspanelet.
+* Det tredje er gallerivisning, som gir en oversikt med miniatyrbilder over alle media-filer som har blitt tatt opp, samt muligheten til å filtrere og sortere disse. Du kan også dele eller slette gruppevis i denne visningen.
 
-### The Home View
+### Hjemmeskjermen
 
-The Home view is what you are presented with when you enter the app for the first time. It allows you to quickly see the last few media items captured, and swipe through all of them. You can tap on any media preview image to switch to the Media view, which will show the full photo or video.
+Hjemmeskjermen er den første visningen du ser når du åpner programmet for første gang. Det lar deg raskt gjennomgå de siste media-filene som er lagret, og sveipe gjennom samtlige. Du kan trykke på hvilket som helst mediaforhåndsvisningsbilde for å bytte til mediavisning, der du kan se hele bilder eller videoer.
 
 ![home.png](images/home.png)![homeview.png](images/homeview.png)
 
-From this view, is also where you open the camera or navigate to the Gallery view. The three buttons at the bottom of the screen represent Still Camera, Video Camera and Gallery, in that order. The camera buttons open up the camera for capturing media in the indicated formats. The Gallery button opens up the Gallery view for filtering and batch processing of media.
+Fra denne visningen, som også er der du åpner kameraet, eller navigerer til gallerivisning, er det tre knapper. Disse finner du på bunnen av skjermen, og de er henholdsvis stillbildekamera, videokamera, og galleri. Kameraknappene åpner opptak for media i angitte formater. Galleriknappen åpner gallerivisning for filtrering og gruppe-behandling av mediafiler.
 
-You can also lock the app from the menu option, to sign out, and remove all cached information from memory. The app will then require you to enter a password the next time you open it. Finally, there is also the "Panic Button" action available on this screen, from which you can quickly erase all media and app data from CameraV. We will talk more about all the security capabilities in another chapter.
+Du kan også låse programmet fra menyvalget, for å logge ut, og for å fjerne all hurtilagret informasjon fra minnet. Programmet vil kreve at du skriver inn et passord neste gang du åpner det. Til sist er det en "panikk-knapp", en handling som er tilgjengelig i denne visningen, der du raskt kan slette all media og programdata fra CameraV. Vi går nærmere inn på sikkerhetsfunksjonene i et annet kapittel.
 
 ![homemenu.png](images/homemenu.png)![lockscreen.png](images/lockscreen.png)
 
-### The Media View
+### Mediavisning
 
-The Media View, or Detailed View, presents a captured photo or video in it's entirety. You can see the entire photo captured, and pinch and zoom it to get a closer look. You can also rotate your phone into landscape mode, if it is a landscape image. You can watch a video in this view, as well. It may take a few seconds to load, but then you can press play to view the video. You can also drag the playback cursor to scrub, or move frame by frame, through the video.
+Mediadelen, eller detaljert visning, vil du bli vist hele bilder eller videofiler. Du kan se hele bildet, forstørre og forminske visning for å ta det hele i nærmere øyesyn. Du kan også rotere telefonen til landskapsmodus, hvis det er et landskapsbilde. Du kan se en video i denne visningen også. Det kan hende det tar et par sekunder å laste den inn, men så kan du trykke spill av for å se videoen. Du kan bruke forløpsindikatoren til å spole, eller ta bilde for bilde, ved å bevege den.
 
 ![mediaview.png](images/mediaview.png)
 
-At the bottom of the view, you will see a "History" section. This is where all actions on the stored media is recorded. This includes when you captured the media file, when you have exported and shared it, and so forth.
+I bunnen av visningen ser du "Historikk"-delen. Her vil alle handlinger som er gjort med den lagrede mediafilen bli loggført. Inkludert når filen ble laget, når den ble eksportert og delt, osv.
 
-At the top of the Media view, you will see three action icons: the Informa View "I", the Share action, and the Edit "Pencil" action.
+På toppen av mediavsiningen ser du tre handlingsikoner: Informativ visning "I", delingsvalg, og redigering "blyant".
 
-The Informa View provides full access to the raw sensor metadata captured when you took the picture or recorded the video. It is shown in the "J3M" format you can learn about elsewhere in this guide.
+Informativ visning gir deg full tilgang til rå-metadataen fra sensoren som ble tatt opp sammen med bildet eller videoen. Det blir vist i "J3M"-formatet, som du kan lære om annensteds hen i denne veiledningen.
 
 ![metadata.png](images/metadata.png)
 
-Tapping on the Share action will reveal three more options: Share Media, Share Metadata and Notarize. 'Share Media' will package up the media file with the metadata, and generate a new JPEG or MPEG-4 file that can be shared with any app, to send via email, post on social media, or upload to a website. 'Share Metadata' will just share the sensor metadata as a plaintext file in the J3M format.
+Å trykke på deling vil avsløre tre valg til: Del media, Del metadata, og Attester. 'Del media' vil pakke mediafilen sammen med metadataen, og generere en ny JPEG- eller MPEG-4 -fil som kan deles med alle programmer. Send via e-post, sosiale media, eller last opp til en nettside. 'Del metadata' vil dele bare sensor-metadata, som klartekst-fil i J3M-formatet.
 
 ![mediashare.png](images/mediashare.png)
 
-'Notarize' will share a short snippet of text containing the media file's unique visual fingerprint identifier, that can be easily shared via SMS, email, Twitter or some other short message channel. This provides a way to timestamp the media with a third-party, and ensure that any tampering or modification of the media can be later detected.
+'Attester' vil dele et kort utdrag av teksten som inneholder mediafilens unike visuelle fingeravtrykksindikator, og kan enkelt deles via SMS, e-post eller mikroblogg. På denne måten er det mulig å tidsstemple mediafilen ved bruk av en tredjepart, og dermed forsikre seg om at tukling eller endring av mediafilen kan sjekkes ved senere anledning.
 
-Tapping on the 'Edit' action will allow you 'Write Text' in order to provide a basic description of what the capture media item is about, or some other context you wish to provide. 'Add Tags' will allow you to place a tag box on the media at a certain place, or time in the case of video. You can then tap on that tag box to enter more detailed information about what it is you were tagging, and why.
+Å trykke 'Rediger' vil la deg 'Skrive tekst' for å forfatte en kort beskrivelse av hva den lagrede media-filen handler om, eller annen bindeleddinformasjon du ønsker å fremby. 'Legg til merkelapper' lar deg plassere en notisboks i media-filen på et gitt sted, eller en gitt tid for video. Du kan så trykke på notisboksen for å skrive inn mer detaljert informasjon om hva du merker, og hvorfor.
 
 ![editmode.png](images/editmode.png)![edittext.png](images/edittext.png)
 
-You can return to the Home View by pressing the top-left hand back arrow, or by pressing the back key on your device.
+Du kan gå tilbake til hjemmeskjermen ved å pilen øverst til venstre, eller ved å trykke "tilbake" på din enhet.
 
-### The Gallery
+### Galleriet
 
-The Gallery view provides a thumbnail view of many media items at once. You can filter media items by type, to see only photos, only videos, or all. You can also select multiple media items for batch operations, by using the checkmark action, or pressing on one item and holding for a few seconds. This will engage the multi-select mode, which allows for multiple items to be selected at once. You can then do a batch export and share action, or delete action. The Share options provided are the same as in the Media view: Share Media, Share Metadata, and Notarize.
+Gallerivisningen gir miniatyrbildevisning av mange mediafiler samtidig. Du kan filtrere mediaelementer etter type, eller bare se bilder, bare videoer, eller alt samtidig. Du kan også velge flerfoldige mediaelementer for gruppeoperasjoner, ved å bruke avkryssningsvalget, eller ved å trykke på en mediafil i noen sekunder. Dette vil igangsette multi-valgsmodus, hvilket tillater merking av flere elementer samtidig. Du kan også eksportere og dele en gruppe elementer, eller slette dem. Delingsvalgene som tilbys er de samme som i mediavisningen. Del media, Del metadata, og Attester.
 
 ![gallerythumb.png](images/gallerythumb.png)![galleryfilter.png](images/galleryfilter.png)
 
-## Using the Cameras
+### Bruk av kameraene
 
-From the Home view, you can launch either the Still Camera or the Video Camera. By default, the app will launch the built-in external camera apps that are available on your phone. It will monitor these external camera apps, and when new photos or videos are captured, it will inspect them, extract their metadata, and store a thumnail and the data in the internal encrypted storage. While they will show up in the Gallery view, the actual media file are stored unencrypted in the standard device media storage location on the external memory or SD Card.
+Fra hjemmeskjermen kan du starte enten stillbildefotografi eller videokamera. Som forvalg vil programmet bruke innebygde kameraprogram tilgjengelig på din telefon. Den vil overvåke disse kameraprogrammene, og når nye bilder eller videoer blir tatt opp, vil det sjekke dem, hente metadataen, og lagre et miniatyrbilde og dataen i kryptert intern lagringsområde. Mens de vises i gallerivisning, vil de aktuelle mediafilene være lagret ukryptert på vanlig lagringsområde på eksternt minne eller internt SD-kort.
 
 ![camera.png](images/camera.png)
 
-To use the encrypted camera capabilities of CameraV, you must go into the CameraV Settings, and uncheck the "Use External Camera Apps" option. Then, the camera action buttons on the Home view will launch the built-in encrypted camera feature. This provides a basic still and video camera capability, with the outputed photo or video file written directly to encrypted storage. This means that only CameraV can see the media, and that if you delete a file it is completely deleted from the device, and not recoverable.
+For å ta i bruk de krypterte kameramulighetene til CameraV, må du først gå til CameraV-innstillingene, for så å fravelge "Bruk eksterne kameraprogram". Kameraknappene i hjemmevisningen vil nå starte opp den innebygde krypterte kamerafunksjonen. Dette gir helt enkle stillbilde og videomuligheter, der den resulterende fil blir lagret til kryptert lagringsområde. Dette betyr at bare CameraV kan se mediafilen, og at hvis du sletter den vil den bli helt borte fra enheten, altså ikke gjenopprettbar.
 
 ![useinternal.png](images/useinternal.png)
 
-The encrypted camera have only a simple button to take a picture or to stop and start video recording. All other settings are automatic.
+Det krypterte kameraet har bare en enkel knapp for å ta et bilde eller for å stoppe eller starte video-opptak. Alle andre innstillinger er automatiske.
 
-When you are done capturing media, you can use the back key to return to the Home view or the Gallery view to see the captured media files.
+Når du er ferdig med opptak av mediafiler, kan du bruke tilbakeknappen for å komme tilbake til hjemmevisning eller galleriet for å se de lagrede media-filene.
 
 
 

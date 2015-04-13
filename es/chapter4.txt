@@ -1,10 +1,10 @@
-# Chapter 4: More Details on Sensor Metadata and Inputs
+# Capítulo 4: Más detalles sobre los metadatos del sensor y las entradas
 
-The metadata captured by the CameraV app comes from different chips and sensor components in the smartphones. The table below details how the different pieces of data are generated, and where they come from.
+Los metadatos capturados por la aplicación CameraV vienen de diferentes chips y componentes de sensores en los smartphones. La tabla de debajo detalla cómo las diferentes piezas de datos se generan, y de dónde vienen.
 
-|J3M TAG|SOURCE: Sensors / Component / Radio / Other|DESCRIPTION|
+|J3M TAG|FUENTE: Sensores / Componente / Radio / Otra|DESCRIPTION|
 |-----------:|---------------------------------:|-----------------------|
-|timestamp|	System clock + NMEA data from GPS|	UNIX timestamp of when data from sensor is read|
+|marca de tiempo|	Reloj de sistema + datos NMEA data del GPS|	Marca de tiempo UNIX de cuando se leyeron los datos del sensor|
 |pressureAltitude||	Calculated from the "pressureHPAOrMBAR" value & sea level value	meters from the atmospheric pressure and the pressure at sea level|
 |pressureHPAOrMBAR|	Barometer / Pressure sensor|Measures the ambient air (atmospheric) pressure in hPa or mbar.|
 |lightMeterValue|	Ambient Light & Proximity sensor|	Ambient light level in SI lux units

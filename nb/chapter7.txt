@@ -1,26 +1,26 @@
-# Chapter 7: Notarizing Your Photos and Videos
+# Kapittel 7: Attestering av dine bilder og videoer
 
-This chapter will show you how to notarize the photos and videos captured through the app, to prove that they exist and belong to you!
+Dette kapittelet viser deg hvordan du attesterer bilder og videoer tatt opp med programmet, for å vise deg at de faktisk finnes, og tilhører deg.
 
-## What is Notarization?
+## Hva er attestering?
 
-Traditionally, the process of having a notary sign a document, proves that that you are who you say you are, or that some document has been verified by a trusted authority. In the case of InformaCam and the CameraV app, the notarize process is key to using media as proof of something. 
+I tradisjonell forstand er det prosessen der en fullmektig signerer et dokument, hvis gyldighet beviser at du er den du utgir deg for å være, eller at et dokument har blitt godkjent av en betrodd instans. Dette er tilfellet med KameraHullet- og CameraV -programmet. Attesteringsprosessen er nøkkelen til bruk av mediafilene som bevisførsel. 
 
-Notarization is also very useful, because it only requires you to share a very small, short message, that can easily be sent via something like an SMS text message. It does not require a full Internet connection on your device to share a notarization.
+Attestering er også veldig nyttig, fordi de bare krever at du deler en veldig liten, kort melding, som enkelt kan sendes via noe ala SMS. Det kreves ikke full internettilgang på din enhet for å dele en attestering.
 
 ![notarizenote.png](images/notarizenote.png)
 
-## What happens when I notarize media?
+## Hva skjer når jeg attesterer media?
 
-When you choose the 'Notarize' option, a short message is generated that includes the unique identifier, or "fingerprint", of the media file. This message can then be shared with any of the apps on your device that allow you to share messages, like SMS, email, Twitter, Facebook or other apps of that sort.
+Når du bruker 'Attester' vil en kort melding bli generert, inneholdende unik identifikator, "fingeravtrykket" til mediafila. Denne meldingen kan kan deles med vilkårlig program, forutsett at dek dele korte meldinger, som SMS, e-post, mikroblogg eller sosiale media.
 
 ![notarizesms.png](images/notarizesms.png)
 
-## Public versus Private Notarization
+## Offentlig eller privat attestering
 
-You can choose to publish the notarization message publicly, which then would create a public timestamp that this media existed in this specific state, for all to see.
+Du kan velge å offentliggjøre attesterings-meldingen, noe som i tur betyr at du har et offentlig tidsstempel på at denne mediafilen eksisterte i en gitt tilstand, som alle kan se.
 
-You can also choose to share the notarization message privately, which then can be used by the recipient to compare to the media or metadata when they receive the file at a later date.
+Du kan velge å dele attesteringsmeldingen privat, som så kan brukes av mottakeren for å jamføre mot mediafilen eller metadataen når de så senere mottar det ene, det andre, eller begge deler.
 
 
 

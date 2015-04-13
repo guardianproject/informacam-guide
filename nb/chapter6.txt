@@ -1,19 +1,19 @@
-# Chapter 6: Sharing and Using Metadata
+# Kapittel 6: Deling og bruk av metadata
 
-This chapter will show you how to share the sensor and verification metadata associated with every photo and video you've captured using the app.
+Dette kapitelet viser deg hvordan du deler sensor- og verifiserings- metadata tilknyttet hvert bilde og video du har tatt opp med programmet.
 
-## How to Share Metadata
+## Hvordan dele metadata
 
-From the Media view, you can select the 'Share' action, and then the 'Share Metadata' from the second menu. This will generate a plain text document (more on this below), that you can share with any app on your device that will accept that kind of content.
+Fra mediavisningen, kan du velge 'Del', dernest 'Del metadata' fra den andre menyen- Dette vil generere et klartekstdokument (mer om det nedenfor), som du kan dele med hvilket som helst program på din enhet, gitt at de kan ta imot slikt innhold.
 
-You can also 'Share Metadata' from the Gallery view, and share multiple metadata documents in batch, using the multi-select capability.
+Du kan også velge 'Del metadata' fra gallerivisning, og dele flerfoldige metadata-dokumenter gruppevis, ved bruk av flervalgsmulighetene.
 
-## What is the Metadata?
+## Hva er metadata?
 
-The metadata you can share from CameraV is the collection of sensor and network event data captured around the time that the photo or video was captured. It is organized and store using the Javascript Object Notation (JSON) format, and more specifically, as JSON Mobile Media Metadata, or J3M (pronounced as in "Gem"). The J3M file is a plain text, human readable format, that are various groups of name=value pairs, grouped in brackets like {name: value}, or {name { name0: value0, name1: value1}, and so on.
+Metadataen du deler fra CameraV er en ansamling sensor og nettverks-data som har blit tatt opp samtidig med bilde eller video. Det er organisert og delt ved bruk av Javascript Object Notation (JSON) format, mer spesifikt som JSON Mobile Media Metadata, eller J3M (uttalt "Gémm"). J3M-filen er vanlig tekst, i et format leselig for mennesker, inneholdende flere forskjellige gruppenavn=verdigrupper, inndelt i krøllparenteser som {navn: verdi} eller {navn { navn0: verdi0, navn1: verdi1}, osv.
 
 ![metadata.png](images/metadata.png)
 
-## Why would I want to share it?
+## Hvorfor skulle jeg ønske å dele det?
 
-Sharing the metadata allows you to share all the information about your media, without sharing the media file itself. This might make sense if your bandwidth is low, or if you only want to share the where, when and what you have captured, and not the visuals. The metadata also includes cryptographic signatures of the data and the media file itself, which provides proof of authenticity. If the receipient of your metadata later receives the media itself, they can compare the media to the unique signatures provided in the metadata to ensure the file was not tampered in the interim time.
+Deling av metadata lar deg knytte informasjon som har sammenheng med mediafilene til selve filen. Dette kan gi mening hvis du har lav båndbredde, eller hvis du bare ønsker å dele hvor, når og hva du har lagret, og ikke innholdet. Metadataen inneholder også kryptografiske signaturer over selve dataen og mediafila. Noe som senere kan bevise dens opphav. Hvis mottakeren av metadataen senere mottar selve mediafia, kan de jamføre den mot de unike signaturene i metadataen for å forsikre seg om at fila ikke har blitt tuklet med underveis.

@@ -1,4 +1,4 @@
-# Chapter 10: Threats and Risks
+# Kapittel 10: Trusler og risikoer
 
-All the things you should think about that could go wrong.
+Alle disse tingene bør du ha i minnet, siden det kan gå galt.
 

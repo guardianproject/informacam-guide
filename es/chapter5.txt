@@ -1,12 +1,12 @@
-# Chapter 5: Taking Photos and Videos Securely and Safely
+# Capítulo 5: Tomar fotografías y vídeos de forma segura e inofensiva
 
-This chapter will walk you through using the built-in camera and video (camcorder) features of the mobile app.
+Este capítulo le llevará a través del uso de las características de cámara de fotos y de vídeo integrada de la aplicación móvil/celular
 
-## Installation 
+## Instalación 
 
-Before you can use the CameraV app, you must install it. You can find download links for the application at the following web URL: https://guardianproject.info/informa or search Google Play for "CameraV". If you install the app from outside of Google Play, via a direct APK file download, you will need to enable the  "(Allow) Unknown Sources" option, in your Android Settings->Security->Device Administrator section. Once you have installed the app, you can disable the "Unknown Sources" option.
+Antes de que pueda usar la aplicación CameraV, tiene que instalarla. Puede encontrar enlaces de descarga de la aplicación en la siguiente URL web https://guardianproject.info/informa o buscar en Google Play "CameraV". Si instala la aplicación desde fuera de Google Play, mediante descarga de un fichero APK, tendrá que habilitar la opción "(Permitir) Fuentes desconocidas", en su Android en la sección Configuración->Adminitrador del Dispositivo. Una vez haya instalado la aplicación puede deshabilitar la opción "Fuentes desconocidas".
 
-## First-Time Setup
+## Configuración de primer-vez
 
 The first-time you use CameraV, you must configure it with basic identity information. The app asks for an identifying name of some sort, which can be your real name or a pseudonum. You can also optionally include an email address, which again, may be your standard email, or a special one you setup just for use with this app. By providing an email address, you ensure that someone who may later find a photo or video captured and shared with CameraV, can contact you.
 

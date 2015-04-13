@@ -1,23 +1,23 @@
-# Chapter 9: Scenarios of Use
+# Kapitel 9: Bruksmønster
 
-This chapter will talk through a few different plausible scenarios where this app could be used, and the right steps to make that happen successfully.
+Dette kapittelet geleider deg gjennom en del plausible scenarioer der programmet kan være nyttig, og de riktige stegene for å dra det hele i havn.
 
-## To Capture Photographic Evidence of an Incident
+## For å sikre fotografisk bevis for en hendelse
 
-The InformaCam system, and specifically the CameraV app, is well suited for capturing photographic evidence of an incident of any nature. This could range from the aftermath of a car accident, to the damage of property during a natural disaster. It could also be used to document violence between citizens, or between police or military forces and citizens. 
+InformaCam-systemet, og spesielt CameraV-programmet, er velegnet til bruk for opptak av fotografisk bevis for hvilken som helst hendelse. Alt fra skadene etter et bilkræsj, til eiendelstap etter en naturkatastrofe. Det kan også brukes til å dokumentere vold mellom borgere, mellom politifolk eller militære og borgere. 
 
-The goal in any of these cases is to capture the state of some thing, at a specific point of time, and then share that media evidence with an authority that can use it for the application of justice or monetary compensation. In this case, the encrypted storage and verification features help prove that the evidence was not tampered with, and was captured at the time and place that matches the crime.
+Målet i disse tilfelle er å fange en tilstand, på et gitt tidspunkt, for så å dele media-beviset med en instans som kan bruke det i rettsøyemed eller til hjelp med økonomisk erstatning. Hvis dette er tilfellet, vil det krypterte lagringsområdet og bekreftelsesfunksjonene hjelpe i bevisførselsøyemed, siden det beviselig er det som har blitt tatt opp som har funnet sted, og at det samsvarer med rettsbruddet.
 
-A secondary goal could be for advocacy and awareness. Using CameraV in this cases helps bolster your case, to provide proof to your broader public audience that what they are seeing is true, authentic and unmodified.
+Et sekundært mål er for å spre kunnskap, meninger og bevissthet. Bruk av CameraV i disse tilfellene hjelper deg å styrke din sak, å gi bevis til et større publikum, om at det de ser stemmer, i sin opprinnelige og umodifiserte form.
 
-## To Record a Video Eyewitness Testimonial
+## Hvordan ta opp en video av øyevitnebevitning
 
-In many war crimes events, evidence is gathered after the fact through testimonial interviews with victims, witneesses, or others with knowledge of the incident. It is of prime importance that these interviews are protected, only accessible to those who need access.
+Ved mange krigsforbrytelser, blir bevis innhentet etter at hendelsen har funnet sted, gjennom øyevitneforklaringer fra offer, eller andre med kunnskap om hendelsen. Det er av ytterste viktighet at disse intervjuene beskytes, bare tilgjengelig for dem som trenger å se dem.
 
-## To Document a Protest March and Public Gathering  
+## Hvordan dokumentere en protestmarsj eller offentlig ansamling  
 
-It is a common sight to see hundreds of phones emerging out of the crowd, documenting whatever they can see, during any large public gathering.
+Det er vanlig å se hundrevis av telefoner i folkemengden, som dokumenterer det de kan se, under store offentlige ansamlinger.
 
-## To Add a "Data Journalism" Layer To Your Story
+## Hvordan legge et "Data-journalistikk"-lag til din sak
 
-The sensor metadata captured by CameraV provides a fascinating additional layer of real-world data and context that is normally invisible to the naked eye.
+Sensor-metadata tatt opp av CameraV muliggjør et fascinerende lag med verdens-data og bindeleddsinformasjon som vanligvis er usynlig for oss.

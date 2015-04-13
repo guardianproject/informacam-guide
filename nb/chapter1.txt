@@ -1,51 +1,51 @@
-# Chapter 1: Quick Start Guide
+# Kapittel 1: Hurtigveiledning
 
-## Getting Started with Secure & Verified Mobile Media
+## Kom igang med sikret og verifisert mobil-media
 
-This document will go into greater detail about the entire InformaCam concept later, but for now we wanted to get your started with some simple useful capabilities. Using Google Play or FDroid.org, you will need to install the CameraV app on your Android phone, running Android OS version 4.0 or higher.
+Dette dokumentet vil gå i detalj om hele KameraHull-konseptet ved en senere anledning, men nå ønsker vi å starte med noen enkle funksjoner. Bruk Google Play eller FDroid.org, du trenger å installere CameraV-programmet på din Android-telefon. Påkrevd versjon 4.0 eller høyere.
 
-## 3 Things You Can Quickly Do With CameraV
+## 3 ting du kan gjøre raskt med CameraV
 
-1) Take pictures or video with synchronized sensor metadata capture for later use in verification, analysis, proof or other “blackbox” purposes.
+1) Ta bilder eller video med synkronisert metadata fra sensorer for senere bruk i verifisering, analyse, som bevisførsel, eller andre angrepsvektorer.
 
-2) Notarize captured photos and videos by sharing the unique ID and sensor metadata through email, SMS or social media.
+2) Attester bilder og video ved deling av unik ID og sensor-metadata gjennom e-post, SMS eller sosiale media.
 
-3) Share photos and videos privately or publicly with the sensor metadata embedded in the media, for later verification and use.
+3) Del bilder og videoer privat eller offentlig med sensor-metadata innebygd i media-filene, for senere verifisering og bruk.
 
-## Taking a Photo or Video With Sensor Metadata
+##  Ta bilder eller video med sensor-metadata
 
-The CameraV sensors automatically activate when you start capture. You can optionally enable Location, Bluetooth and Wifi services in your Android Settings to allow the app to use those sensors.
+Sensorer tilknyttet CameraV skrur seg på automatisk når du tar opp noe. Du kan ved eget valg skru på plassering, Blåtann og Wi-Fi -tjenester i dine Android-innstillinger for å la programmet bruke også de sensorene.
 
-### Enable Sensors
+### Skru på sensorer
 
-- You control if Wi-fi, Bluetooth, GPS are used
-- For Location, you can control the type of location service
-- To disable mobile network sensors, put phone into airplane or "flight" mode
+- Du bestemmer om Wi-Fi, Blåtann og GPS skal brukes
+- Med hensyn til plasseringsdata kan du selv velge tjenesten som skal brukes
+- For å skru av mobiltelefoni-sensorer, sett telefonen i "fly-modus"
 
-### Viewing Photos and Video in the Gallery
+### Visning av bilder og video i galleriet
 
-Gallery button opens multiple thumbnail screen. Tap on thumbnail to open detailed view.
+Galleri-knappen åpner flerfoldig miniatyrvisning. Trykk et miniatyrbilde for å åpne detaljert visning.
 
 ![gallerythumb.png](images/gallerythumb.png)
 
-Check mark icon for multiple selection and deletion.
+Avkryssningssboks for flerfoldig valg og sletting.
 
 ![gallerymulti.png](images/gallerymulti.png)
 
-## Notarizing Captured Photos and Video
+## Attestering av bilder og video
 
-You can generate a unique visual fingerprint identifer, basically a unique code, for each media file captured. Then you can share this code a short message that you share through SMS, email or more publicly on social media.
+Du kan generere en unik visuell fingeravtrykksidentifikator, egentlig en unik kode, for hver enkelt media-fil du har laget. Du kan så dele denne korte koden gjennom SMS, e-post eller mer offentlig gjennom sosiale media.
 
 ![notarizesms.png](images/notarizesms.png)
 
-## Sharing Photos, Videos and Sensor Metadata 
+## Deling av bilder, videoer og sensor-metadata 
 
-## Sharing Options
+## Delingsvalg
 
-SHARE options:
-Share Media
-Share Metadata
-Notarize
+Valg for delingsområde:
+Del media
+Del metadata
+Attester
 
-Share Metadata metadata only shared as JSON plaintext
-Notarize: unique ID for media and link to media page on secure test bed
+Del metadata bare som JSON-klartekst
+Attester: unik ID for media og lenke til mediasiden på sikret testplattform
