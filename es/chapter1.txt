@@ -48,4 +48,4 @@ Compartir metadatos
 Certificar
 
 'Compartir metadatos' sólo comparte los metadatos como texto no cifrado JSON
-Certificar: Crea una identificación única para audiovisuales y un enlace a una página de audiovisuales en un banco de pruebas seguro
+Certificar: Crea una identificación única para audiovisuales y un enlace a una página con el audiovisual en un alojamiento seguro

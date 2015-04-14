@@ -1,92 +1,92 @@
 # Capítulo 5: Tomar fotografías y vídeos de forma segura e inofensiva
 
-Este capítulo le llevará a través del uso de las características de cámara de fotos y de vídeo integrada de la aplicación móvil/celular
+Este capítulo le guiará a través del uso de las características de cámara integrada de fotos y vídeo (camcoder) de la aplicación móvil/celular.
 
 ## Instalación 
 
-Antes de que pueda usar la aplicación CameraV, tiene que instalarla. Puede encontrar enlaces de descarga de la aplicación en la siguiente URL web https://guardianproject.info/informa o buscar en Google Play "CameraV". Si instala la aplicación desde fuera de Google Play, mediante descarga de un fichero APK, tendrá que habilitar la opción "(Permitir) Fuentes desconocidas", en su Android en la sección Configuración->Adminitrador del Dispositivo. Una vez haya instalado la aplicación puede deshabilitar la opción "Fuentes desconocidas".
+Antes de que pueda usar la aplicación CameraV, tiene que instalarla. Puede encontrar enlaces de descarga para la aplicación en la URL web https://guardianproject.info/informa o buscar en Google Play "CameraV". Si instala la aplicación desde fuera de Google Play, mediante descarga directa de un fichero APK, necesitará habilitar la opción (permitir) "Fuentes desconocidas", en la sección Configuración->Seguridad->Administrador del Dispositivo de su Android. Una vez haya instalado la aplicación, puede deshabilitar la opción "Fuentes desconocidas".
 
-## Configuración de primer-vez
+## Configuración de primera-vez
 
-La primera-vez que use CameraV, tiene que configurarlo con información básica de identidad. La aplicación pregunta por un nombre que le identifique, que puede ser su nombre real o un pseudónimo. Opcionalmente también puede incluir una dirección de correo electrónico, que de nuevo puede ser su correo estándar, o una cuenta especial que usted configure sólo para usar con esta aplicación. Al proporcionar una dirección de correo electrónico, usted se asegura de que alguien que más tarde pueda encontrar una foto o vídeo capturada y compartida con CameraV, pueda contactar con usted.
+La primera-vez que use CameraV, tiene que configurarla con información básica de identidad. La aplicación pide un nombre identificador de algún tipo, que puede ser su nombre real o un pseudónimo. Opcionalmente, también puede incluir una dirección de correo electrónico, que de nuevo puede ser su correo estándar, o una cuenta especial que usted configure sólo para usar con esta aplicación. Al proporcionar una dirección de email, se asegura de que alguien que más tarde pueda encontrar una foto o vídeo capturada y compartida con CameraV, podrá contactar con usted.
 
 ![welcome.png](images/welcome.png)![setup.png](images/setup.png) 
 
-Tambien puede introducir y confirmar una contraseña para usar con CameraV. Esta es una contraseña nueva que se usa para proteger las fotos, vídeo, y metadatos de sensores almacenados en el interior de la apliación misma. En cierto sentido, es la combinación secreta para la boveda de seguridad de los datos que la aplicación está protegiendo.
+También puede introducir y confirmar una contraseña a usar con CameraV. Esta es una contraseña nueva que se usa para proteger las fotos, vídeos y metadatos de sensores, almacenados en el interior de la propia aplicación. En cierto sentido, es la combinación secreta para la boveda de seguridad de los datos que la aplicación está protegiendo.
 
 ![password.png](images/password.png)![password2.png](images/password2.png)
 
-Finalmente, tiene que tomar seis fotos de ejemplo con la aplicación CameraV durante el proceso de configuración. Esto genera una huella de validación (fingerprint) de su sensor de cámara, que más tarde puede usarse para probar que una imagen o vídeo específico vino o no de su cámara. La aplicación le pedirá que tome una foto "sosa", lo cual se refiere a un muro blanco, un tablero, u otra superficie sin complicaciones. La necesidad de algo "soso" es un detalle técnico relativo al proceso de generación de la huella de validación visual.
+Finalmente, tiene que tomar seis fotos de ejemplo con la aplicación CameraV durante el proceso de configuración. Esto genera una huella de validación (fingerprint) visual de su sensor de cámara, que más tarde se puede usar para probar que una imagen o vídeo específico vino o no de su cámara. La aplicación le pedirá que tome una foto "sosa", lo cual se refiere a un muro blanco, un tablero, o alguna otra superficie sin complicaciones. La necesidad de algo "soso" es un detalle técnico relativo al proceso de la huella de validación visual.
 
 ![boring.png](images/boring.png)![boring2.png](images/boring2.png)
 
-Una vez complete todos estos pasos, el proceso de configuración estará completo, y se le trasladará a la pantalla principal de la aplicación CameraV.
+Una vez complete todos estos pasos, el proceso de configuración estará completo, y será llevado hacia la pantalla principal de la aplicación CameraV.
 
 ## Tres vistas esenciales
 
 La aplicación CameraV comprende tres vistas esenciales:
 
-* Primero está la vista Principal, que le permite realizar un gesto de barrido de izquierda-a-derecha hacia el último adiovisual capturado. La primera-vez que ejecute la aplicación, esta pantalla estará vacía.
-* En segundo lugar está la vista de Audiovisuales. Si pulsa sobre cualquier previsualización o miniatura de una imagen o vídeo, se le llevará a una vista en detalle del audiovisual que le permitirá ver la foto o vídeo completo, y hacer zoom o desplazarse por la imagen, o reproducir y moverse por el vídeo. También puede realizar operaciones en esta pantalla como compartir a través de los comandos del menú de la barra de acciones.
-* En tercer lugar está la vista de Galería, que proporciona la vista general en miniatura de todos los audiovisuales capturados, y la capacidad de filtrar y ordenar esos audiovisuales. A través de esta vista también puede realizar acciones de compartición y borrado por lotes.
+* Primero está la Vista Principal, que le permite realizar un gesto de barrido de izquierda-a-derecha recorriendo el último audiovisual capturado. La primera-vez que ejecute la aplicación, esta pantalla estará vacía.
+* En segundo lugar está la Vista de Audiovisuales. Si pulsa sobre cualquier previsualización o miniatura de una imagen o vídeo, se le trasladará a una vista en detalle del audiovisual que le permitirá ver la foto o vídeo completo, y hacer zoom y recorrer la imagen, o reproducir y desplazarse por el vídeo.  En esta pantalla también puede realizar operaciones como compartir, a través de los comandos del menú de la barra de acciones.
+* En tercer lugar está la Vista de Galería, que proporciona una vista general en miniatura de todos los audiovisuales capturados, y la capacidad de filtrar y ordenar esos audiovisuales. A través de esta vista también puede realizar acciones de compartido y borrado por lotes.
 
-### La vista principal
+### La Vista Principal
 
-La vista Principal es aquello que se le presenta cuando entra en la aplicación por primera vez. Le permite ver rápidamente los últimos pocos elementos audiovisuales capturados, y usar gestos de barrido para desplazarse por todos ellos. Puede pulsar sobre cualquier imagen de previsualización de un audiovisual para cambiar a la vista de Audiovisual, lo que le mostrará la foto o vídeo completo.
+La Vista Principal es aquello que se le presenta cuando entra en la aplicación por primera vez. Le permite ver rápidamente los pocos últimos elementos audiovisuales capturados, y usar gestos de barrido para recorrer todos ellos. Puede pulsar sobre cualquier imagen de previsualización de un audiovisual para cambiar a la Vista de Audiovisuales, lo que le mostrará la foto o vídeo completo.
 
 ![home.png](images/home.png)![homeview.png](images/homeview.png)
 
-Desde esta vista es también desde donde abrirá la cámara o navegará a la vista de Galería. Los tres botones en el fondo de la pantalla representan una Cámara Fotográfica, una Vídeo Cámara, y la Galería, en ese orden. Los botones de Cámara abren la cámara para la captura de audiovisuales en los formatos indicados. El botón de Galería abre al vista de Galería para el filtrado y procesado por lotes de los audiovisuales.
+Desde esta vista es también desde donde abrirá la cámara o navegará hacia la Vista de Galería. Los tres botones en el fondo de la pantalla representan una Cámara Fotográfica, una Cámara de Vídeo, y la Galería, en ese orden. Los botones de Cámara abren la cámara para capturar audiovisuales en los formatos indicados. El botón de Galería abre al Vista de Galería para filtrar y procesar por lotes los audiovisuales.
 
-También puede bloquear la aplicación desde la opción del menú para cerrar sesión y eliminar toda la información almacenada en caché de la memoria. La aplicación requerirá entonces que introduzca una contraseña la próxima vez que la abra. Finalmente, también hay una acción de "Botón de Pánico" disponible en esta pantalla. desde la que puede borrar rápidamente todos los audiovisuales y datos de la aplicación CameraV. Le hablaremos más acerca de todas estas capacidades de seguridad en otro capítulo.
+También puede bloquear la aplicación desde la opción del menú para cerrar sesión y eliminar toda la información almacenada en caché de la memoria. Entonces la aplicación requerirá que introduzca una contraseña la próxima vez que la abra. Finalmente, también hay una acción de "Botón de Pánico" disponible en esta pantalla, desde la que puede borrar rápidamente todos los audiovisuales y datos de la aplicación CameraV. Le hablaremos más acerca de todas estas capacidades de seguridad en otro capítulo.
 
 ![homemenu.png](images/homemenu.png)![lockscreen.png](images/lockscreen.png)
 
 ### La Vista de Audiovisuales
 
-La Vista de Audiovisuales o Vista Detallada, presenta una foto o vídeo capturada al completo. Puede ver la foto capturada en su totalidad, y hacer zoom y desplazarse por ella para conseguir una visión más cercana. También puede rotar su teléfono para mostrar el modo panorámico, si es una imagen de este tipo. Además puede reproducir un vídeo en esta vista. Puede que tarde unos pocos segundos en cargar, pero luego puede pulsar reproducir (play) para ver el vídeo. También puede arrastrar el cursor de reproducción para moverse, o avanzar fotograma a fotograma, a través del vídeo.
+La Vista de Audiovisuales o Vista Detallada, presenta una foto o vídeo capturado al completo. Puede ver la foto capturada en su totalidad, y hacer zoom y recorrerla para obtener una visión más cercana. También puede rotar su teléfono para mostrar el modo panorámico, si es una imagen de este tipo. Además puede reproducir un vídeo en esta vista. Puede que tarde unos pocos segundos en cargar, pero luego puede pulsar reproducir (play) para ver el vídeo. También puede arrastrar el cursor de reproducción para moverse a través del vídeo, o avanzar fotograma a fotograma.
 
 ![mediaview.png](images/mediaview.png)
 
-Al fondo de esta vista, verá una sección "Historial". Allí es donde se registran todas las acciones sobre los audiovisuales almacenados. Esto incluye cuándo capturó el fichero de audiovisuales, cuándo lo ha exportado y compartido, y demás.
+Al fondo de esta vista verá una sección "Historial". Allí es donde se registran todas las acciones realizadas sobre los audiovisuales almacenados. Esto incluye cuándo capturó el fichero audiovisual, cuándo lo ha exportado y compartido, y demás.
 
-At the top of the Media view, you will see three action icons: the Informa View "I", the Share action, and the Edit "Pencil" action.
+En la parte superior de la Vista de Audiovisuales, verá tres iconos de acción: la Vista Informa "I", la acción Compartir, y acción "Lápiz" de Edición.
 
-The Informa View provides full access to the raw sensor metadata captured when you took the picture or recorded the video. It is shown in the "J3M" format you can learn about elsewhere in this guide.
+La Vista Informa proporciona acceso completo a los metadatos en crudo del sensor capturados cuando tomó la fotografía o grabó el vídeo. Se muestran en el formato "J3M" (leído 'gem' en inglés) sobre el que puede aprender más en otras partes de esta guía.
 
 ![metadata.png](images/metadata.png)
 
-Tapping on the Share action will reveal three more options: Share Media, Share Metadata and Notarize. 'Share Media' will package up the media file with the metadata, and generate a new JPEG or MPEG-4 file that can be shared with any app, to send via email, post on social media, or upload to a website. 'Share Metadata' will just share the sensor metadata as a plaintext file in the J3M format.
+Pulsar sobre la acción Compartir revelará tres opciones más: Compartir Audiovisual, Compartir Metadatos, y Certificar. 'Compartir Audiovisual' empaquetará el fichero audiovisual con los metadatos, y generará un nuevo fichero JPEG o MPEG-4 que se puede compartir a través de cualquier aplicación, enviarse por correo electrónico, publicarse en medios sociales, o subirse a un sitio web. 'Compartir Metadatos' tan solo compartirá los metadatos del sensor como texto sin cifrar en formato J3M.
 
 ![mediashare.png](images/mediashare.png)
 
-'Notarize' will share a short snippet of text containing the media file's unique visual fingerprint identifier, that can be easily shared via SMS, email, Twitter or some other short message channel. This provides a way to timestamp the media with a third-party, and ensure that any tampering or modification of the media can be later detected.
+'Certificar' compartirá un breve retazo del texto conteniendo el identificador de huella de validación (fingerprint) visual único del fichero audiovisual, que puede ser compartido fácilmente vía SMS, correo electrónico, Twitter, o algún otro canal de mensajes cortos. Esto proporciona una forma de poner una marca de tiempo al audiovisual por mediación de un tercero, y de asegurarse de que cualquier manipulación o modificación del audiovisual será detectada más tarde.
 
-Tapping on the 'Edit' action will allow you 'Write Text' in order to provide a basic description of what the capture media item is about, or some other context you wish to provide. 'Add Tags' will allow you to place a tag box on the media at a certain place, or time in the case of video. You can then tap on that tag box to enter more detailed information about what it is you were tagging, and why.
+Pulsar sobre la acción 'Editar' le permitirá 'Escribir texto' para proporcionar una descripción básica acerca de lo que trata el elemento audiovisual de la captura, o algún otro detalle de contexto que desee proporcionar. 'Añadir etiquetas' le permitirá colocar un cuadro de etiquetas sobre el audiovisual en una determinada posición, o momento en el caso del vídeo. Luego podrá pulsar sobre ese cuadro de etiquetas para introducir más información detallada acerca de qué es lo que estuvo etiquetando, y por qué.
 
 ![editmode.png](images/editmode.png)![edittext.png](images/edittext.png)
 
-You can return to the Home View by pressing the top-left hand back arrow, or by pressing the back key on your device.
+Puede volver a la Vista Principal pulsando la flecha atrás de la parte superior izquierda. o pulsando la tecla atrás en su dispositivo.
 
-### The Gallery
+### La Galería
 
-The Gallery view provides a thumbnail view of many media items at once. You can filter media items by type, to see only photos, only videos, or all. You can also select multiple media items for batch operations, by using the checkmark action, or pressing on one item and holding for a few seconds. This will engage the multi-select mode, which allows for multiple items to be selected at once. You can then do a batch export and share action, or delete action. The Share options provided are the same as in the Media view: Share Media, Share Metadata, and Notarize.
+La Vista de Galería proporciona una vista de miniaturas de muchos elementos audiovisuales a la vez. Puede filtrar elementos audiovisuales por tipo, para ver sólo fotos, sólo vídeos, o todos. También puede seleccionar múltiples elementos audiovisuales para operaciones por lotes, usando la acción de marcado, o pulsando sobre un elemento y manteniendo pulsado unos instantes. Esto activará el modo multi-selección, lo que permite que múltiples elementos sean seleccionados de una vez. Luego podrá realizar una acción de exportación o compartido, o una acción de borrado. Las opciones Compartir proporcionadas son las mismas que en la Vista de Audiovisuales: Compartir Audiovisuales, Compartir Metadatos, y Certificar.
 
 ![gallerythumb.png](images/gallerythumb.png)![galleryfilter.png](images/galleryfilter.png)
 
-## Using the Cameras
+## Usar las cámaras
 
-From the Home view, you can launch either the Still Camera or the Video Camera. By default, the app will launch the built-in external camera apps that are available on your phone. It will monitor these external camera apps, and when new photos or videos are captured, it will inspect them, extract their metadata, and store a thumnail and the data in the internal encrypted storage. While they will show up in the Gallery view, the actual media file are stored unencrypted in the standard device media storage location on the external memory or SD Card.
+Desde la vista Principal, puede arrancar la Cámara de Fotos o la Vídeo Cámara. Por defecto, la aplicación arrancará las aplicaciones de cámara externa integrada que están disponibles en su teléfono. Monitorizará estas aplicaciones de cámara externa, y cuando sean capturados nuevas fotos o vídeos. los inspeccionará, extraerá sus metadatos, y almacenará una minuatura y los datos en el almacenamiento cifrado interno. Aunque se mostrarán en la vista de Galería, el fichero de audiovisuales actual se guarda sin cifrar en la ubicación del almacenamiento estándar de audiovisuales del dispositivo en la memoria externa o tarjeta SD.
 
 ![camera.png](images/camera.png)
 
-To use the encrypted camera capabilities of CameraV, you must go into the CameraV Settings, and uncheck the "Use External Camera Apps" option. Then, the camera action buttons on the Home view will launch the built-in encrypted camera feature. This provides a basic still and video camera capability, with the outputed photo or video file written directly to encrypted storage. This means that only CameraV can see the media, and that if you delete a file it is completely deleted from the device, and not recoverable.
+Para usar las capacidades de cámara cifrada de CameraV, tiene que ir al interior de la Configuración de CameraV y desmarcar la opción "Usar aplicaciones externas de cámara". Entonces, los botones para accionar cámaras en la vista Principal iniciarán la característica integrada de cámara cifrada. Esto proporciona una capacidad básica de cámara de fotos y de vídeo, con la foto o vídeo resultante escrito directamente al almacenamiento cifrado. Esto significa que sólo CameraV podrá ver los audiovisuales, y que si borra un fichero este se borrará por completo del dispositivo, y no será recuperable.
 
 ![useinternal.png](images/useinternal.png)
 
-The encrypted camera have only a simple button to take a picture or to stop and start video recording. All other settings are automatic.
+La cámara cifrada sólo tiene un simple botón para disparar una foto o iniciar y detener la grabación de vídeo. Todas las demás configuraciones son automáticas.
 
-When you are done capturing media, you can use the back key to return to the Home view or the Gallery view to see the captured media files.
+Cuando haya terminado de capturar el audiovisual, puede usar la tecla de atrás para volver a la vista Principal o la vista Galería para ver los ficheros audiovisuales capturados.
 
 
 

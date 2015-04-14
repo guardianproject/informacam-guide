@@ -6,7 +6,7 @@ Dette innebefatter sensorer som KameraHullet gjør bruk av på telefonen og J3M-
 
 Nedenfor finner du en markert versjon av JSON-dataen som er å finne i en typisk J3M-forpakning.
 
-"asset_path" er hvor på KameraHullets krypterte interne lagringsplass fila opprinnelig ble lagret. Dette vil sjeldent bli brukt, men kan være nyttig i ekstremt sjeldent fall, der inspeksjon av opptaksenheten er nødvendig.
+The "asset_path" represents where the file was original stored on the InformaCam app's encrypted internal storage. This will be rarely used, but could be helpful in extreme situations where inspection of the capture device is necessary:
 > {"asset_path": "submissions/45454ac1ade36ebec3749e8dc2aedc4b", 
 
 "Genealogy" (arverekkefølge)-merkelappen inneholder data om medie-filas opphav i all enkelhet. "hashes" er en MD5-sjekksum av alle pikselverdiene til bildet eller video-forløpet. "createdOnDevice" er offentlig OpenPGP nøkkelfingeravtrykk for brukeren/programmet. "dateCreated" er en lagret tidspunktsverdi som skriver seg til når media-opptaket fant sted.
@@ -23,7 +23,7 @@ Dataen bak "Intent" representerer hvem som gjorde opptaket, deres PGP-nøkkelfin
 > "intent": {"alias": "ai whiteness", "ownershipType": 400, "pgpKeyFingerprint": "694db2c3ecc07ac07f63e323f7b9a0cefada94cf", "intendedDestination": "InformaCam Testbed"},
 > "date_admitted": 1386726920279.5662, "_id": "86ae352e68328c06de7840f4cb6be809",
 
-The "data" section is where the sensor metadata logs are stored. It is an array if timestamped, sensorCapture items
+The "data" section is where the sensor metadata logs are stored. It is an array of timestamped sensorCapture items
 > "data": {
 >"sensorCapture": [
 
@@ -45,7 +45,7 @@ Dette er GPS-posisjonsdata, visning av høyde og breddegrad, gjeldende slingring
 Aksellerometer som viser bevegelse i X, Y og Z-aksen.
 >{"timestamp": 1386690721758, "captureType": 271, "sensorPlayback": {"acc_z": 9.188077926635742, "acc_y": 2.7202823162078857, "acc_x": -1.9511220455169678}},
 
-Telefonidelen, viser både Blåtann-enheter oppdaget i nærheten, og informasjon om mobilmastene mobiltelefonen er tilknyttet. Hvis enheten bare har Wi-Fi, eller ikke bruker SIM-kort, vil denne dataen utelates. "Bluetooth device adress" viser ikke navnet til den faktiske MAC-adressen, men isteden en enveis sjekksum-verdi. Dette i et forsøk på å bevare personvernet til folk som måtte være i nærheten.
+This is a telephony event, showing both any bluetooth devices noticed in the area, and information about the cellular network tower the smartphone is currently registered with. If the device is a wifi only device, or is not using a SIM card, this data will simply be omitted. The bluetooth device address does NOT display the name of the actual device MAC address, but instead shows a one-way hash value. This was an attempt to preserve some privacy for individuals who might be in the area.
 >{"timestamp": 1386690719714, "captureType": 271, "sensorPlayback": {"bluetoothDeviceAddress": "5d9d203488950ff20c07b6dbfe9a8b8ddabafc6c", "LAC": "36493", "MCC": "310260", >"bluetoothDeviceName": "Nexus 4", "cellTowerId": "79211356"}}, 
 
 Etter sensordata, viser J3M vanlig "EXIF" lignende informasjon fra opptaksenheten:
@@ -59,10 +59,6 @@ Skjemadefinisjonen i bruk er indikert, og en markering fri for basiske verdier e
 Hvis en markering er plassert på et spesifikt X-Y-koordinat i bilde, eller X-Y+tidsvindu for video, er også den informasjonen med:
 >{"path": "/forms/46b9f8e70113ae0f39ae26338c0dc433.xml", "namespace": "iWitness v 1.0", "id": "fae0900eec13baefce4f98b895b80405", 
 >"answerData": {"iW_individual_identifiers": "Victim"}}], "timestamp": 1386690798758, "regionBounds": {"top": 224, "displayLeft": 415, "height": 118, "width": -37, "displayWidth": 115, >"startTime": -1, "displayTop": 224, "displayHeight": 118, "endTime": -1, "left": 263}, "id": "1e9d35bed92b8fdfe46b251afb3227f2", "index": 0}, {"associatedForms": [{"path": >"/forms/493dde68c49e6b99556186a3e776d705.xml", "namespace": "iWitness Free Text Annotations", "id": "b63a2a65fc91dd9744d6cd5cea5cb28d", "answerData": {"iW_free_text": "this tree might >fall down"}}, {"path": "/forms/46b9f8e70113ae0f39ae26338c0dc433.xml", "namespace": "iWitness v 1.0", "id": "fae0900eec13baefce4f98b895b80405", "answerData": {"iW_individual_identifiers": >"Victim"}}], "timestamp": 1386690798758, "regionBounds": {"top": 224, "displayLeft": 415, "height": 118, "width": -37, "displayWidth": 115, "startTime": -1, "displayTop": 224, >"displayHeight": 118, "endTime": -1, "left": 263}, "id": "1e9d35bed92b8fdfe46b251afb3227f2", "index": 0}]}}
-
-## Notater om loggførte verdier
-
-J3M-dataen som blir innhentet av mobilklienten burde være så utolket som mulig. Unveillance-pakken bør stå for tolkning og normalisering av all data. Gitt at J3M-dataen er litt "skitten" som inn-data, vennligst ikke prøv å gjør noe av følgende når du renser dataen.
 
 ### Umulige verdier
 

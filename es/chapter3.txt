@@ -6,7 +6,7 @@ Esto cubre los sensores que InformaCam pincha en el teléfono, y el formato J3M 
 
 Debajo está anotada la versión de los datos JSON en un empaquetado J3M típico.
 
-The "asset_path" (ruta a los elementos de valor) representa el lugar en que el fichero se guardó originalmente en el almacenamiento interno cifrado de la aplicación InformaCam. Esto raramente será usado, pero podría ser útil en situaciones extremas donde la inspección del dispositivo de captura es necesario.
+La "asset_path" (ruta a elementos de valor) representa la ubicación donde fue guardado originalmente el fichero en el almacenamiento interno cifrado de la aplicación InformaCam. Esto raramente será usado, pero podría ser útil en situaciones extremas donde la inspección del dispositivo de catpura es necesaria:
 > {"asset_path": "submissions/45454ac1ade36ebec3749e8dc2aedc4b", 
 
 La etiqueta Genealogy (genealogía) proporciona lo datos básicos acerca de la fuente del audiovisual. "hashes" es un identificador criptográfico (hash) MD5 de todos los valores de una imagen o fotogramas de vídeo. "createdOnDevice" (creado en el dispositivo) es la huella de validación (fingerprint) de la clave pública OpenPGP para el usuario/aplicación. "datecreated" (fecha de creación) es un valor de marca de tiempo de cuando se realizó la captura del audiovisual.
@@ -23,7 +23,7 @@ Intent (objetivo) representa el alias de la persona que lo capturó, de nuevo la
 > "intent": {"alias": "ai whiteness", "ownershipType": 400, "pgpKeyFingerprint": "694db2c3ecc07ac07f63e323f7b9a0cefada94cf", "intendedDestination": "InformaCam Testbed"},
 > "date_admitted": 1386726920279.5662, "_id": "86ae352e68328c06de7840f4cb6be809",
 
-La sección "data" (datos) es donde los registros (logs) de metadatos del sensor se almacenan. Es una matriz si los elementos sensorCapture (capturas del sensor) tienen marcas de tiempo
+La sección "data" (datos) es donde se almacenan los registros (logs) de metadatos del sensor. Es una matriz de elementos sensorCapture con marcas de tiempo.
 > "data": {
 >"sensorCapture": [
 
@@ -45,7 +45,7 @@ Este es un evento de localización GPS, que muestra latitud, longitud y precisi�
 Este es un evento de acelerómetro, que muestra datos de movimiento X,Y,Z
 >{"timestamp": 1386690721758, "captureType": 271, "sensorPlayback": {"acc_z": 9.188077926635742, "acc_y": 2.7202823162078857, "acc_x": -1.9511220455169678}},
 
-Este es un evento de telefonía, que muestra tanto cualquier dispositivo bluetooth observado en la zona, como información acerca de la antena de red móvil/celular con la que el smartphone está registrado actualmente. Si el dispositivo es un dispositivo de sólo wifi, o si no está usando una tarjeta SIM, estos datos simplemente se omitirán. La dirección del dispositivo bluetooth NO muestra el nombre de la dirección MAC del dispositivo actual, pero en su lugar muestra un valor de identificador criptográfico (hash) de sentido-único. Esto fue un intento de preservar algo de privacidad para los individuos que podría haber en la zona.
+Este es un evento de telefonía, que muestra tanto cualquier dispositivo bluetooth observado en la zona, como información acerca de la antena de la red móvil/celular con la que el smartphone está actualmente registrado. Si el dispositivo es de sólo wifi, o si no está utilizando una tarjeta SIM, estos datos simplemente se omitirán. La dirección del dispositivo bluetooth NO muestra el nombre asociado a la dirección MAC del actual dispositivo, sino que en su lugar muestra un valor hash de sentido-único (de cálculo no reversible). Esto fue un intento de preservar algo de privacidad para los individuos que podrían estar en la zona.
 >{"timestamp": 1386690719714, "captureType": 271, "sensorPlayback": {"bluetoothDeviceAddress": "5d9d203488950ff20c07b6dbfe9a8b8ddabafc6c", "LAC": "36493", "MCC": "310260", >"bluetoothDeviceName": "Nexus 4", "cellTowerId": "79211356"}}, 
 
 Tras los datos de sensor, J3M muestra entonces información básica de estilo "EXIF" desde el dispositivo de captura:
@@ -59,10 +59,6 @@ La definición del formulario usado está indicada, y una anotación de texto li
 Si se coloca una anotación en un punto específico X,Y de la imagen, o X,Y+ventana de tiempo para vídeo, también se proporciona esa información:
 >{"path": "/forms/46b9f8e70113ae0f39ae26338c0dc433.xml", "namespace": "iWitness v 1.0", "id": "fae0900eec13baefce4f98b895b80405", 
 >"answerData": {"iW_individual_identifiers": "Victim"}}], "timestamp": 1386690798758, "regionBounds": {"top": 224, "displayLeft": 415, "height": 118, "width": -37, "displayWidth": 115, >"startTime": -1, "displayTop": 224, "displayHeight": 118, "endTime": -1, "left": 263}, "id": "1e9d35bed92b8fdfe46b251afb3227f2", "index": 0}, {"associatedForms": [{"path": >"/forms/493dde68c49e6b99556186a3e776d705.xml", "namespace": "iWitness Free Text Annotations", "id": "b63a2a65fc91dd9744d6cd5cea5cb28d", "answerData": {"iW_free_text": "this tree might >fall down"}}, {"path": "/forms/46b9f8e70113ae0f39ae26338c0dc433.xml", "namespace": "iWitness v 1.0", "id": "fae0900eec13baefce4f98b895b80405", "answerData": {"iW_individual_identifiers": >"Victim"}}], "timestamp": 1386690798758, "regionBounds": {"top": 224, "displayLeft": 415, "height": 118, "width": -37, "displayWidth": 115, "startTime": -1, "displayTop": 224, >"displayHeight": 118, "endTime": -1, "left": 263}, "id": "1e9d35bed92b8fdfe46b251afb3227f2", "index": 0}]}}
-
-## Notas sobre valores registrados (log)
-
-Los datos J3M recopilados por el cliente móvil/celular deben estar lo menos interpretados que sea posible. El paquete de Desvelado debe ser el responsable de interpretar y normalizar todos los datos. Dado que los datos J3M estarán un poco "sucios" a la entrada, por favor, no elimine lo siguiente al limpiar los datos.
 
 ### Valores imposibles
 
