@@ -27,7 +27,7 @@ Once you complete all of these steps, the setup process is complete, and you wil
 The CameraV app is compromised of three essential views:
 
 * First is the Home view, which allows you to quickly swipe from left-to-right through the latest captured media. The first-time you run the app, this screen will be empty.
-* Second is the Media view. If you tap any image or video preview or thumbnail, you will be taken into a detailed media via that allows you to see the full photo or video, and pinch and zoom the image, or playback and scrub the video. You can also perform operations like share on this screen through menu actionbar commands.
+* Second is the Media view. If you tap any image or video preview or thumbnail, you will be taken into a detailed media view that allows you to see the full photo or video, and pinch and zoom the image, or playback and scrub the video. You can also perform operations like share on this screen through menu actionbar commands.
 * Third is the Gallery view, which provides thubmnail overview of all captured media, and the ability to filter and sort that media. You can also perform batch share and delete actions through this view.
 
 ### The Home View
@@ -76,7 +76,7 @@ The Gallery view provides a thumbnail view of many media items at once. You can 
 
 ## Using the Cameras
 
-From the Home view, you can launch either the Still Camera or the Video Camera. By default, the app will launch the built-in external camera apps that are available on your phone. It will monitor these external camera apps, and when new photos or videos are captured, it will inspect them, extract their metadata, and store a thumnail and the data in the internal encrypted storage. While they will show up in the Gallery view, the actual media file are stored unencrypted in the standard device media storage location on the external memory or SD Card.
+From the Home view, you can launch either the Still Camera or the Video Camera. By default, the app will launch the built-in external camera apps that are available on your phone. It will monitor these external camera apps, and when new photos or videos are captured, it will inspect them, extract their metadata, and store a thumbnail and the data in the internal encrypted storage. While they will show up in the Gallery view, the actual media file are stored unencrypted in the standard device media storage location on the external memory or SD Card.
 
 ![camera.png](images/camera.png)
 
