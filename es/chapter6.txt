@@ -1,19 +1,19 @@
-# Chapter 6: Sharing and Using Metadata
+# Capítulo 6: Compartir y usar metadatos
 
-This chapter will show you how to share the sensor and verification metadata associated with every photo and video you've captured using the app.
+Este capítulo le mostrará cómo compartir los metadatos de sensor y verificación asociados con cada foto y vídeo que ha capturado usando la aplicación.
 
-## How to Share Metadata
+## Cómo compartir metadatos
 
-From the Media view, you can select the 'Share' action, and then the 'Share Metadata' from the second menu. This will generate a plain text document (more on this below), that you can share with any app on your device that will accept that kind of content.
+Desde la vista Audiovisuales, puede seleccionar la acción 'Compartir' y luego 'Compartir metadatos' desde el segundo menú. Esto generará un documento de texto no cifrado (más sobre esto debajo), que puede compartir con cualquier aplicación en su dispositivo que acepte ese tipo de contenido.
 
-You can also 'Share Metadata' from the Gallery view, and share multiple metadata documents in batch, using the multi-select capability.
+También puede 'Compartir metadatos' desde la vista Galería, y compartir múltiples documentos de metadatos en lote, usando la capacidad de multi-selección.
 
-## What is the Metadata?
+## ¿Qué son los metadatos?
 
-The metadata you can share from CameraV is the collection of sensor and network event data captured around the time that the photo or video was captured. It is organized and store using the Javascript Object Notation (JSON) format, and more specifically, as JSON Mobile Media Metadata, or J3M (pronounced as in "Gem"). The J3M file is a plain text, human readable format, that are various groups of name=value pairs, grouped in brackets like {name: value}, or {name { name0: value0, name1: value1}, and so on.
+Los metadatos que puede compartir desde CameraV son el compendio de datos de eventos de sensor y de red capturados en el momento en que se capturó la foto o vídeo. Se organizan y almacenan usando el formato Javascript Object Notation (JSON), y más específicamente, en la forma JSON Mobile Media Metadata (metadatos de audiovisuales de móvil/celular en notación JSON) o J3M (pronunciado "gem" en inglés, por gema). El fichero J3M es un formato de texto no cifrado, legible por humanos, constituido por varios grupos de pares nombre=valor, agrupados en llaves del tipo {nombre: valor}, o {nombre0: valor0, nombre1: valor1}, y así sucesivamente.
 
 ![metadata.png](images/metadata.png)
 
-## Why would I want to share it?
+## ¿Por qué querría compartirlos?
 
-Sharing the metadata allows you to share all the information about your media, without sharing the media file itself. This might make sense if your bandwidth is low, or if you only want to share the where, when and what you have captured, and not the visuals. The metadata also includes cryptographic signatures of the data and the media file itself, which provides proof of authenticity. If the receipient of your metadata later receives the media itself, they can compare the media to the unique signatures provided in the metadata to ensure the file was not tampered in the interim time.
+Compartir los metadatos le permite compartir toda la información acerca de su audiovisual, sin compartir el fichero del audiovisual propiamente dicho. Esto podría tener sentido si su ancho de banda es bajo, o si sólo quiere compartir el dónde, cuándo y qué ha capturado, y no los audiovisuales. Los metadatos también incluyen firmas criptográficas de los datos y del fichero audiovisual propiamente dicho, lo cual proporciona una prueba de autenticidad. Si el receptor de sus metadatos recibe más tarde el audiovisual propiamente dicho, podrá compararlo con las firmas únicas proporcionadas en los metadatos para asegurarse de que, entre tanto, el fichero no fue manipulado.

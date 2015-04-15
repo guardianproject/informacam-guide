@@ -26,33 +26,33 @@ Una vez complete todos estos pasos, el proceso de configuración estará complet
 
 La aplicación CameraV comprende tres vistas esenciales:
 
-* Primero está la Vista Principal, que le permite realizar un gesto de barrido de izquierda-a-derecha recorriendo el último audiovisual capturado. La primera-vez que ejecute la aplicación, esta pantalla estará vacía.
-* En segundo lugar está la Vista de Audiovisuales. Si pulsa sobre cualquier previsualización o miniatura de una imagen o vídeo, se le trasladará a una vista en detalle del audiovisual que le permitirá ver la foto o vídeo completo, y hacer zoom y recorrer la imagen, o reproducir y desplazarse por el vídeo.  En esta pantalla también puede realizar operaciones como compartir, a través de los comandos del menú de la barra de acciones.
-* En tercer lugar está la Vista de Galería, que proporciona una vista general en miniatura de todos los audiovisuales capturados, y la capacidad de filtrar y ordenar esos audiovisuales. A través de esta vista también puede realizar acciones de compartido y borrado por lotes.
+* Primero está la vista Principal, que le permite realizar un gesto de barrido de izquierda-a-derecha recorriendo el último audiovisual capturado. La primera-vez que ejecute la aplicación, esta pantalla estará vacía.
+* En segundo lugar está la vista de Audiovisuales. Si pulsa sobre cualquier previsualización o miniatura de una imagen o vídeo, se le trasladará a una vista en detalle del audiovisual que le permitirá ver la foto o vídeo completo, y hacer zoom y recorrer la imagen, o reproducir y desplazarse por el vídeo.  En esta pantalla también puede realizar operaciones como compartir, a través de los comandos del menú de la barra de acciones.
+* En tercer lugar está la vista de Galería, que proporciona una vista general en miniatura para todos los audiovisuales capturados, y la capacidad de filtrar y ordenar esos audiovisuales. A través de esta vista también puede realizar acciones de compartido y borrado por lotes.
 
-### La Vista Principal
+### La vista Principal
 
-La Vista Principal es aquello que se le presenta cuando entra en la aplicación por primera vez. Le permite ver rápidamente los pocos últimos elementos audiovisuales capturados, y usar gestos de barrido para recorrer todos ellos. Puede pulsar sobre cualquier imagen de previsualización de un audiovisual para cambiar a la Vista de Audiovisuales, lo que le mostrará la foto o vídeo completo.
+La vista Principal es aquello que se le presenta cuando entra en la aplicación por primera vez. Le permite ver rápidamente los pocos últimos elementos audiovisuales capturados, y usar gestos de barrido para recorrer todos ellos. Puede pulsar sobre cualquier imagen de previsualización de un audiovisual para cambiar a la vista de Audiovisuales, lo que le mostrará la foto o vídeo completo.
 
 ![home.png](images/home.png)![homeview.png](images/homeview.png)
 
-Desde esta vista es también desde donde abrirá la cámara o navegará hacia la Vista de Galería. Los tres botones en el fondo de la pantalla representan una Cámara Fotográfica, una Cámara de Vídeo, y la Galería, en ese orden. Los botones de Cámara abren la cámara para capturar audiovisuales en los formatos indicados. El botón de Galería abre al Vista de Galería para filtrar y procesar por lotes los audiovisuales.
+Desde esta vista es también desde donde abrirá la cámara o navegará hacia la vista de Galería. Los tres botones en el fondo de la pantalla representan una Cámara Fotográfica, una Cámara de Vídeo, y la Galería, en ese orden. Los botones de Cámara abren la cámara para capturar audiovisuales en los formatos indicados. El botón de Galería abre al vista de Galería para filtrar y procesar por lotes los audiovisuales.
 
 También puede bloquear la aplicación desde la opción del menú para cerrar sesión y eliminar toda la información almacenada en caché de la memoria. Entonces la aplicación requerirá que introduzca una contraseña la próxima vez que la abra. Finalmente, también hay una acción de "Botón de Pánico" disponible en esta pantalla, desde la que puede borrar rápidamente todos los audiovisuales y datos de la aplicación CameraV. Le hablaremos más acerca de todas estas capacidades de seguridad en otro capítulo.
 
 ![homemenu.png](images/homemenu.png)![lockscreen.png](images/lockscreen.png)
 
-### La Vista de Audiovisuales
+### La vista de Audiovisuales
 
-La Vista de Audiovisuales o Vista Detallada, presenta una foto o vídeo capturado al completo. Puede ver la foto capturada en su totalidad, y hacer zoom y recorrerla para obtener una visión más cercana. También puede rotar su teléfono para mostrar el modo panorámico, si es una imagen de este tipo. Además puede reproducir un vídeo en esta vista. Puede que tarde unos pocos segundos en cargar, pero luego puede pulsar reproducir (play) para ver el vídeo. También puede arrastrar el cursor de reproducción para moverse a través del vídeo, o avanzar fotograma a fotograma.
+La vista de Audiovisuales o vista Detallada, presenta una foto o vídeo capturado al completo. Puede ver la foto capturada en su totalidad, y hacer zoom y recorrerla para obtener una visión más cercana. También puede rotar su teléfono para mostrar el modo panorámico, si es una imagen de este tipo. Además puede reproducir un vídeo en esta vista. Puede que tarde unos pocos segundos en cargar, pero luego puede pulsar reproducir (play) para ver el vídeo. También puede arrastrar el cursor de reproducción para moverse a través del vídeo, o avanzar fotograma a fotograma.
 
 ![mediaview.png](images/mediaview.png)
 
 Al fondo de esta vista verá una sección "Historial". Allí es donde se registran todas las acciones realizadas sobre los audiovisuales almacenados. Esto incluye cuándo capturó el fichero audiovisual, cuándo lo ha exportado y compartido, y demás.
 
-En la parte superior de la Vista de Audiovisuales, verá tres iconos de acción: la Vista Informa "I", la acción Compartir, y acción "Lápiz" de Edición.
+En la parte superior de la vista de Audiovisuales, verá tres iconos de acción: la vista Informa "I", la acción Compartir, y acción "Lápiz" de Editar.
 
-La Vista Informa proporciona acceso completo a los metadatos en crudo del sensor capturados cuando tomó la fotografía o grabó el vídeo. Se muestran en el formato "J3M" (leído 'gem' en inglés) sobre el que puede aprender más en otras partes de esta guía.
+La vista Informa proporciona acceso completo a los metadatos en crudo del sensor capturados cuando tomó la fotografía o grabó el vídeo. Se muestran en el formato "J3M" (leído 'gem' en inglés) sobre el que puede aprender más en otras partes de esta guía.
 
 ![metadata.png](images/metadata.png)
 
@@ -66,27 +66,27 @@ Pulsar sobre la acción 'Editar' le permitirá 'Escribir texto' para proporciona
 
 ![editmode.png](images/editmode.png)![edittext.png](images/edittext.png)
 
-Puede volver a la Vista Principal pulsando la flecha atrás de la parte superior izquierda. o pulsando la tecla atrás en su dispositivo.
+Puede volver a la vista Principal pulsando la flecha atrás de la parte superior izquierda. o pulsando la tecla atrás en su dispositivo.
 
 ### La Galería
 
-La Vista de Galería proporciona una vista de miniaturas de muchos elementos audiovisuales a la vez. Puede filtrar elementos audiovisuales por tipo, para ver sólo fotos, sólo vídeos, o todos. También puede seleccionar múltiples elementos audiovisuales para operaciones por lotes, usando la acción de marcado, o pulsando sobre un elemento y manteniendo pulsado unos instantes. Esto activará el modo multi-selección, lo que permite que múltiples elementos sean seleccionados de una vez. Luego podrá realizar una acción de exportación o compartido, o una acción de borrado. Las opciones Compartir proporcionadas son las mismas que en la Vista de Audiovisuales: Compartir Audiovisuales, Compartir Metadatos, y Certificar.
+La vista de Galería proporciona una vista de miniaturas de muchos elementos audiovisuales a la vez. Puede filtrar elementos audiovisuales por tipo, para ver sólo fotos, sólo vídeos, o todos. También puede seleccionar múltiples elementos audiovisuales para operaciones por lotes, usando la acción de marcado, o pulsando sobre un elemento y manteniendo pulsado unos instantes. Esto activará el modo multi-selección, lo que permite que múltiples elementos sean seleccionados de una vez. Luego podrá realizar una acción de exportación o compartido, o una acción de borrado. Las opciones Compartir proporcionadas son las mismas que en la vista de Audiovisuales: Compartir Audiovisuales, Compartir Metadatos, y Certificar.
 
 ![gallerythumb.png](images/gallerythumb.png)![galleryfilter.png](images/galleryfilter.png)
 
-## Usar las cámaras
+## Usando las cámaras
 
-Desde la vista Principal, puede arrancar la Cámara de Fotos o la Vídeo Cámara. Por defecto, la aplicación arrancará las aplicaciones de cámara externa integrada que están disponibles en su teléfono. Monitorizará estas aplicaciones de cámara externa, y cuando sean capturados nuevas fotos o vídeos. los inspeccionará, extraerá sus metadatos, y almacenará una minuatura y los datos en el almacenamiento cifrado interno. Aunque se mostrarán en la vista de Galería, el fichero de audiovisuales actual se guarda sin cifrar en la ubicación del almacenamiento estándar de audiovisuales del dispositivo en la memoria externa o tarjeta SD.
+Desde la vista Principal, puede iniciar bien la Cámara de Fotos o la Cámara de Vídeo. Por defecto, la aplicación iniciará las aplicaciones integradas externas de cámara que estén disponibles en su teléfono. Monitorizará estas aplicaciones externas de cámara, y cuando se capturen nuevas fotos o vídeos, los inspeccionará, extraerá sus metadatos, y guardará una miniatura y los metadatos en el almacenamiento cifrado interno. Aunque se mostrará en la vista de Galería, el fichero audiovisual real se guarda sin cifrar en la ubicación estándar de almacenamiento de audiovisuales del dispositivo en la memoria externa o tarjeta SD.
 
 ![camera.png](images/camera.png)
 
-Para usar las capacidades de cámara cifrada de CameraV, tiene que ir al interior de la Configuración de CameraV y desmarcar la opción "Usar aplicaciones externas de cámara". Entonces, los botones para accionar cámaras en la vista Principal iniciarán la característica integrada de cámara cifrada. Esto proporciona una capacidad básica de cámara de fotos y de vídeo, con la foto o vídeo resultante escrito directamente al almacenamiento cifrado. Esto significa que sólo CameraV podrá ver los audiovisuales, y que si borra un fichero este se borrará por completo del dispositivo, y no será recuperable.
+Para usar las capacidades de cámara cifrada de CameraV, tiene que entrar en la Configuración de CameraV y desmarcar la opción "Usar aplicaciones externas de cámara". Entonces, los botones de acción de Cámara en la vista Principal iniciarán la característica integrada de cámara cifrada. Esto proporciona capacidades básicas de cámara de fotos y vídeo, de forma que la foto o vídeo resultante se escribe directamente en el almacenamiento cifrado. Esto significa que sólo CameraV podrá ver los audiovisuales, y que si borra un fichero este se eliminará por completo del dispositivo, y no será recuperable.
 
 ![useinternal.png](images/useinternal.png)
 
-La cámara cifrada sólo tiene un simple botón para disparar una foto o iniciar y detener la grabación de vídeo. Todas las demás configuraciones son automáticas.
+La cámara cifrada sólo tiene un botón simple para disparar una foto o iniciar y detener la grabación de vídeo. Todas las demás configuraciones son automáticas.
 
-Cuando haya terminado de capturar el audiovisual, puede usar la tecla de atrás para volver a la vista Principal o la vista Galería para ver los ficheros audiovisuales capturados.
+Cuando haya terminado de capturar el audiovisual, puede usar la tecla atrás para volver a la vista Principal o la vista Galería para ver los ficheros audiovisuales capturados.
 
 
 

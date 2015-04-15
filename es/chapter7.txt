@@ -1,26 +1,26 @@
-# Chapter 7: Notarizing Your Photos and Videos
+# Capítulo 7: Certificando sus fotos y vídeos
 
-This chapter will show you how to notarize the photos and videos captured through the app, to prove that they exist and belong to you!
+Este capítulo le mostrará cómo certificar las fotos y vídeos capturados a través de la aplicación, ¡para probar que existen y le pertenecen a usted!
 
-## What is Notarization?
+## ¿Qué es la certificación?
 
-Traditionally, the process of having a notary sign a document, proves that that you are who you say you are, or that some document has been verified by a trusted authority. In the case of InformaCam and the CameraV app, the notarize process is key to using media as proof of something. 
+Tradicionalmente, el proceso de hacer que un notario firme un documento prueba que usted es quien dice ser, o que algún documento ha sido verificado por una autoridad de confianza. En el caso de InformaCam y la aplicación CameraV, el proceso de certificación es clave para usar los audiovisuales como prueba de algo. 
 
-Notarization is also very useful, because it only requires you to share a very small, short message, that can easily be sent via something like an SMS text message. It does not require a full Internet connection on your device to share a notarization.
+La certificación también es muy útil porque sólo requiere que comparta un mensaje corto muy pequeño, que puede enviarse fácilmente mediante un mensaje de texto SMS o algo similar. Compartir una certificación no requiere una conexión a Internet completa en su dispositivo 
 
 ![notarizenote.png](images/notarizenote.png)
 
-## What happens when I notarize media?
+## ¿Qué ocurre cuando certifico un audiovisual?
 
-When you choose the 'Notarize' option, a short message is generated that includes the unique identifier, or "fingerprint", of the media file. This message can then be shared with any of the apps on your device that allow you to share messages, like SMS, email, Twitter, Facebook or other apps of that sort.
+Cuando elige la opción 'Certificar', se genera un mensaje corto que incluye el identificador único, o "fingerprint" (huella de validación), del fichero audiovisual. Este mensaje luego puede compartirse mediante cualquiera de las aplicaciones de su dispositivo que le permitan compartir mensajes, como SMS, correo electrónico, Twitter, Facebook, u otras aplicaciones de ese tipo.
 
 ![notarizesms.png](images/notarizesms.png)
 
-## Public versus Private Notarization
+## Certificación pública frente a privada
 
-You can choose to publish the notarization message publicly, which then would create a public timestamp that this media existed in this specific state, for all to see.
+Puede escoger difundir el mensaje de certificación públicamente, lo que entonces crearía una marca de tiempo pública que constataría que este audiovisual existió en este estado específico, para que todos lo vean.
 
-You can also choose to share the notarization message privately, which then can be used by the recipient to compare to the media or metadata when they receive the file at a later date.
+También puede escoger compartir el mensaje de certificación de forma privada, lo que puede usarse entonces por el receptor para comparar con el audiovisual o los metadatos cuando reciba el fichero en una fecha posterior.
 
 
 
