@@ -1,14 +1,14 @@
 > These files will be included in your book:
 
-About.txt
-chapter1.txt
-chapter2.txt
-chapter3.txt
-chapter4.txt
-chapter5.txt
-chapter6.txt
-chapter7.txt
-chapter8.txt
-chapter9.txt
-chapter10.txt
-chapter11.txt
+en/About.txt
+en/chapter1.txt
+en/chapter2.txt
+en/chapter3.txt
+en/chapter4.txt
+en/chapter5.txt
+en/chapter6.txt
+en/chapter7.txt
+en/chapter8.txt
+en/chapter9.txt
+en/chapter10.txt
+en/chapter11.txt

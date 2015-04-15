@@ -3,73 +3,73 @@ host = https://www.transifex.com
 
 [informacam-guide.about]
 file_filter = <lang>/About.txt
-source_file = About.txt
+source_file = en/About.txt
 source_lang = en
 type = TXT
 
 [informacam-guide.chapter1]
 file_filter = <lang>/chapter1.txt
-source_file = chapter1.txt
+source_file = en/chapter1.txt
 source_lang = en
 type = TXT
 
 [informacam-guide.chapter2]
 file_filter = <lang>/chapter2.txt
-source_file = chapter2.txt
+source_file = en/chapter2.txt
 source_lang = en
 type = TXT
 
 [informacam-guide.chapter3]
 file_filter = <lang>/chapter3.txt
-source_file = chapter3.txt
+source_file = en/chapter3.txt
 source_lang = en
 type = TXT
 
 [informacam-guide.chapter4]
 file_filter = <lang>/chapter4.txt
-source_file = chapter4.txt
+source_file = en/chapter4.txt
 source_lang = en
 type = TXT
 
 [informacam-guide.chapter5]
 file_filter = <lang>/chapter5.txt
-source_file = chapter5.txt
+source_file = en/chapter5.txt
 source_lang = en
 type = TXT
 
 [informacam-guide.chapter6]
 file_filter = <lang>/chapter6.txt
-source_file = chapter6.txt
+source_file = en/chapter6.txt
 source_lang = en
 type = TXT
 
 [informacam-guide.chapter7]
 file_filter = <lang>/chapter7.txt
-source_file = chapter7.txt
+source_file = en/chapter7.txt
 source_lang = en
 type = TXT
 
 [informacam-guide.chapter8]
 file_filter = <lang>/chapter8.txt
-source_file = chapter8.txt
+source_file = en/chapter8.txt
 source_lang = en
 type = TXT
 
 [informacam-guide.chapter9]
 file_filter = <lang>/chapter9.txt
-source_file = chapter9.txt
+source_file = en/chapter9.txt
 source_lang = en
 type = TXT
 
 [informacam-guide.chapter10]
 file_filter = <lang>/chapter10.txt
-source_file = chapter10.txt
+source_file = en/chapter10.txt
 source_lang = en
 type = TXT
 
 [informacam-guide.chapter11]
 file_filter = <lang>/chapter11.txt
-source_file = chapter11.txt
+source_file = en/chapter11.txt
 source_lang = en
 type = TXT
 
