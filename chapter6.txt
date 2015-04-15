@@ -16,5 +16,5 @@ The metadata you can share from CameraV is the collection of sensor and network 
 
 ## Why would I want to share it?
 
-Sharing the metadata allows you to share all the information about your media, without sharing the media file itself. This might make sense if your bandwidth is low, or if you only want to share the where, when and what you have captured, and not the visuals. The metadata also includes cryptographic signatures of the data and the media file itself, which provides proof of authenticity. If the receipient of your metadata later receives the media itself, they can compare the media to the unique signatures provided in the metadata to ensure the file was not tampered in the interim time.
+Sharing the metadata allows you to share all the information about your media, without sharing the media file itself. This might make sense if your bandwidth is low, or if you only want to share the where, when and what you have captured, and not the visuals. The metadata also includes cryptographic signatures of the data and the media file itself, which provides proof of authenticity. If the recipient of your metadata later receives the media itself, they can compare the media to the unique signatures provided in the metadata to ensure the file was not tampered in the interim time.
 
