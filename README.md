@@ -10,11 +10,13 @@ Currently, you can use InformaCam by installing the CameraV app for Android smar
 
 CameraV is the easiest way to capture and share secure photos and videos on a smartphone or tablet.
 
-![web_hi_res_512.png](images/web_hi_res_512.png)
+![web_hi_res_512.png](en/images/web_hi_res_512.png)
 
 ## Sensor Smart
 
 CameraV turns sensor inputs like compass, light, temperature, location and more into "metadata for good".
+
+![views](en/images/flows/05.2img_main_views.png)
 
 ## Share Media and Metadata
 
