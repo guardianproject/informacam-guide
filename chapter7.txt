@@ -4,7 +4,7 @@ This chapter will show you how to notarize the photos and videos captured throug
 
 ## What is Notarization?
 
-Traditionally, the process of having a notary sign a document, proves that that you are who you say you are, or that some document has been verified by a trusted authority. In the case of InformaCam and the CameraV app, the notarize process is key to using media as proof of something. 
+Traditionally, the process of having a notary sign a document, proves that you are who you say you are, or that some document has been verified by a trusted authority. In the case of InformaCam and the CameraV app, the notarize process is key to using media as proof of something. 
 
 Notarization is also very useful, because it only requires you to share a very small, short message, that can easily be sent via something like an SMS text message. It does not require a full Internet connection on your device to share a notarization.
 
