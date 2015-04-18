@@ -10,7 +10,7 @@ Los metadatos capturados por la aplicación CameraV vienen de diferentes chips y
 |lightMeterValue|	Ambient Light & Proximity sensor|	Ambient light level in SI lux units
 |bearingDegrees|	Accelerometer + Compass/Magnetometer|	the accelerometer is used to figure out how you are holding your phone so that the magno readings can be adjusted properly
 |acc_z, acc_y, acc_x|	Accelerometer|This is an accelerometer event, showing X,Y,Z motion data
-|pitch, roll, azimuth|	Gyroscope sensor|This is an orientation event, containing azimuth, pitch and roll, in raw format based on the orientation the user is holding their phone"
+|pitch, roll, azimuth|	Gyroscope sensor|This is an orientation event, containing azimuth, pitch and roll, in raw format based on the orientation the user is holding their phone
 |pitchCorrected, rollCorrected, azimuthCorrected|	interpreted data from pitch, roll, azimuth||
 |temperature|Temperature sensor|Ambient temperature in Celsius (only some phones have this sensor)
 |"""gps_coords"" ""gps_accuracy"" ""gps_bearing"" ""gps_altitude"" “gps_speed” “nmeatime” ""nmeamessage"""|GPS|GPS location event - latitude, longitude and current accuracy of the sensor, based on whether it is coming from satellite, wifi, cell towers. GPS data is being continously collected and timestamped (vs. EXIF contains only one instance of gps data).
