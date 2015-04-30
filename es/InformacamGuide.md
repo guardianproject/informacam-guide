@@ -197,20 +197,20 @@ Los metadatos capturados por la aplicación CameraV provienen de distintos chips
 |timestamp|	Reloj de sistema + datos NMEA del GPS|	Marca de tiempo UNIX del momento en que se leyó el sensor|
 |pressureAltitude||	Calculada a partir de las mediciones del valor "pressureHPAOrMBAR"	y el valor a nivel de mar de la presión atmosférica y la presión a nivel del mar|
 |pressureHPAOrMBAR|	Barómetro / Sensor de presión|Mide la presión (atmosférica) del aire ambiente en hPa o mbar.|
-|lightMeterValue|	Sensor de luz ambiente y proximidad|	Nivel de luz ambiente en unidades del SI
-|bearingDegrees|	Acelerómetro + Brújula/Magnetómetro|	el acelerómetro se usa para determinar cómo está sujetando su teléfono de forma que la lecturas del magnetómetro puedan ajustarse adecuadamente
-|acc_z, acc_y, acc_x|	Acelerómetro|Este es un evento de acelerómetro, que muestra datos de movimiento X,Y,Z 
-|pitch, roll, azimuth|	Sensor de giroscopio|Este es un evento de orientación, que contiene azimut, inclinación y rotación, en formato crudo basado en la orientación en la que el usuario esté sujetando su teléfono"
-|pitchCorrected, rollCorrected, azimuthCorrected|	datos interpretados a partir de la inclinación, rotación y azimut||
-|temperature|Sensor de temperatura|Temperatura ambiente en grados Celsius (sólo algunos teléfonos tienen este sensor)
-|"""gps_coords"" ""gps_accuracy"" ""gps_bearing"" ""gps_altitude"" “gps_speed” “nmeatime” ""nmeamessage"""|GPS|Evento de localización GPS - latitud, longitud y precisión actual del sensor, basada en si proviene de satélite, wifi, o antenas de móvil/celular. Los datos GPS están siendo continuamente recopilados añadiéndoseles marcas de tiempo (frente a EXIF que contiene sólo una instancia de datos GPS).
-|visibleWifiNetworks| "bssid, ssid, wifiLevel, wifiFreq"|	API de radio WiFi	"Anuncio de BSSID y SSIDs por otros routers wifi.  ""bssid"" (dirección MAC), ”ssid"" (nombre del wifi), ”wifiLevel"" (Fuerza de la señal), ”wifiFreq"" (Frecuencia)"|
+|lightMeterValue|	Sensor de luz ambiente y proximidad|	Nivel de luz ambiente en unidades del SI|
+|bearingDegrees|	Acelerómetro + Brújula/Magnetómetro|	el acelerómetro se usa para determinar cómo está sujetando su teléfono de forma que la lecturas del magnetómetro puedan ajustarse adecuadamente|
+|acc_z, acc_y, acc_x|	Acelerómetro|Este es un evento de acelerómetro, que muestra datos de movimiento X,Y,Z| 
+|pitch, roll, azimuth|	Sensor de giroscopio|Este es un evento de orientación, que contiene azimut, inclinación y rotación, en formato crudo basado en la orientación en la que el usuario esté sujetando su teléfono|
+|pitchCorrected, rollCorrected, azimuthCorrected|	|datos interpretados a partir de la inclinación, rotación y azimut|
+|temperature|Sensor de temperatura|Temperatura ambiente en grados Celsius (sólo algunos teléfonos tienen este sensor)|
+|gps_coords, gps_accuracy, gps_bearing, gps_altitude, gps_speed, nmeatime, nmeamessage|GPS|Evento de localización GPS - latitud, longitud y precisión actual del sensor, basada en si proviene de satélite, wifi, o antenas de móvil/celular. Los datos GPS están siendo continuamente recopilados añadiéndoseles marcas de tiempo (frente a EXIF que contiene sólo una instancia de datos GPS).|
+|visibleWifiNetworks|bssid, ssid, wifiLevel, wifiFreq|	API de radio WiFi	"Anuncio de BSSID y SSIDs por otros routers wifi.  ""bssid"" (dirección MAC), ”ssid"" (nombre del wifi), ”wifiLevel"" (Fuerza de la señal), ”wifiFreq"" (Frecuencia)"|
 |cellTowerId|	Tarjeta SIM	|Identificación de la antena de red móvil/celular con la que el teléfono está registrado actualmente.| 
 |MCC|	Tarjeta SIM|	Mobile Country Code - (código móvil de país) identifica el país de origen de la tarjeta SIM|
 |LAC|	Tarjeta SIM|	Location Area Code (código de área de la posición)|
 |"bluetoothDeviceAddress" "bluetoothDeviceName":|	API de radio Bluetooth|	Direcciones MAC de los dispositivos bluetooth observados en la zona. La dirección del dispositivo bluetooth NO muestra el nombre del dispositivo de la dirección MAC actual, pero en su lugar muestra un valor de identificador criptográfico (hash) de sentido-único (cálculo no reversible). Esto fue un intento de preservar algo de privacidad para los individuos que podrían estar en la zona.|
 |exif|	Datos de cabecera EXIF de JPEG|	Metadatos de EXIF básicos del dispositivo de captura: "exposure", "orientation","flash", "iso", "aperture" "duration","height", "width", "location","whiteBalance","focalLength", "make", "model", "timestamp" (exposición, orientación, flash, iso, apertura, duración, altura, anchura, ubicación, balance de blancos, distancia focal, fabricante, modelo, marca de tiempo).|
-|userAppendedData|	|Anotaciones del usuario, basadas en formularios Open Data Kit	Metadatos descriptivos introducidos por el usuario.
+|userAppendedData|	|Anotaciones del usuario, basadas en formularios Open Data Kit	Metadatos descriptivos introducidos por el usuario.|
 |"intakeData":{"datos" (???)|	Aplicación|???|
 |"intakeData":{ … "firma"|	Aplicación	|la firma PGP de todos los datos de sensor|
 |"ownershipType"	|Aplicación|	???|
@@ -220,7 +220,8 @@ Los metadatos capturados por la aplicación CameraV provienen de distintos chips
 |"dateCreated"|	Reloj de sistema y datos NMEA del GPS|	Valor de marca de tiempo UNIX de cuando se realizó la captura del audiovisual.|
 |"hashes"|	SHA-1 (fotografía) / MD5 (vídeo)|	suma de verificación (checksum) de todos los valores de píxeles de la imagen o fotogramas de vídeo "j3m_version"	Aplicación	Versión|
 |"createdOnDevice"|	Aplicación|	Huella de validación de clave pública OpenPGP para el usuario/aplicación (Huella de validación del dispositivo + instancia de la aplicación)|
-|"signature"|		Firma PGP para el contenido J3M al completo||# Capítulo 5: Tomar fotografías y vídeos de forma segura e inofensiva
+|"signature"|		Firma PGP para el contenido J3M al completo||
+# Capítulo 5: Tomar fotografías y vídeos de forma segura e inofensiva
 
 Este capítulo le guiará a través del uso de las características de cámara integrada de fotos y vídeo (camcoder) de la aplicación móvil/celular.
 

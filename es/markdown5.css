@@ -153,3 +153,8 @@ hr {
     color: #999;
 }
 
+
+table, th, td {
+    border: 1px solid #aaaaaa;
+    padding: 1em;
+}
