@@ -245,7 +245,7 @@ Facebook user Gregory Michael shared this false photo supposedly showing a shark
 <p>You can also ‘Share Metadata’ from the Gallery view, and share multiple metadata documents in batch, using the multi-select capability.</p>
 <h2>What is the Metadata?</h2>
 <p>The metadata you can share from CameraV is the collection of sensor and network event data captured around the time that the photo or video was captured. It is organized and store using the Javascript Object Notation (JSON) format, and more specifically, as JSON Mobile Media Metadata, or J3M (pronounced as in “Gem”). The J3M file is a plain text, human readable format, that are various groups of name=value pairs, grouped in brackets like {name: value}, or {name { name0: value0, name1: value1}, and so on.</p>
-<p><img src="images/metadata.png" alt="metadata.png" /></p>
+<p><img src="images/flows/06img_metadata.png" alt="metadata.png" /></p>
 <h2>Why would I want to share it?</h2>
 <p>Sharing the metadata allows you to share all the information about your media, without sharing the media file itself. This might make sense if your bandwidth is low, or if you only want to share the where, when and what you have captured, and not the visuals. The metadata also includes cryptographic signatures of the data and the media file itself, which provides proof of authenticity. If the receipient of your metadata later receives the media itself, they can compare the media to the unique signatures provided in the metadata to ensure the file was not tampered in the interim time.</p>
 <h1>Chapter 7: Notarizing Your Photos and Videos</h1>
@@ -253,10 +253,10 @@ Facebook user Gregory Michael shared this false photo supposedly showing a shark
 <h2>What is Notarization?</h2>
 <p>Traditionally, the process of having a notary sign a document, proves that that you are who you say you are, or that some document has been verified by a trusted authority. In the case of InformaCam and the CameraV app, the notarize process is key to using media as proof of something.</p>
 <p>Notarization is also very useful, because it only requires you to share a very small, short message, that can easily be sent via something like an SMS text message. It does not require a full Internet connection on your device to share a notarization.</p>
-<p><img src="images/notarizenote.png" alt="notarizenote.png" /></p>
+<p><img src="images/flows/07img_notarize.png" alt="notarizenote.png" /></p>
 <h2>What happens when I notarize media?</h2>
 <p>When you choose the ‘Notarize’ option, a short message is generated that includes the unique identifier, or “fingerprint”, of the media file. This message can then be shared with any of the apps on your device that allow you to share messages, like SMS, email, Twitter, Facebook or other apps of that sort.</p>
-<p><img src="images/notarizesms.png" alt="notarizesms.png" /></p>
+<p><img src="images/flows/00.2img_notarize.png" alt="notarizesms.png" /></p>
 <h2>Public versus Private Notarization</h2>
 <p>You can choose to publish the notarization message publicly, which then would create a public timestamp that this media existed in this specific state, for all to see.</p>
 <p>You can also choose to share the notarization message privately, which then can be used by the recipient to compare to the media or metadata when they receive the file at a later date.</p>
@@ -266,9 +266,8 @@ Facebook user Gregory Michael shared this false photo supposedly showing a shark
 <p>One way to use the CameraV app is for a specific purpose, for documenting a specific incident, item or recording a specific testimonial. In that case, you know to select the CameraV app, open it, choose the camera you want to use, and then capture the media. However, in some cases, you may not be sure when you want to use it, but you do want to ensure that you have the benefit of the sensor metadata, the signing metadata, and more, when you need it. You may also want to take many pictures and videos, say at a protest march or over the course of many hours, and not have to think about which camera app you are using. It is in cases like this, where “Proof Mode” come to play.</p>
 <h2>How to Activate</h2>
 <p>“Proof Mode” is the background, always-on way to run CameraV and the InformaCam system on your device. When you unlock the CameraV app, on the Home view, you can open the menu through the three dots action, or a menu key on your device, and you will see the “Proof Mode” option. Selecting this will activate the always-on background service, and will show a persistent notification to indicate this.</p>
-<p><img src="images/proofmode.png" alt="proofmode.png" /></p>
+<p><img src="images/flows/08img_proof_mode.png" alt="proofmode.png" /></p>
 <p>At this point, you can switch away from the CameraV app, and return to the Android launcher screen. From here, if you select any camera or media capture app that creates new photos or videos in the expected, standard locations, CameraV will detect this. The new media will be imported into the CameraV database and attached to the sensor metadata, just as if you had taken the photo or video from within the CameraV app.</p>
-<p><img src="images/proofnotif.png" alt="proofnotif.png" /></p>
 <h2>How to Deactivate</h2>
 <p>To deactivate “Proof Mode” and return to the standard use of CameraV, open the notification area of Android, and select the Proof Mode persistent notification display there. This will bring up the CameraV Proof Mode view, from which you can press the button to deactivate the feature.</p>
 <h2>Managing Imported Data</h2>
@@ -294,7 +293,7 @@ Facebook user Gregory Michael shared this false photo supposedly showing a shark
 <p>Photos and videos are only encrypted if you use CameraV’s built-in encrypted camera capability, and not external camera apps. Import of unencrypted media into the encrypted storage is not currently supported or ideal.</p>
 <h2>App Locking via Passphrase</h2>
 <p>As part of the encrypted storage, the app supports locking access to itself and data behind a passphrase. When you first open the app after a device start, you will be required to enter the passphrase you chose on setup. The app should then remain unlocked until you manually lock the app, or restart your device.</p>
-<p><img src="images/lockaction.png" alt="lockaction.png" /></p>
+<p><img src="images/flows/08img_proof_mode.png" alt="lockaction.png" /></p>
 <h2>Media and Metadata Signing via PGP</h2>
 <p>CameraV includes built-in OpenPGP (Pretty Good Privacy) capabilities for signing and encryption of data. All metadata is signed by the private key of the user that is generated during the app setup. This signature data is included in the J3M document when you export it.</p>
 <p>It is also possible for entire metadata documents to be encrypted for sharing to a remote recipient, but this requires a specific “trusted profile” to be configured and setup.</p>

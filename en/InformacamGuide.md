@@ -330,7 +330,7 @@ You can also 'Share Metadata' from the Gallery view, and share multiple metadata
 
 The metadata you can share from CameraV is the collection of sensor and network event data captured around the time that the photo or video was captured. It is organized and store using the Javascript Object Notation (JSON) format, and more specifically, as JSON Mobile Media Metadata, or J3M (pronounced as in "Gem"). The J3M file is a plain text, human readable format, that are various groups of name=value pairs, grouped in brackets like {name: value}, or {name { name0: value0, name1: value1}, and so on.
 
-![metadata.png](images/metadata.png)
+![metadata.png](images/flows/06img_metadata.png)
 
 ## Why would I want to share it?
 
@@ -346,13 +346,13 @@ Traditionally, the process of having a notary sign a document, proves that that 
 
 Notarization is also very useful, because it only requires you to share a very small, short message, that can easily be sent via something like an SMS text message. It does not require a full Internet connection on your device to share a notarization.
 
-![notarizenote.png](images/notarizenote.png)
+![notarizenote.png](images/flows/07img_notarize.png)
 
 ## What happens when I notarize media?
 
 When you choose the 'Notarize' option, a short message is generated that includes the unique identifier, or "fingerprint", of the media file. This message can then be shared with any of the apps on your device that allow you to share messages, like SMS, email, Twitter, Facebook or other apps of that sort.
 
-![notarizesms.png](images/notarizesms.png)
+![notarizesms.png](images/flows/00.2img_notarize.png)
 
 ## Public versus Private Notarization
 
@@ -378,11 +378,9 @@ One way to use the CameraV app is for a specific purpose, for documenting a spec
 
 "Proof Mode" is the background, always-on way to run CameraV and the InformaCam system on your device. When you unlock the CameraV app, on the Home view, you can open the menu through the three dots action, or a menu key on your device, and you will see the "Proof Mode" option. Selecting this will activate the always-on background service, and will show a persistent notification to indicate this.
 
-![proofmode.png](images/proofmode.png)
+![proofmode.png](images/flows/08img_proof_mode.png)
 
 At this point, you can switch away from the CameraV app, and return to the Android launcher screen. From here, if you select any camera or media capture app that creates new photos or videos in the expected, standard locations, CameraV will detect this. The new media will be imported into the CameraV database and attached to the sensor metadata, just as if you had taken the photo or video from within the CameraV app.
-
-![proofnotif.png](images/proofnotif.png)
 
 ## How to Deactivate
 
@@ -433,7 +431,7 @@ Photos and videos are only encrypted if you use CameraV's built-in encrypted cam
 
 As part of the encrypted storage, the app supports locking access to itself and data behind a passphrase. When you first open the app after a device start, you will be required to enter the passphrase you chose on setup. The app should then remain unlocked until you manually lock the app, or restart your device.
 
-![lockaction.png](images/lockaction.png)
+![lockaction.png](images/flows/08img_proof_mode.png)
 
 ## Media and Metadata Signing via PGP
 
