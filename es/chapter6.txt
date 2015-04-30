@@ -12,7 +12,7 @@ También puede 'Compartir metadatos' desde la vista Galería, y compartir múlti
 
 Los metadatos que puede compartir desde CameraV son el compendio de datos de eventos de sensor y de red capturados en el momento en que se capturó la foto o vídeo. Se organizan y almacenan usando el formato Javascript Object Notation (JSON), y más específicamente, en la forma JSON Mobile Media Metadata (metadatos de audiovisuales de móvil/celular en notación JSON) o J3M (pronunciado "gem" en inglés, por gema). El fichero J3M es un formato de texto no cifrado, legible por humanos, constituido por varios grupos de pares nombre=valor, agrupados en llaves del tipo {nombre: valor}, o {nombre0: valor0, nombre1: valor1}, y así sucesivamente.
 
-![metadata.png](images/metadata.png)
+![metadata.png](images/flows/06img_metadata.png)
 
 ## ¿Por qué querría compartirlos?
 

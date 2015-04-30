@@ -26,11 +26,10 @@ Los sensores de CameraV se activan automáticamente cuando inicia la captura. Op
 
 El botón de Galería abre una pantalla con múltiples miniaturas. Pulse sobre una miniatura para abrir la vista detallada.
 
-![gallerythumb.png](images/gallerythumb.png)
+![views](images/flows/05.2img_main_views.png)
 
 Icono de marca de verificación para selección y borrado múltiple.
 
-![gallerymulti.png](images/gallerymulti.png)
 
 ## Certificar fotos y vídeos capturados
 

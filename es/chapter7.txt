@@ -8,13 +8,13 @@ Tradicionalmente, el proceso de hacer que un notario firme un documento prueba q
 
 La certificación también es muy útil porque sólo requiere que comparta un mensaje corto muy pequeño, que puede enviarse fácilmente mediante un mensaje de texto SMS o algo similar. Compartir una certificación no requiere una conexión a Internet completa en su dispositivo 
 
-![notarizenote.png](images/notarizenote.png)
+![notarizenote.png](images/flows/07img_notarize.png)
 
 ## ¿Qué ocurre cuando certifico un audiovisual?
 
 Cuando elige la opción 'Certificar', se genera un mensaje corto que incluye el identificador único, o "fingerprint" (huella de validación), del fichero audiovisual. Este mensaje luego puede compartirse mediante cualquiera de las aplicaciones de su dispositivo que le permitan compartir mensajes, como SMS, correo electrónico, Twitter, Facebook, u otras aplicaciones de ese tipo.
 
-![notarizesms.png](images/notarizesms.png)
+![notarizesms.png](images/flows/00.2img_notarize.png)
 
 ## Certificación pública frente a privada
 

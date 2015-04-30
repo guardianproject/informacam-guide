@@ -10,11 +10,9 @@ Una forma de usar la aplicación CameraV es para un propósito específico, para
 
 El "Modo de evidencia" es el mecanismo para ejecutar CameraV y el sistema InformaCam en segundo plano, de forma siempre-activa, en su dispositivo. Cuando desbloquea la aplicación CameraV, en la vista Principal, puede abrir el menú a través de la acción del icono de tres puntos, o una tecla de menú en su dispositivo, y verá la opción del "Modo de evidencia". Seleccionándolo activará el servicio en segundo plano siempre-activo, y mostrará una notificación persistente para indicar esto.
 
-![proofmode.png](images/proofmode.png)
+![proofmode.png](images/flows/08img_proof_mode.png)
 
 En este punto, puede marcharse de la aplicación CameraV, y volver a la pantalla del lanzador de Android. Desde aquí, si selecciona cualquier cámara o aplicación de captura de audiovisuales que crea nuevas fotos o vídeos en las ubicaciones estándar esperadas, CameraV detectará esto. El nuevo audiovisual será importado hacia la base de datos de CameraV y adjunto a los metadatos del sensor, como si hubiera tomado la foto o vídeo desde el interior de la aplicación CameraV.
-
-![proofnotif.png](images/proofnotif.png)
 
 ## Cómo desactivarlo
 

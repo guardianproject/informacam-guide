@@ -12,7 +12,7 @@ Las fotos y vídeos sólo son cifrados si utiliza la funcionalidad integrada de 
 
 Como parte del almacenamiento cifrado, la aplicación soporta el bloqueo del acceso a si misma y a los datos tras una frase-contraseña. Cuando abra la aplicación por primera vez después de arrancar el dispositivo, se le pedirá que introduzca la frase-contraseña que escogió en la configuración. La aplicación debe entonces permanecer desbloqueada hasta que la bloquee manualmente, o reinicie su dispositivo.
 
-![lockaction.png](images/lockaction.png)
+![lockaction.png](images/flows/08img_proof_mode.png)
 
 ## Firmado de audiovisuales y metadatos mediante PGP
 
