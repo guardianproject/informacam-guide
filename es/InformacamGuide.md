@@ -54,11 +54,10 @@ Los sensores de CameraV se activan automáticamente cuando inicia la captura. Op
 
 El botón de Galería abre una pantalla con múltiples miniaturas. Pulse sobre una miniatura para abrir la vista detallada.
 
-![gallerythumb.png](images/gallerythumb.png)
+![views](images/flows/05.2img_main_views.png)
 
 Icono de marca de verificación para selección y borrado múltiple.
 
-![gallerymulti.png](images/gallerymulti.png)
 
 ## Certificar fotos y vídeos capturados
 
@@ -233,15 +232,13 @@ Antes de que pueda usar la aplicación CameraV, tiene que instalarla. Puede enco
 
 La primera-vez que use CameraV, tiene que configurarla con información básica de identidad. La aplicación pide un nombre identificador de algún tipo, que puede ser su nombre real o un pseudónimo. Opcionalmente, también puede incluir una dirección de correo electrónico, que de nuevo puede ser su correo estándar, o una cuenta especial que usted configure sólo para usar con esta aplicación. Al proporcionar una dirección de email, se asegura de que alguien que más tarde pueda encontrar una foto o vídeo capturada y compartida con CameraV, podrá contactar con usted.
 
-![welcome.png](images/welcome.png)![setup.png](images/setup.png) 
+![setup](images/flows/05.0img_setup1.png)
 
 También puede introducir y confirmar una contraseña a usar con CameraV. Esta es una contraseña nueva que se usa para proteger las fotos, vídeos y metadatos de sensores, almacenados en el interior de la propia aplicación. En cierto sentido, es la combinación secreta para la boveda de seguridad de los datos que la aplicación está protegiendo.
 
-![password.png](images/password.png)![password2.png](images/password2.png)
-
 Finalmente, tiene que tomar seis fotos de ejemplo con la aplicación CameraV durante el proceso de configuración. Esto genera una huella de validación visual (visual fingerprint) de su sensor de cámara, que más tarde se puede usar para probar que una imagen o vídeo específico vino o no de su cámara. La aplicación le pedirá que tome una foto "sosa", lo cual se refiere a un muro blanco, un tablero, o alguna otra superficie sin complicaciones. La necesidad de algo "soso" es un detalle técnico relativo al proceso de la huella de validación visual.
 
-![boring.png](images/boring.png)![boring2.png](images/boring2.png)
+![boring.png](images/flows/05.1img_setup2.png)
 
 Una vez complete todos estos pasos, el proceso de configuración estará completo, y será llevado hacia la pantalla principal de la aplicación CameraV.
 
@@ -257,19 +254,19 @@ La aplicación CameraV comprende tres vistas esenciales:
 
 La vista Principal es aquello que se le presenta cuando entra en la aplicación por primera vez. Le permite ver rápidamente los pocos últimos elementos audiovisuales capturados, y usar gestos de barrido para recorrer todos ellos. Puede pulsar sobre cualquier imagen de previsualización de un audiovisual para cambiar a la vista de Audiovisuales, lo que le mostrará la foto o vídeo completo.
 
-![home.png](images/home.png)![homeview.png](images/homeview.png)
+![home.png](images/flows/05.3img_view_home.png)
 
 Desde esta vista es también desde donde abrirá la cámara o navegará hacia la vista de Galería. Los tres botones en el fondo de la pantalla representan una Cámara Fotográfica, una Cámara de Vídeo, y la Galería, en ese orden. Los botones de Cámara abren la cámara para capturar audiovisuales en los formatos indicados. El botón de Galería abre al vista de Galería para filtrar y procesar por lotes los audiovisuales.
 
 También puede bloquear la aplicación desde la opción del menú para cerrar sesión y eliminar toda la información almacenada en caché de la memoria. Entonces la aplicación requerirá que introduzca una contraseña la próxima vez que la abra. Finalmente, también hay una acción de "Botón de Pánico" disponible en esta pantalla, desde la que puede borrar rápidamente todos los audiovisuales y datos de la aplicación CameraV. Le hablaremos más acerca de todas estas capacidades de seguridad en otro capítulo.
 
-![homemenu.png](images/homemenu.png)![lockscreen.png](images/lockscreen.png)
+![homemenu.png](images/flows/11img_security.png)
 
 ### La vista de Audiovisuales
 
 La vista de Audiovisuales o vista Detallada, presenta una foto o vídeo capturado al completo. Puede ver la foto capturada en su totalidad, y hacer zoom y recorrerla para obtener una visión más cercana. También puede rotar su teléfono para mostrar el modo panorámico, si es una imagen de este tipo. Además puede reproducir un vídeo en esta vista. Puede que tarde unos pocos segundos en cargar, pero luego puede pulsar reproducir (play) para ver el vídeo. También puede arrastrar el cursor de reproducción para moverse a través del vídeo, o avanzar fotograma a fotograma.
 
-![mediaview.png](images/mediaview.png)
+![mediaview.png](images/flows/05.2img_main_views.png)
 
 Al fondo de esta vista verá una sección "Historial". Allí es donde se registran todas las acciones realizadas sobre los audiovisuales almacenados. Esto incluye cuándo capturó el fichero audiovisual, cuándo lo ha exportado y compartido, y demás.
 
@@ -277,17 +274,17 @@ En la parte superior de la vista de Audiovisuales, verá tres iconos de acción:
 
 La vista Informa proporciona acceso completo a los metadatos en crudo del sensor capturados cuando tomó la fotografía o grabó el vídeo. Se muestran en el formato "J3M" (leído 'gem' en inglés) sobre el que puede aprender más en otras partes de esta guía.
 
-![metadata.png](images/metadata.png)
+![metadata.png](images/flows/06img_metadata.png)
 
 Pulsar sobre la acción Compartir revelará tres opciones más: Compartir Audiovisual, Compartir Metadatos, y Certificar. 'Compartir Audiovisual' empaquetará el fichero audiovisual con los metadatos, y generará un nuevo fichero JPEG o MPEG-4 que se puede compartir a través de cualquier aplicación, enviarse por correo electrónico, publicarse en medios sociales, o subirse a un sitio web. 'Compartir Metadatos' tan solo compartirá los metadatos del sensor como texto sin cifrar en formato J3M.
 
-![mediashare.png](images/mediashare.png)
+![mediashare.png](images/flows/00.3img_share.png)
 
 'Certificar' compartirá un breve retazo del texto conteniendo el identificador único de huella de validación visual (visual fingerprint) del fichero audiovisual, que puede ser compartido fácilmente vía SMS, correo electrónico, Twitter, o algún otro canal de mensajes cortos. Esto proporciona una forma de poner una marca de tiempo al audiovisual por mediación de un tercero, y de asegurarse de que cualquier manipulación o modificación del audiovisual será detectada más tarde.
 
 Pulsar sobre la acción 'Editar' le permitirá 'Escribir texto' para proporcionar una descripción básica acerca de lo que trata el elemento audiovisual de la captura, o algún otro detalle de contexto que desee proporcionar. 'Añadir etiquetas' le permitirá colocar un cuadro de etiquetas sobre el audiovisual en una determinada posición, o momento en el caso del vídeo. Luego podrá pulsar sobre ese cuadro de etiquetas para introducir más información detallada acerca de qué es lo que estuvo etiquetando, y por qué.
 
-![editmode.png](images/editmode.png)![edittext.png](images/edittext.png)
+![editmode.png](images/flows/05.4img_view_notes.png)
 
 Puede volver a la vista Principal pulsando la flecha atrás de la parte superior izquierda. o pulsando la tecla atrás en su dispositivo.
 
@@ -295,17 +292,17 @@ Puede volver a la vista Principal pulsando la flecha atrás de la parte superior
 
 La vista de Galería proporciona una vista de miniaturas de muchos elementos audiovisuales a la vez. Puede filtrar elementos audiovisuales por tipo, para ver sólo fotos, sólo vídeos, o todos. También puede seleccionar múltiples elementos audiovisuales para operaciones por lotes, usando la acción de marcado, o pulsando sobre un elemento y manteniendo pulsado unos instantes. Esto activará el modo multi-selección, lo que permite que múltiples elementos sean seleccionados de una vez. Luego podrá realizar una acción de exportación o compartido, o una acción de borrado. Las opciones Compartir proporcionadas son las mismas que en la vista de Audiovisuales: Compartir Audiovisuales, Compartir Metadatos, y Certificar.
 
-![gallerythumb.png](images/gallerythumb.png)![galleryfilter.png](images/galleryfilter.png)
+![gallerythumb.png](images/flows/05.5img_view_gallery.png)
 
 ## Usando las cámaras
 
 Desde la vista Principal, puede iniciar bien la Cámara de Fotos o la Cámara de Vídeo. Por defecto, la aplicación iniciará las aplicaciones integradas externas de cámara que estén disponibles en su teléfono. Monitorizará estas aplicaciones externas de cámara, y cuando se capturen nuevas fotos o vídeos, los inspeccionará, extraerá sus metadatos, y guardará una miniatura y los metadatos en el almacenamiento cifrado interno. Aunque se mostrará en la vista de Galería, el fichero audiovisual real se guarda sin cifrar en la ubicación estándar de almacenamiento de audiovisuales del dispositivo en la memoria externa o tarjeta SD.
 
-![camera.png](images/camera.png)
+![camera.png](images/flows/00.0img_take.png)
 
 Para usar las capacidades de cámara cifrada de CameraV, tiene que entrar en la Configuración de CameraV y desmarcar la opción "Usar aplicaciones externas de cámara". Entonces, los botones de acción de Cámara en la vista Principal iniciarán la característica integrada de cámara cifrada. Esto proporciona capacidades básicas de cámara de fotos y vídeo, de forma que la foto o vídeo resultante se escribe directamente en el almacenamiento cifrado. Esto significa que sólo CameraV podrá ver los audiovisuales, y que si borra un fichero este se eliminará por completo del dispositivo, y no será recuperable.
 
-![useinternal.png](images/useinternal.png)
+![useinternal.png](images/flows/05.6img_use_cameras.png)
 
 La cámara cifrada sólo tiene un botón simple para disparar una foto o iniciar y detener la grabación de vídeo. Todas las demás configuraciones son automáticas.
 
@@ -328,7 +325,7 @@ También puede 'Compartir metadatos' desde la vista Galería, y compartir múlti
 
 Los metadatos que puede compartir desde CameraV son el compendio de datos de eventos de sensor y de red capturados en el momento en que se capturó la foto o vídeo. Se organizan y almacenan usando el formato Javascript Object Notation (JSON), y más específicamente, en la forma JSON Mobile Media Metadata (metadatos de audiovisuales de móvil/celular en notación JSON) o J3M (pronunciado "gem" en inglés, por gema). El fichero J3M es un formato de texto no cifrado, legible por humanos, constituido por varios grupos de pares nombre=valor, agrupados en llaves del tipo {nombre: valor}, o {nombre0: valor0, nombre1: valor1}, y así sucesivamente.
 
-![metadata.png](images/metadata.png)
+![metadata.png](images/flows/06img_metadata.png)
 
 ## ¿Por qué querría compartirlos?
 
@@ -343,13 +340,13 @@ Tradicionalmente, el proceso de hacer que un notario firme un documento prueba q
 
 La certificación también es muy útil porque sólo requiere que comparta un mensaje corto muy pequeño, que puede enviarse fácilmente mediante un mensaje de texto SMS o algo similar. Compartir una certificación no requiere una conexión a Internet completa en su dispositivo 
 
-![notarizenote.png](images/notarizenote.png)
+![notarizenote.png](images/flows/07img_notarize.png)
 
 ## ¿Qué ocurre cuando certifico un audiovisual?
 
 Cuando elige la opción 'Certificar', se genera un mensaje corto que incluye el identificador único, o "fingerprint" (huella de validación), del fichero audiovisual. Este mensaje luego puede compartirse mediante cualquiera de las aplicaciones de su dispositivo que le permitan compartir mensajes, como SMS, correo electrónico, Twitter, Facebook, u otras aplicaciones de ese tipo.
 
-![notarizesms.png](images/notarizesms.png)
+![notarizesms.png](images/flows/00.2img_notarize.png)
 
 ## Certificación pública frente a privada
 
@@ -374,11 +371,9 @@ Una forma de usar la aplicación CameraV es para un propósito específico, para
 
 El "Modo de evidencia" es el mecanismo para ejecutar CameraV y el sistema InformaCam en segundo plano, de forma siempre-activa, en su dispositivo. Cuando desbloquea la aplicación CameraV, en la vista Principal, puede abrir el menú a través de la acción del icono de tres puntos, o una tecla de menú en su dispositivo, y verá la opción del "Modo de evidencia". Seleccionándolo activará el servicio en segundo plano siempre-activo, y mostrará una notificación persistente para indicar esto.
 
-![proofmode.png](images/proofmode.png)
+![proofmode.png](images/flows/08img_proof_mode.png)
 
 En este punto, puede marcharse de la aplicación CameraV, y volver a la pantalla del lanzador de Android. Desde aquí, si selecciona cualquier cámara o aplicación de captura de audiovisuales que crea nuevas fotos o vídeos en las ubicaciones estándar esperadas, CameraV detectará esto. El nuevo audiovisual será importado hacia la base de datos de CameraV y adjunto a los metadatos del sensor, como si hubiera tomado la foto o vídeo desde el interior de la aplicación CameraV.
-
-![proofnotif.png](images/proofnotif.png)
 
 ## Cómo desactivarlo
 
@@ -386,7 +381,8 @@ Para desactivar el "Modo de evidencia" y volver al uso estándar de CameraV, abr
 
 ## Administrar datos importados
 
-En la vista de Galería, debería ver todas las fotos y vídeos que fueron capturados mientras el Modo de Evidencia estaba activado. Puede usar el modo multi-selección para borrar cualquiera que no quiera conservar, o usarlo para exportar por lotes audiovisuales o metadatos de los muchos ficheros capturados. También puede usar la vista de Audiovisuales para revisar fotos y vídeos específicos. # Capítulo 9: Escenarios de uso
+En la vista de Galería, debería ver todas las fotos y vídeos que fueron capturados mientras el Modo de Evidencia estaba activado. Puede usar el modo multi-selección para borrar cualquiera que no quiera conservar, o usarlo para exportar por lotes audiovisuales o metadatos de los muchos ficheros capturados. También puede usar la vista de Audiovisuales para revisar fotos y vídeos específicos. 
+# Capítulo 9: Escenarios de uso
 
 Este capítulo le llevará a través de unos pocos escenarios plausibles distintos donde esta aplicación podría usarse, y los pasos correctos para lograr que eso suceda.
 
@@ -426,7 +422,7 @@ Las fotos y vídeos sólo son cifrados si utiliza la funcionalidad integrada de 
 
 Como parte del almacenamiento cifrado, la aplicación soporta el bloqueo del acceso a si misma y a los datos tras una frase-contraseña. Cuando abra la aplicación por primera vez después de arrancar el dispositivo, se le pedirá que introduzca la frase-contraseña que escogió en la configuración. La aplicación debe entonces permanecer desbloqueada hasta que la bloquee manualmente, o reinicie su dispositivo.
 
-![lockaction.png](images/lockaction.png)
+![lockaction.png](images/flows/08img_proof_mode.png)
 
 ## Firmado de audiovisuales y metadatos mediante PGP
 
