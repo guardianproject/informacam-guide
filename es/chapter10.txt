@@ -1,4 +1,4 @@
-# Chapter 10: Threats and Risks
+# Capítulo 10: Amenazas y riesgos
 
-All the things you should think about that could go wrong.
+Todas las cosas en las que debe pensar acerca de lo que podría salir mal.
 

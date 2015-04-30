@@ -1,6 +1,3 @@
-<head>
-<meta charset="UTF-8">
-</head>
 <h3>Guía de usuario del sistema InformaCam y la aplicación CameraV</h3>
 <h2>CONFÍE (¡PERO VERIFIQUE!) EN LO QUE VEN SUS OJOS</h2>
 <p>InformaCam es un sistema que utiliza los sensores integrados en los smartphones modernos para monitorizar movimiento, condiciones de luminosidad, y otros datos ambientales, junto con el Wi-Fi, Bluetooth, e información de la red móvil/celular, para capturar una instantánea del entorno a su alrededor, mientras usted está tomando una foto o vídeo. Estos metadatos (¡los datos acerca de los datos!) extra ayudan a verificar y validar la fecha, hora y ubicación de la captura, y proporcionan una capa de contexto y significación enteramente nueva proveniente de una energía &quot;invisible&quot; para que la use de cualquier forma que elija. Finalmente las firmas digitales y el cifrado aseguran que sus audiovisuales no han sido manipulados desde la captura y que sólo pueden ser vistos por las personas que usted elija.</p>
@@ -37,7 +34,7 @@
 <p>Icono de marca de verificación para selección y borrado múltiple.</p>
 <p><img src="images/gallerymulti.png" alt="gallerymulti.png" /></p>
 <h2>Certificar fotos y vídeos capturados</h2>
-<p>Puede generar un identificador de huella de validación visual único, básicamente un código único para cada fichero audiovisual capturado. Luego puede compartir este código como un mensaje corto que puede compartir a través de SMS, correo electrónico, o más públicamente en medios sociales.</p>
+<p>Puede generar un identificador único de huella de validación visual (visual fingerprint), básicamente un código único para cada fichero audiovisual capturado. Luego puede compartir este código como un mensaje corto que puede compartir a través de SMS, correo electrónico, o más públicamente en medios sociales.</p>
 <p><img src="images/notarizesms.png" alt="notarizesms.png" /></p>
 <h2>Compartir fotos, vídeos y metadatos de sensores</h2>
 <h2>Opciones de compartición</h2>
@@ -126,7 +123,7 @@ El usuario de Facebook Gregory Michael compartió esta foto falsa mostrando supu
 <blockquote>
 <p>{&quot;timestamp&quot;: 1386690721758, &quot;captureType&quot;: 271, &quot;sensorPlayback&quot;: {&quot;acc<em>z&quot;: 9.188077926635742, &quot;acc</em>y&quot;: 2.7202823162078857, &quot;acc_x&quot;: -1.9511220455169678}},</p>
 </blockquote>
-<p>Este es un evento de telefonía, que muestra tanto cualquier dispositivo bluetooth observado en la zona, como información acerca de la antena de la red móvil/celular con la que el smartphone está actualmente registrado. Si el dispositivo es de sólo wifi, o si no está utilizando una tarjeta SIM, estos datos simplemente se omitirán. La dirección del dispositivo bluetooth NO muestra el nombre asociado a la dirección MAC del actual dispositivo, sino que en su lugar muestra un valor hash de sentido-único (de cálculo no reversible). Esto fue un intento de preservar algo de privacidad para los individuos que podrían estar en la zona.</p>
+<p>Este es un evento de telefonía, que muestra tanto cualquier dispositivo bluetooth observado en la zona, como información acerca de la antena de la red móvil/celular con la que el smartphone está actualmente registrado. Si el dispositivo es de sólo wifi, o si no está utilizando una tarjeta SIM, estos datos simplemente se omitirán. La dirección del dispositivo bluetooth NO muestra el nombre asociado a la dirección MAC del actual dispositivo, sino que en su lugar muestra un valor de identificador criptográfico (hash) de sentido-único (cálculo no reversible). Esto fue un intento de preservar algo de privacidad para los individuos que podrían estar en la zona.</p>
 <blockquote>
 <p>{&quot;timestamp&quot;: 1386690719714, &quot;captureType&quot;: 271, &quot;sensorPlayback&quot;: {&quot;bluetoothDeviceAddress&quot;: &quot;5d9d203488950ff20c07b6dbfe9a8b8ddabafc6c&quot;, &quot;LAC&quot;: &quot;36493&quot;, &quot;MCC&quot;: &quot;310260&quot;, &gt;&quot;bluetoothDeviceName&quot;: &quot;Nexus 4&quot;, &quot;cellTowerId&quot;: &quot;79211356&quot;}},</p>
 </blockquote>
@@ -151,36 +148,36 @@ El usuario de Facebook Gregory Michael compartió esta foto falsa mostrando supu
 <li>Datos de localización, si son desconocidos, se registrarán como [0.0, 0.0]. Esto técnicamente es una latitud y longitud legítima, pero debe ser considerada como indeterminada (NaN). Observe que el cliente Android siempre informa de la posición con una precisión hasta el decimal-9; si un cliente informa de hecho desde esta ubicación, la lectura literal sería algo similar a 0.000000134.</li>
 </ul>
 <h1>Capítulo 4: Más detalles sobre los metadatos del sensor y las entradas</h1>
-<p>Los metadatos capturados por la aplicación CameraV vienen de diferentes chips y componentes de sensores en los smartphones. La tabla de debajo detalla cómo las diferentes piezas de datos se generan, y de dónde vienen.</p>
-|J3M TAG|FUENTE: Sensores / Componente / Radio / Otra|DESCRIPTION|
+<p>Los metadatos capturados por la aplicación CameraV provienen de distintos chips y componentes de sensores en los smartphones. La tabla de debajo detalla cómo se generan las diferentes piezas de datos, y de dónde provienen.</p>
+|J3M TAG|FUENTE: Sensores / Componente / Radio / Otros|DESCRIPCIÓN|
 |-----------:|---------------------------------:|-----------------------|
-|timestamp| Reloj de sistema + datis NMEA dek GPS| UNIX timestamp of when data from sensor is read|
-|pressureAltitude|| Calculated from the &quot;pressureHPAOrMBAR&quot; value &amp; sea level value meters from the atmospheric pressure and the pressure at sea level|
-|pressureHPAOrMBAR| Barometer / Pressure sensor|Measures the ambient air (atmospheric) pressure in hPa or mbar.|
-|lightMeterValue| Ambient Light &amp; Proximity sensor| Ambient light level in SI lux units
-|bearingDegrees| Accelerometer + Compass/Magnetometer| the accelerometer is used to figure out how you are holding your phone so that the magno readings can be adjusted properly
-|acc<em>z, acc</em>y, acc_x| Accelerometer|This is an accelerometer event, showing X,Y,Z motion data
-|pitch, roll, azimuth| Gyroscope sensor|This is an orientation event, containing azimuth, pitch and roll, in raw format based on the orientation the user is holding their phone&quot;
-|pitchCorrected, rollCorrected, azimuthCorrected| interpreted data from pitch, roll, azimuth||
-|temperature|Temperature sensor|Ambient temperature in Celsius (only some phones have this sensor)
-|&quot;&quot;&quot;gps<em>coords&quot;&quot; &quot;&quot;gps</em>accuracy&quot;&quot; &quot;&quot;gps<em>bearing&quot;&quot; &quot;&quot;gps</em>altitude&quot;&quot; “gps_speed” “nmeatime” &quot;&quot;nmeamessage&quot;&quot;&quot;|GPS|GPS location event - latitude, longitude and current accuracy of the sensor, based on whether it is coming from satellite, wifi, cell towers. GPS data is being continously collected and timestamped (vs. EXIF contains only one instance of gps data).
-|visibleWifiNetworks| &quot;bssid, ssid, wifiLevel, wifiFreq&quot;| WiFi radio API &quot;BSSID and SSIDs broadcast by other wifi routers. &quot;&quot;bssid&quot;&quot; (MAC address), ”ssid&quot;&quot; (name of wifi), ”wifiLevel&quot;&quot; (Signal strength), ”wifiFreq&quot;&quot; (Frequency)&quot;|
-|cellTowerId| SIM card |ID of cellular network tower the phone is currently registered with.|
-|MCC| SIM card| Mobile Country Code - identifies the country of origin of the SIM card|
-|LAC| SIM card| Location Area Code|
-|&quot;bluetoothDeviceAddress&quot; &quot;bluetoothDeviceName&quot;:| Bluetooth radio API| MAC Addresses of bluetooth devices noticed in the area. The bluetooth device address does NOT display the name of the actual device MAC address, but instead shows a one-way hash value. This was an attempt to preserve some privacy for individuals who might be in the area.|
-|exif| Jpeg EXIF Header Data| Basic EXIF metadata from the capture device: &quot;exposure&quot;, &quot;orientation&quot;,&quot;flash&quot;, &quot;iso&quot;, &quot;aperture&quot; &quot;duration&quot;,&quot;height&quot;, &quot;width&quot;, &quot;location&quot;,&quot;whiteBalance&quot;,&quot;focalLength&quot;, &quot;make&quot;, &quot;model&quot;, &quot;timestamp&quot;.|
-|userAppendedData| |User annotations, based on Open Data Kit forms Descriptive metadata entered by the user.
-|&quot;intakeData&quot;:{&quot;data&quot; (???)| App |???|
-|&quot;intakeData&quot;:{ … &quot;signature&quot;| App |the PGP signature of all the sensor data|
-|&quot;ownershipType&quot; |App| ???|
-|“alias&quot;: |App| (Name/ nickname provided on setting up the app)|
-|&quot;pgpKeyFingerprint&quot;| App| OpenPGP public key fingerprint for the user/app (Fingerprint of device + app instance)|
-|genealogy: (“localMediaPath”)| App| Represents where the file was originally stored|
-|&quot;dateCreated&quot;| System clock and NMEA data from GPS| UNIX timestamp value for when the media capture occured.|
-|&quot;hashes&quot;| SHA-1 (pic) / MD5 (video)| checksum of all the pixel values of the image or video frames &quot;j3m_version&quot; App Version|
-|&quot;createdOnDevice&quot;| App| OpenPGP public key fingerprint for the user/app (Fingerprint of device + app instance)|
-<p>|&quot;signature&quot;| PGP signature for the entire J3M content||</p>
+|timestamp| Reloj de sistema + datos NMEA del GPS| Marca de tiempo UNIX del momento en que se leyó el sensor|
+|pressureAltitude|| Calculada a partir de las mediciones del valor &quot;pressureHPAOrMBAR&quot; y el valor a nivel de mar de la presión atmosférica y la presión a nivel del mar|
+|pressureHPAOrMBAR| Barómetro / Sensor de presión|Mide la presión (atmosférica) del aire ambiente en hPa o mbar.|
+|lightMeterValue| Sensor de luz ambiente y proximidad| Nivel de luz ambiente en unidades del SI
+|bearingDegrees| Acelerómetro + Brújula/Magnetómetro| el acelerómetro se usa para determinar cómo está sujetando su teléfono de forma que la lecturas del magnetómetro puedan ajustarse adecuadamente
+|acc<em>z, acc</em>y, acc_x| Acelerómetro|Este es un evento de acelerómetro, que muestra datos de movimiento X,Y,Z
+|pitch, roll, azimuth| Sensor de giroscopio|Este es un evento de orientación, que contiene azimut, inclinación y rotación, en formato crudo basado en la orientación en la que el usuario esté sujetando su teléfono&quot;
+|pitchCorrected, rollCorrected, azimuthCorrected| datos interpretados a partir de la inclinación, rotación y azimut||
+|temperature|Sensor de temperatura|Temperatura ambiente en grados Celsius (sólo algunos teléfonos tienen este sensor)
+|&quot;&quot;&quot;gps<em>coords&quot;&quot; &quot;&quot;gps</em>accuracy&quot;&quot; &quot;&quot;gps<em>bearing&quot;&quot; &quot;&quot;gps</em>altitude&quot;&quot; “gps_speed” “nmeatime” &quot;&quot;nmeamessage&quot;&quot;&quot;|GPS|Evento de localización GPS - latitud, longitud y precisión actual del sensor, basada en si proviene de satélite, wifi, o antenas de móvil/celular. Los datos GPS están siendo continuamente recopilados añadiéndoseles marcas de tiempo (frente a EXIF que contiene sólo una instancia de datos GPS).
+|visibleWifiNetworks| &quot;bssid, ssid, wifiLevel, wifiFreq&quot;| API de radio WiFi &quot;Anuncio de BSSID y SSIDs por otros routers wifi. &quot;&quot;bssid&quot;&quot; (dirección MAC), ”ssid&quot;&quot; (nombre del wifi), ”wifiLevel&quot;&quot; (Fuerza de la señal), ”wifiFreq&quot;&quot; (Frecuencia)&quot;|
+|cellTowerId| Tarjeta SIM |Identificación de la antena de red móvil/celular con la que el teléfono está registrado actualmente.|
+|MCC| Tarjeta SIM| Mobile Country Code - (código móvil de país) identifica el país de origen de la tarjeta SIM|
+|LAC| Tarjeta SIM| Location Area Code (código de área de la posición)|
+|&quot;bluetoothDeviceAddress&quot; &quot;bluetoothDeviceName&quot;:| API de radio Bluetooth| Direcciones MAC de los dispositivos bluetooth observados en la zona. La dirección del dispositivo bluetooth NO muestra el nombre del dispositivo de la dirección MAC actual, pero en su lugar muestra un valor de identificador criptográfico (hash) de sentido-único (cálculo no reversible). Esto fue un intento de preservar algo de privacidad para los individuos que podrían estar en la zona.|
+|exif| Datos de cabecera EXIF de JPEG| Metadatos de EXIF básicos del dispositivo de captura: &quot;exposure&quot;, &quot;orientation&quot;,&quot;flash&quot;, &quot;iso&quot;, &quot;aperture&quot; &quot;duration&quot;,&quot;height&quot;, &quot;width&quot;, &quot;location&quot;,&quot;whiteBalance&quot;,&quot;focalLength&quot;, &quot;make&quot;, &quot;model&quot;, &quot;timestamp&quot; (exposición, orientación, flash, iso, apertura, duración, altura, anchura, ubicación, balance de blancos, distancia focal, fabricante, modelo, marca de tiempo).|
+|userAppendedData| |Anotaciones del usuario, basadas en formularios Open Data Kit Metadatos descriptivos introducidos por el usuario.
+|&quot;intakeData&quot;:{&quot;datos&quot; (???)| Aplicación|???|
+|&quot;intakeData&quot;:{ … &quot;firma&quot;| Aplicación |la firma PGP de todos los datos de sensor|
+|&quot;ownershipType&quot; |Aplicación| ???|
+|“alias&quot;: |Aplicación| (Nombre/ apodo proporcionado al configurar la aplicación)|
+|&quot;pgpKeyFingerprint&quot;| Aplicación| Huella de validación (fingerprint) de la clave pública OpenPGP para el usuario/aplicación (Huella de validación del dispositivo + instancia de la aplicación)|
+|genealogía: (“localMediaPath”)| Aplicación| Representa el lugar donde se guardó originalmente el fichero|
+|&quot;dateCreated&quot;| Reloj de sistema y datos NMEA del GPS| Valor de marca de tiempo UNIX de cuando se realizó la captura del audiovisual.|
+|&quot;hashes&quot;| SHA-1 (fotografía) / MD5 (vídeo)| suma de verificación (checksum) de todos los valores de píxeles de la imagen o fotogramas de vídeo &quot;j3m_version&quot; Aplicación Versión|
+|&quot;createdOnDevice&quot;| Aplicación| Huella de validación de clave pública OpenPGP para el usuario/aplicación (Huella de validación del dispositivo + instancia de la aplicación)|
+<p>|&quot;signature&quot;| Firma PGP para el contenido J3M al completo||</p>
 <h1>Capítulo 5: Tomar fotografías y vídeos de forma segura e inofensiva</h1>
 <p>Este capítulo le guiará a través del uso de las características de cámara integrada de fotos y vídeo (camcoder) de la aplicación móvil/celular.</p>
 <h2>Instalación</h2>
@@ -190,7 +187,7 @@ El usuario de Facebook Gregory Michael compartió esta foto falsa mostrando supu
 <p><img src="images/welcome.png" alt="welcome.png" /><img src="images/setup.png" alt="setup.png" /></p>
 <p>También puede introducir y confirmar una contraseña a usar con CameraV. Esta es una contraseña nueva que se usa para proteger las fotos, vídeos y metadatos de sensores, almacenados en el interior de la propia aplicación. En cierto sentido, es la combinación secreta para la boveda de seguridad de los datos que la aplicación está protegiendo.</p>
 <p><img src="images/password.png" alt="password.png" /><img src="images/password2.png" alt="password2.png" /></p>
-<p>Finalmente, tiene que tomar seis fotos de ejemplo con la aplicación CameraV durante el proceso de configuración. Esto genera una huella de validación (fingerprint) visual de su sensor de cámara, que más tarde se puede usar para probar que una imagen o vídeo específico vino o no de su cámara. La aplicación le pedirá que tome una foto &quot;sosa&quot;, lo cual se refiere a un muro blanco, un tablero, o alguna otra superficie sin complicaciones. La necesidad de algo &quot;soso&quot; es un detalle técnico relativo al proceso de la huella de validación visual.</p>
+<p>Finalmente, tiene que tomar seis fotos de ejemplo con la aplicación CameraV durante el proceso de configuración. Esto genera una huella de validación visual (visual fingerprint) de su sensor de cámara, que más tarde se puede usar para probar que una imagen o vídeo específico vino o no de su cámara. La aplicación le pedirá que tome una foto &quot;sosa&quot;, lo cual se refiere a un muro blanco, un tablero, o alguna otra superficie sin complicaciones. La necesidad de algo &quot;soso&quot; es un detalle técnico relativo al proceso de la huella de validación visual.</p>
 <p><img src="images/boring.png" alt="boring.png" /><img src="images/boring2.png" alt="boring2.png" /></p>
 <p>Una vez complete todos estos pasos, el proceso de configuración estará completo, y será llevado hacia la pantalla principal de la aplicación CameraV.</p>
 <h2>Tres vistas esenciales</h2>
@@ -215,7 +212,7 @@ El usuario de Facebook Gregory Michael compartió esta foto falsa mostrando supu
 <p><img src="images/metadata.png" alt="metadata.png" /></p>
 <p>Pulsar sobre la acción Compartir revelará tres opciones más: Compartir Audiovisual, Compartir Metadatos, y Certificar. 'Compartir Audiovisual' empaquetará el fichero audiovisual con los metadatos, y generará un nuevo fichero JPEG o MPEG-4 que se puede compartir a través de cualquier aplicación, enviarse por correo electrónico, publicarse en medios sociales, o subirse a un sitio web. 'Compartir Metadatos' tan solo compartirá los metadatos del sensor como texto sin cifrar en formato J3M.</p>
 <p><img src="images/mediashare.png" alt="mediashare.png" /></p>
-<p>'Certificar' compartirá un breve retazo del texto conteniendo el identificador de huella de validación (fingerprint) visual único del fichero audiovisual, que puede ser compartido fácilmente vía SMS, correo electrónico, Twitter, o algún otro canal de mensajes cortos. Esto proporciona una forma de poner una marca de tiempo al audiovisual por mediación de un tercero, y de asegurarse de que cualquier manipulación o modificación del audiovisual será detectada más tarde.</p>
+<p>'Certificar' compartirá un breve retazo del texto conteniendo el identificador único de huella de validación visual (visual fingerprint) del fichero audiovisual, que puede ser compartido fácilmente vía SMS, correo electrónico, Twitter, o algún otro canal de mensajes cortos. Esto proporciona una forma de poner una marca de tiempo al audiovisual por mediación de un tercero, y de asegurarse de que cualquier manipulación o modificación del audiovisual será detectada más tarde.</p>
 <p>Pulsar sobre la acción 'Editar' le permitirá 'Escribir texto' para proporcionar una descripción básica acerca de lo que trata el elemento audiovisual de la captura, o algún otro detalle de contexto que desee proporcionar. 'Añadir etiquetas' le permitirá colocar un cuadro de etiquetas sobre el audiovisual en una determinada posición, o momento en el caso del vídeo. Luego podrá pulsar sobre ese cuadro de etiquetas para introducir más información detallada acerca de qué es lo que estuvo etiquetando, y por qué.</p>
 <p><img src="images/editmode.png" alt="editmode.png" /><img src="images/edittext.png" alt="edittext.png" /></p>
 <p>Puede volver a la vista Principal pulsando la flecha atrás de la parte superior izquierda. o pulsando la tecla atrás en su dispositivo.</p>
@@ -239,8 +236,8 @@ El usuario de Facebook Gregory Michael compartió esta foto falsa mostrando supu
 <p><img src="images/metadata.png" alt="metadata.png" /></p>
 <h2>¿Por qué querría compartirlos?</h2>
 <p>Compartir los metadatos le permite compartir toda la información acerca de su audiovisual, sin compartir el fichero del audiovisual propiamente dicho. Esto podría tener sentido si su ancho de banda es bajo, o si sólo quiere compartir el dónde, cuándo y qué ha capturado, y no los audiovisuales. Los metadatos también incluyen firmas criptográficas de los datos y del fichero audiovisual propiamente dicho, lo cual proporciona una prueba de autenticidad. Si el receptor de sus metadatos recibe más tarde el audiovisual propiamente dicho, podrá compararlo con las firmas únicas proporcionadas en los metadatos para asegurarse de que, entre tanto, el fichero no fue manipulado.</p>
-<h1>Capítulo 7: Certificando sus fotos y vídeos</h1>
-<p>Este capítulo le mostrará cómo certificar las fotos y vídeos capturados a través de la aplicación, ¡para probar que existen y le pertenecen a usted!</p>
+<h1>Capítulo 7: Certificar sus fotos y vídeos</h1>
+<p>Este capítulo le mostrará cómo certificar las fotos y vídeos capturados a través de la aplicación, ¡para probar que existen y que le pertenecen!</p>
 <h2>¿Qué es la certificación?</h2>
 <p>Tradicionalmente, el proceso de hacer que un notario firme un documento prueba que usted es quien dice ser, o que algún documento ha sido verificado por una autoridad de confianza. En el caso de InformaCam y la aplicación CameraV, el proceso de certificación es clave para usar los audiovisuales como prueba de algo.</p>
 <p>La certificación también es muy útil porque sólo requiere que comparta un mensaje corto muy pequeño, que puede enviarse fácilmente mediante un mensaje de texto SMS o algo similar. Compartir una certificación no requiere una conexión a Internet completa en su dispositivo</p>
@@ -249,59 +246,59 @@ El usuario de Facebook Gregory Michael compartió esta foto falsa mostrando supu
 <p>Cuando elige la opción 'Certificar', se genera un mensaje corto que incluye el identificador único, o &quot;fingerprint&quot; (huella de validación), del fichero audiovisual. Este mensaje luego puede compartirse mediante cualquiera de las aplicaciones de su dispositivo que le permitan compartir mensajes, como SMS, correo electrónico, Twitter, Facebook, u otras aplicaciones de ese tipo.</p>
 <p><img src="images/notarizesms.png" alt="notarizesms.png" /></p>
 <h2>Certificación pública frente a privada</h2>
-<p>Puede escoger difundir el mensaje de certificación públicamente, lo que entonces crearía una marca de tiempo pública que constataría que este audiovisual existió en este estado específico, para que todos lo vean.</p>
-<p>También puede escoger compartir el mensaje de certificación de forma privada, lo que puede usarse entonces por el receptor para comparar con el audiovisual o los metadatos cuando reciba el fichero en una fecha posterior.</p>
-<h1>Capítulo 8: Usar el &quot;Modo evidencia&quot; con cualquier aplicación de cámara</h1>
-<p>Este capítulo le muestra cómo activar la característica de &quot;Modo de evidencia&quot; de la aplicación para capturar contenido de cualquier aplicación de cámara que guarde fotos y vídeo en el almacenamiento externo público.</p>
-<h2>¿Qué es el &quot;Modo evidencia&quot;?</h2>
-<p>Una forma de usar la aplicación CameraV es para un propósito específico, para documentar un incidente específico, un elemento, o grabar un testimonio específico. En ese caso, usted sabe seleccionar la aplicación CameraV, abrirla, escoger la cámara que quiere usar, y capturar entonces el audiovisual. Sin embargo, en algunos casos, puede no estar seguro de cuándo querrá usarla, pero quiere asegurarse de tener los beneficios de los metadatos del sensor, los metadatos firmantes, y demás, cuando los necesite. También puede que quiera tomar muchas fotografías y vídeos, digamos, en una marcha de protesta o durante el curso de muchas horas, y no tener que pensar sobre qué aplicación de cámara está usando. En casos como este es donde el &quot;Modo de evidencia&quot; entra en juego.</p>
+<p>Puede escoger difundir el mensaje de certificación públicamente, lo cual crearía entonces una marca de tiempo pública que constataría que este audiovisual existió en este estado específico, para que todos lo vean.</p>
+<p>También puede escoger compartir el mensaje de certificación de forma privada, lo cual se puede usar entonces por el receptor para comparar con el audiovisual o los metadatos cuando reciba el fichero en una fecha posterior.</p>
+<h1>Capítulo 8: Usar el &quot;Modo de evidencia&quot; con cualquier aplicación de cámara</h1>
+<p>Este capítulo le muestra cómo activar la característica del &quot;Modo de evidencia&quot; de la aplicación para capturar contenido de cualquier aplicación de cámara que guarde fotos y vídeos en el almacenamiento externo público.</p>
+<h2>¿Qué es el &quot;Modo de evidencia&quot;?</h2>
+<p>Una forma de usar la aplicación CameraV es para un propósito específico, para documentar un incidente específico, un elemento, o grabar un testimonio específico. En ese caso, usted sabe seleccionar la aplicación CameraV, abrirla, escoger la cámara que quiere usar, y capturar entonces el audiovisual. Sin embargo, en algunos casos, puede no estar seguro de cuándo querrá usarla, pero quiere asegurarse de tener los beneficios de los metadatos del sensor, los metadatos firmantes, y demás, cuando los necesite. También puede que quiera tomar muchas fotografías y vídeos, digamos, en una marcha de protesta o durante el curso de muchas horas, y no tener que pensar acerca de qué aplicación de cámara está usando. En casos como este es donde el &quot;Modo de evidencia&quot; entra en juego.</p>
 <h2>Cómo activarlo</h2>
-<p>El &quot;Modo de evidencia&quot; es el mecanismo en segundo plano, siempre-activo para ejecutar CameraV y el sistema InformaCam en su dispositivo. Cuando desbloquea la aplicación CameraV, en la vista Principal, puede abrir el menú a través de la acción de tres puntos, o de una clave de menú en su dispositivo, y verá la opción del &quot;Modo de evidencia&quot;. Seleccionar esto activará el servicio en segundo plano siempre-activo, y mostrará una notificación persistente para indicar esto.</p>
+<p>El &quot;Modo de evidencia&quot; es el mecanismo para ejecutar CameraV y el sistema InformaCam en segundo plano, de forma siempre-activa, en su dispositivo. Cuando desbloquea la aplicación CameraV, en la vista Principal, puede abrir el menú a través de la acción del icono de tres puntos, o una tecla de menú en su dispositivo, y verá la opción del &quot;Modo de evidencia&quot;. Seleccionándolo activará el servicio en segundo plano siempre-activo, y mostrará una notificación persistente para indicar esto.</p>
 <p><img src="images/proofmode.png" alt="proofmode.png" /></p>
-<p>En este punto, puede alejarse de la aplicación CameraV, y volver a la pantalla del lanzador e Android. Desde aquí, si selecciona cualquier cámara o aplicación de captura de audiovisuales que cree nuevas fotos o vídeos en las ubicaciones estándar esperadas, CameraV detectará esto. El nuevo audiovisual será importado hacia la base de datos de CameraV y adjuntado a los metadatos del sensor, tal como si hubiera tomado la foto o vídeo desde el interior de la aplicación CameraV.</p>
+<p>En este punto, puede marcharse de la aplicación CameraV, y volver a la pantalla del lanzador de Android. Desde aquí, si selecciona cualquier cámara o aplicación de captura de audiovisuales que crea nuevas fotos o vídeos en las ubicaciones estándar esperadas, CameraV detectará esto. El nuevo audiovisual será importado hacia la base de datos de CameraV y adjunto a los metadatos del sensor, como si hubiera tomado la foto o vídeo desde el interior de la aplicación CameraV.</p>
 <p><img src="images/proofnotif.png" alt="proofnotif.png" /></p>
 <h2>Cómo desactivarlo</h2>
-<p>To deactivate &quot;Proof Mode&quot; and return to the standard use of CameraV, open the notification area of Android, and select the Proof Mode persistent notification display there. This will bring up the CameraV Proof Mode view, from which you can press the button to deactivate the feature.</p>
+<p>Para desactivar el &quot;Modo de evidencia&quot; y volver al uso estándar de CameraV, abra el área de notificación de Android, y seleccione que la notificación persistente del Modo de Evidencia se muestre allí. Esto expondrá la vista del Modo de Evidencia de CameraV, desde la que puede pulsar el botón para desactivar la característica.</p>
 <h2>Administrar datos importados</h2>
-<p>In the Gallery view, you should see all the photos and videos that were captured while Proof Mode was activated. You can use the multi-select mode to delete any that you do not want to keep, or use it to batch export media or metadata of the many files captured. You can also use the Media view to review specific photos and videos.</p>
-<h1>Chapter 9: Scenarios of Use</h1>
-<p>This chapter will talk through a few different plausible scenarios where this app could be used, and the right steps to make that happen successfully.</p>
-<h2>To Capture Photographic Evidence of an Incident</h2>
-<p>The InformaCam system, and specifically the CameraV app, is well suited for capturing photographic evidence of an incident of any nature. This could range from the aftermath of a car accident, to the damage of property during a natural disaster. It could also be used to document violence between citizens, or between police or military forces and citizens.</p>
-<p>The goal in any of these cases is to capture the state of some thing, at a specific point of time, and then share that media evidence with an authority that can use it for the application of justice or monetary compensation. In this case, the encrypted storage and verification features help prove that the evidence was not tampered with, and was captured at the time and place that matches the crime.</p>
-<p>A secondary goal could be for advocacy and awareness. Using CameraV in this cases helps bolster your case, to provide proof to your broader public audience that what they are seeing is true, authentic and unmodified.</p>
-<h2>To Record a Video Eyewitness Testimonial</h2>
-<p>In many war crimes events, evidence is gathered after the fact through testimonial interviews with victims, witneesses, or others with knowledge of the incident. It is of prime importance that these interviews are protected, only accessible to those who need access.</p>
-<h2>To Document a Protest March and Public Gathering</h2>
-<p>It is a common sight to see hundreds of phones emerging out of the crowd, documenting whatever they can see, during any large public gathering.</p>
-<h2>To Add a &quot;Data Journalism&quot; Layer To Your Story</h2>
-<p>The sensor metadata captured by CameraV provides a fascinating additional layer of real-world data and context that is normally invisible to the naked eye.</p>
-<h1>Chapter 10: Threats and Risks</h1>
-<p>All the things you should think about that could go wrong.</p>
-<h1>Chapter 11: Security Features</h1>
-<p>This chapter will give you an overview of all the security features of CameraV and the InformaCam system in one place.</p>
-<h2>Storage Encryption</h2>
-<p>CameraV contains a fully encrypted storage capability, that appears as a single file on the device storage. It uses the IOCipher virtual file system for this, and enables metadata and metadata to be direclty stored in encrypted format, without ever being stored in the clear on the device. This is important, since once you store something unencrypted on a mobile device, you open it up to being copied or intercepted by other apps, or being forensically recovered at a future time.</p>
-<p>Photos and videos are only encrypted if you use CameraV's built-in encrypted camera capability, and not external camera apps. Import of unencrypted media into the encrypted storage is not currently supported or ideal.</p>
-<h2>App Locking via Passphrase</h2>
-<p>As part of the encrypted storage, the app supports locking access to itself and data behind a passphrase. When you first open the app after a device start, you will be required to enter the passphrase you chose on setup. The app should then remain unlocked until you manually lock the app, or restart your device.</p>
+<p>En la vista de Galería, debería ver todas las fotos y vídeos que fueron capturados mientras el Modo de Evidencia estaba activado. Puede usar el modo multi-selección para borrar cualquiera que no quiera conservar, o usarlo para exportar por lotes audiovisuales o metadatos de los muchos ficheros capturados. También puede usar la vista de Audiovisuales para revisar fotos y vídeos específicos.</p>
+<h1>Capítulo 9: Escenarios de uso</h1>
+<p>Este capítulo le llevará a través de unos pocos escenarios plausibles distintos donde esta aplicación podría usarse, y los pasos correctos para lograr que eso suceda.</p>
+<h2>Capturar evidencia fotográfica de un incidente</h2>
+<p>El sistema InformaCam, y específicamente la aplicación CameraV, está bien ajustada para capturar evidencia fotográfica de un incidente de cualquier naturaleza. Esto podría ir desde las consecuencias de un accidente de coche, al daño sobre las propiedades durante un desastre natural. También podría usarse para documentar violencia entre ciudadanos, o entre policía o fuerzas militares y ciudadanos.</p>
+<p>El objetivo en cualquiera de estos casos es capturar el estado de alguna cosa, en un determinado instante, y luego compartir esa evidencia audiovisual con una autoridad que pueda usarla para la aplicación de justicia o el establecimiento de una compensación monetaria. En este caso, el almacenamiento cifrado y las características de verificación ayudan a probar que la evidencia no fue manipulada, y que fue capturada en el momento y lugar coincidente con el crimen.</p>
+<p>Un objetivo secundario podria ser para apoyo y alerta. Usar CameraV en estos casos ayuda a refrendar su caso, al proporcionar pruebas a su más amplia audiencia pública de que lo que están viendo es cierto, auténtico y no alterado.</p>
+<h2>Grabar un vídeo con el testimonio de un testigo</h2>
+<p>En muchos crímenes de guerra, la evidencia se reúne después de sucedido el hecho a través de entrevistas con testimonios de víctimas, testigos, u otros con conocimiento del incidente. Es de primordial importancia que estas entrevistas estén protegidas, sólo accesibles para aquellos que precisen acceso.</p>
+<h2>Documentar una marcha de protesta y una reunión pública</h2>
+<p>Es una visión común ver cientos de teléfonos emergiendo de entre la múltitud, documentando lo que sea que puedan ver durante una larga reunión pública.</p>
+<h2>Añadir una capa de &quot;Periodisomo de datos&quot; a sus historia</h2>
+<p>Los metadatos del sensor capturados por CameraV proporcionan una fascinante capa adicional de datos del mundo-real y de contexto, que normalmente son invisibles para el ojo por si sólo.</p>
+<h1>Capítulo 10: Amenazas y riesgos</h1>
+<p>Todas las cosas en las que debe pensar acerca de lo que podría salir mal.</p>
+<h1>Capítulo 11: Características de seguridad</h1>
+<p>Este capítulo le dará una visión general de todas las características de seguridad de CameraV y el sistema InformaCam en un único sitio.</p>
+<h2>Cifrado del almacenamiento</h2>
+<p>CameraV contiene una funcionalidad de almacenamiento completamente cifrado, que consta como un único fichero en el almacenamiento del dispositivo. Para esto utiliza el sistema de ficheros virtual IOCipher, y habilita que metadatos y miniaturas sean almacenados directamente en formato cifrado, sin guardarse nunca sin cifrar en el dispositivo. Esto es importante, ya que una vez guarda algo sin cifrar en un dispositivo móvil/celular, lo está abriendo a ser copiado o interceptado por otras aplicaciones, o ser recuperado con técnicas forenses en el futuro.</p>
+<p>Las fotos y vídeos sólo son cifrados si utiliza la funcionalidad integrada de cámara cifrada de CameraV, y no aplicaciones externas de cámara. La importación de audiovisuales no cifrados en el almacenamiento cifrado no es ideal ni está soportado actualmente.</p>
+<h2>Bloqueo de la aplicación mediante frase-contraseña</h2>
+<p>Como parte del almacenamiento cifrado, la aplicación soporta el bloqueo del acceso a si misma y a los datos tras una frase-contraseña. Cuando abra la aplicación por primera vez después de arrancar el dispositivo, se le pedirá que introduzca la frase-contraseña que escogió en la configuración. La aplicación debe entonces permanecer desbloqueada hasta que la bloquee manualmente, o reinicie su dispositivo.</p>
 <p><img src="images/lockaction.png" alt="lockaction.png" /></p>
-<h2>Media and Metadata Signing via PGP</h2>
-<p>CameraV includes built-in OpenPGP (Pretty Good Privacy) capabilities for signing and encryption of data. All metadata is signed by the private key of the user that is generated during the app setup. This signature data is included in the J3M document when you export it.</p>
-<p>It is also possible for entire metadata documents to be encrypted for sharing to a remote recipient, but this requires a specific &quot;trusted profile&quot; to be configured and setup.</p>
-<h2>Media Hash Generation</h2>
-<p>SHA-1 hashes are generated for each media file, and included in the exported J3M documents. This hash is also used as the visual media fingerprint for the notarization process.</p>
-<h1>Application Permissions</h1>
-<p>The CameraV app does require access to a large set of permissions, in order to have access to all of the sensor and device metadata capabilities required. Below is the list of the primary required permissions, and a short explanation about why they are needed.</p>
+<h2>Firmado de audiovisuales y metadatos mediante PGP</h2>
+<p>CameraV incluye capacidades integradas OpenPGP (Pretty Good Privacy) para el firmado y cifrado de datos. Todos los metadatos están firmados por la clave privada del usuario que se genera durante la configuración de la aplicación. Estos datos de firma se incluyen en el documento J3M cuando los exporta.</p>
+<p>Para documentos por entero de metadatos también es posible que sean cifrados para compartirse con un receptor remoto, pero esto requiere que se configure y establezca un &quot;perfil de confianza&quot; específico.</p>
+<h2>Generación de hash del audiovisual</h2>
+<p>Los identificadores criptográficos (hashes) SHA-1 se generan para cada fichero audiovisual, y se incluyen en los documentos J3M exportados. Este hash también se usa como la huella de validación visual (visual fingerprint) del audiovisual para el proceso de certificación.</p>
+<h1>Permisos de la aplicación</h1>
+<p>La aplicación CameraV requiere acceso a un gran conjunto de permisos para tener acceso a todas las funcionalidades de metadatos de sensor y dispositivo requeridas. Debajo está la lista de los permisos primarios requeridos, y una breve explicación acerca de por qué son necesarios.</p>
 <ul>
-<li>Full network access: Allows the app to make network connections of any sort, including access to remote servers</li>
-<li>Approximate and Precise Location: Allows the app to get your location through a variety of means including using the GPS and Network-based location features</li>
-<li>Read Phone Status and Identity: Allows the app to access your device identifier, which helps create the unique identifier associated with your media files. This is part of the proof that it really came from your device. However, this data is never publicly shared, so that your real identity is only shared if you choose to.</li>
-<li>Retrieve Running Apps: Allows to the app to retrieve information about currently and recently running apps. This is used as a countermeasure against third-party apps that may be faking metadata sensor information.</li>
-<li>Access Bluetooth Settings: This allows to the app to activate and manage your Bluetooth connection. This is used to gather data about Bluetooth devices in your area, and add that into the sensor metadata.</li>
-<li>Connect/Disconnect from the Wireless LAN (WLAN): As it says, this allows the app to manage WiFI and WLAN connections, which like with Bluetooth, is used to gather data about the networks in your immediate vicinity, as part of the sensor metadata.</li>
-<li>Control vibration: As it says, thought not 100% sure why we need this, to be honest!</li>
-<li>Find Accounts on Device: Allows the app to get the list of accounts known by the phone. This is used by the app if you want to share to Google Drive, so we can see which google accounts are available and active.</li>
-<li>Modify or Delete Contents of the SD Card: This is used to read and write data to SD Card external storage. Only media or files related to CameraV are every accessed or removed.</li>
-<li>Record Audio / Take Pictures and Videos: Self-explanatory... it is a camera app after all!</li>
+<li>Acceso completo a la red: Permite a la aplicación realizar conexiones de cualquier tipo, incluyendo acceso a servidores remotos</li>
+<li>Localización aproximada y precisa: Permite a la aplicación obtener su ubicación a través de varios medios, incluyendo el uso del GPS y características de localización basada-en-red</li>
+<li>Leer estado del teléfono e identidad: Permite a la aplicación acceder al identificador de su dispositivo, lo que ayuda a crear el identificador único asociado con sus ficheros audiovisuales. Esto es parte de la evidencia de que vienen realmente de su dispositivo. Sin embargo, estos datos nunca son compartidos públicamente, así que su identidad real sólo se comparte si usted lo elige.</li>
+<li>Recoger aplicaciones en ejecución: Permite a la aplicación recoger información acerca de las aplicaciones actualmente o recientemente en ejecución. Esto se usa como contramedida contra aplicaciones de terceros que pueden estar falsificando la información de los metadatos del sensor.</li>
+<li>Acceder a la configuración de Bluetooth: Esto permite a la aplicación activar y administrar su conexión Bluetooth. Esto se usa para reunir datos acerca de los dispositivos presentes en su área, y añadir esa información a los metadatos del sensor.</li>
+<li>Conectar/Desconectar de la LAN inalámbrica (WLAN): Tal como dice, esto permite a la aplicación administrar las conexiones WiFi y WLAN, que como con el Bluetooth, se usan para reunir datos acerca de las redes en su entorno inmediato, como parte de los metadatos del sensor.</li>
+<li>Controlar vibración: Tal como dice, aunque no estamos 100% seguros de por qué necesitamos esto, ¡para ser honestos!</li>
+<li>Buscar cuentas en el dispositivo: Permite a la aplicación obtener la lista de cuentas conocida por el teléfono. Esto es utilizado por la aplicación si quiere compartir mediante Google Drive, de forma que podamos ver qué cuentas de Google están disponibles y activas.</li>
+<li>Modificar o borrar contenidos de la tarjeta SD: Esto se utiliza para leer y escribir datos en el almacenamiento externo de la tarjeta SD. Únicamente a los audiovisuales o ficheros relacionados con CameraV es a todo lo que se accede o elimina.</li>
+<li>Grabar audio / Tomar fotos o vídeos: Auto-explicativa... ¡es una aplicación de cámara después de todo!</li>
 </ul>

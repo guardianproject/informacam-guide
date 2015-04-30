@@ -1,6 +1,6 @@
-# Capítulo 7: Certificando sus fotos y vídeos
+# Capítulo 7: Certificar sus fotos y vídeos
 
-Este capítulo le mostrará cómo certificar las fotos y vídeos capturados a través de la aplicación, ¡para probar que existen y le pertenecen a usted!
+Este capítulo le mostrará cómo certificar las fotos y vídeos capturados a través de la aplicación, ¡para probar que existen y que le pertenecen!
 
 ## ¿Qué es la certificación?
 
@@ -18,9 +18,9 @@ Cuando elige la opción 'Certificar', se genera un mensaje corto que incluye el 
 
 ## Certificación pública frente a privada
 
-Puede escoger difundir el mensaje de certificación públicamente, lo que entonces crearía una marca de tiempo pública que constataría que este audiovisual existió en este estado específico, para que todos lo vean.
+Puede escoger difundir el mensaje de certificación públicamente, lo cual crearía entonces una marca de tiempo pública que constataría que este audiovisual existió en este estado específico, para que todos lo vean.
 
-También puede escoger compartir el mensaje de certificación de forma privada, lo que puede usarse entonces por el receptor para comparar con el audiovisual o los metadatos cuando reciba el fichero en una fecha posterior.
+También puede escoger compartir el mensaje de certificación de forma privada, lo cual se puede usar entonces por el receptor para comparar con el audiovisual o los metadatos cuando reciba el fichero en una fecha posterior.
 
 
 

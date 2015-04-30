@@ -1,23 +1,23 @@
-# Chapter 9: Scenarios of Use
+# Capítulo 9: Escenarios de uso
 
-This chapter will talk through a few different plausible scenarios where this app could be used, and the right steps to make that happen successfully.
+Este capítulo le llevará a través de unos pocos escenarios plausibles distintos donde esta aplicación podría usarse, y los pasos correctos para lograr que eso suceda.
 
-## To Capture Photographic Evidence of an Incident
+## Capturar evidencia fotográfica de un incidente
 
-The InformaCam system, and specifically the CameraV app, is well suited for capturing photographic evidence of an incident of any nature. This could range from the aftermath of a car accident, to the damage of property during a natural disaster. It could also be used to document violence between citizens, or between police or military forces and citizens. 
+El sistema InformaCam, y específicamente la aplicación CameraV, está bien ajustada para capturar evidencia fotográfica de un incidente de cualquier naturaleza. Esto podría ir desde las consecuencias de un accidente de coche, al daño sobre las propiedades durante un desastre natural. También podría usarse para documentar violencia entre ciudadanos, o entre policía o fuerzas militares y ciudadanos. 
 
-The goal in any of these cases is to capture the state of some thing, at a specific point of time, and then share that media evidence with an authority that can use it for the application of justice or monetary compensation. In this case, the encrypted storage and verification features help prove that the evidence was not tampered with, and was captured at the time and place that matches the crime.
+El objetivo en cualquiera de estos casos es capturar el estado de alguna cosa, en un determinado instante, y luego compartir esa evidencia audiovisual con una autoridad que pueda usarla para la aplicación de justicia o el establecimiento de una compensación monetaria. En este caso, el almacenamiento cifrado y las características de verificación ayudan a probar que la evidencia no fue manipulada, y que fue capturada en el momento y lugar coincidente con el crimen.
 
-A secondary goal could be for advocacy and awareness. Using CameraV in this cases helps bolster your case, to provide proof to your broader public audience that what they are seeing is true, authentic and unmodified.
+Un objetivo secundario podria ser para apoyo y alerta. Usar CameraV en estos casos ayuda a refrendar su caso, al proporcionar pruebas a su más amplia audiencia pública de que lo que están viendo es cierto, auténtico y no alterado.
 
-## To Record a Video Eyewitness Testimonial
+## Grabar un vídeo con el testimonio de un testigo
 
-In many war crimes events, evidence is gathered after the fact through testimonial interviews with victims, witneesses, or others with knowledge of the incident. It is of prime importance that these interviews are protected, only accessible to those who need access.
+En muchos crímenes de guerra, la evidencia se reúne después de sucedido el hecho a través de entrevistas con testimonios de víctimas, testigos, u otros con conocimiento del incidente. Es de primordial importancia que estas entrevistas estén protegidas, sólo accesibles para aquellos que precisen acceso.
 
-## To Document a Protest March and Public Gathering  
+## Documentar una marcha de protesta y una reunión pública  
 
-It is a common sight to see hundreds of phones emerging out of the crowd, documenting whatever they can see, during any large public gathering.
+Es una visión común ver cientos de teléfonos emergiendo de entre la múltitud, documentando lo que sea que puedan ver durante una larga reunión pública.
 
-## To Add a "Data Journalism" Layer To Your Story
+## Añadir una capa de "Periodisomo de datos" a sus historia
 
-The sensor metadata captured by CameraV provides a fascinating additional layer of real-world data and context that is normally invisible to the naked eye.
+Los metadatos del sensor capturados por CameraV proporcionan una fascinante capa adicional de datos del mundo-real y de contexto, que normalmente son invisibles para el ojo por si sólo.

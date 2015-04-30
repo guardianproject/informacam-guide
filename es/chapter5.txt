@@ -16,7 +16,7 @@ También puede introducir y confirmar una contraseña a usar con CameraV. Esta e
 
 ![password.png](images/password.png)![password2.png](images/password2.png)
 
-Finalmente, tiene que tomar seis fotos de ejemplo con la aplicación CameraV durante el proceso de configuración. Esto genera una huella de validación (fingerprint) visual de su sensor de cámara, que más tarde se puede usar para probar que una imagen o vídeo específico vino o no de su cámara. La aplicación le pedirá que tome una foto "sosa", lo cual se refiere a un muro blanco, un tablero, o alguna otra superficie sin complicaciones. La necesidad de algo "soso" es un detalle técnico relativo al proceso de la huella de validación visual.
+Finalmente, tiene que tomar seis fotos de ejemplo con la aplicación CameraV durante el proceso de configuración. Esto genera una huella de validación visual (visual fingerprint) de su sensor de cámara, que más tarde se puede usar para probar que una imagen o vídeo específico vino o no de su cámara. La aplicación le pedirá que tome una foto "sosa", lo cual se refiere a un muro blanco, un tablero, o alguna otra superficie sin complicaciones. La necesidad de algo "soso" es un detalle técnico relativo al proceso de la huella de validación visual.
 
 ![boring.png](images/boring.png)![boring2.png](images/boring2.png)
 
@@ -60,7 +60,7 @@ Pulsar sobre la acción Compartir revelará tres opciones más: Compartir Audiov
 
 ![mediashare.png](images/mediashare.png)
 
-'Certificar' compartirá un breve retazo del texto conteniendo el identificador de huella de validación (fingerprint) visual único del fichero audiovisual, que puede ser compartido fácilmente vía SMS, correo electrónico, Twitter, o algún otro canal de mensajes cortos. Esto proporciona una forma de poner una marca de tiempo al audiovisual por mediación de un tercero, y de asegurarse de que cualquier manipulación o modificación del audiovisual será detectada más tarde.
+'Certificar' compartirá un breve retazo del texto conteniendo el identificador único de huella de validación visual (visual fingerprint) del fichero audiovisual, que puede ser compartido fácilmente vía SMS, correo electrónico, Twitter, o algún otro canal de mensajes cortos. Esto proporciona una forma de poner una marca de tiempo al audiovisual por mediación de un tercero, y de asegurarse de que cualquier manipulación o modificación del audiovisual será detectada más tarde.
 
 Pulsar sobre la acción 'Editar' le permitirá 'Escribir texto' para proporcionar una descripción básica acerca de lo que trata el elemento audiovisual de la captura, o algún otro detalle de contexto que desee proporcionar. 'Añadir etiquetas' le permitirá colocar un cuadro de etiquetas sobre el audiovisual en una determinada posición, o momento en el caso del vídeo. Luego podrá pulsar sobre ese cuadro de etiquetas para introducir más información detallada acerca de qué es lo que estuvo etiquetando, y por qué.
 

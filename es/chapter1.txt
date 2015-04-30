@@ -34,7 +34,7 @@ Icono de marca de verificación para selección y borrado múltiple.
 
 ## Certificar fotos y vídeos capturados
 
-Puede generar un identificador de huella de validación visual único, básicamente un código único para cada fichero audiovisual capturado. Luego puede compartir este código como un mensaje corto que puede compartir a través de SMS, correo electrónico, o más públicamente en medios sociales.
+Puede generar un identificador único de huella de validación visual (visual fingerprint), básicamente un código único para cada fichero audiovisual capturado. Luego puede compartir este código como un mensaje corto que puede compartir a través de SMS, correo electrónico, o más públicamente en medios sociales.
 
 ![notarizesms.png](images/notarizesms.png)
 

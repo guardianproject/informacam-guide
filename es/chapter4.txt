@@ -1,33 +1,33 @@
 # Capítulo 4: Más detalles sobre los metadatos del sensor y las entradas
 
-Los metadatos capturados por la aplicación CameraV vienen de diferentes chips y componentes de sensores en los smartphones. La tabla de debajo detalla cómo las diferentes piezas de datos se generan, y de dónde vienen.
+Los metadatos capturados por la aplicación CameraV provienen de distintos chips y componentes de sensores en los smartphones. La tabla de debajo detalla cómo se generan las diferentes piezas de datos, y de dónde provienen.
 
-|J3M TAG|FUENTE: Sensores / Componente / Radio / Otra|DESCRIPTION|
+|J3M TAG|FUENTE: Sensores / Componente / Radio / Otros|DESCRIPCIÓN|
 |-----------:|---------------------------------:|-----------------------|
-|timestamp|	Reloj de sistema + datis NMEA dek GPS|	UNIX timestamp of when data from sensor is read|
-|pressureAltitude||	Calculated from the "pressureHPAOrMBAR" value & sea level value	meters from the atmospheric pressure and the pressure at sea level|
-|pressureHPAOrMBAR|	Barometer / Pressure sensor|Measures the ambient air (atmospheric) pressure in hPa or mbar.|
-|lightMeterValue|	Ambient Light & Proximity sensor|	Ambient light level in SI lux units
-|bearingDegrees|	Accelerometer + Compass/Magnetometer|	the accelerometer is used to figure out how you are holding your phone so that the magno readings can be adjusted properly
-|acc_z, acc_y, acc_x|	Accelerometer|This is an accelerometer event, showing X,Y,Z motion data
-|pitch, roll, azimuth|	Gyroscope sensor|This is an orientation event, containing azimuth, pitch and roll, in raw format based on the orientation the user is holding their phone"
-|pitchCorrected, rollCorrected, azimuthCorrected|	interpreted data from pitch, roll, azimuth||
-|temperature|Temperature sensor|Ambient temperature in Celsius (only some phones have this sensor)
-|"""gps_coords"" ""gps_accuracy"" ""gps_bearing"" ""gps_altitude"" “gps_speed” “nmeatime” ""nmeamessage"""|GPS|GPS location event - latitude, longitude and current accuracy of the sensor, based on whether it is coming from satellite, wifi, cell towers. GPS data is being continously collected and timestamped (vs. EXIF contains only one instance of gps data).
-|visibleWifiNetworks| "bssid, ssid, wifiLevel, wifiFreq"|	WiFi radio API	"BSSID and SSIDs broadcast by other wifi routers.  ""bssid"" (MAC address), ”ssid"" (name of wifi), ”wifiLevel"" (Signal strength), ”wifiFreq"" (Frequency)"|
-|cellTowerId|	SIM card	|ID of cellular network tower the phone is currently registered with.| 
-|MCC|	SIM card|	Mobile Country Code - identifies the country of origin of the SIM card|
-|LAC|	SIM card|	Location Area Code|
-|"bluetoothDeviceAddress" "bluetoothDeviceName":|	Bluetooth radio API|	MAC Addresses of bluetooth devices noticed in the area. The bluetooth device address does NOT display the name of the actual device MAC address, but instead shows a one-way hash value. This was an attempt to preserve some privacy for individuals who might be in the area.|
-|exif|	Jpeg EXIF Header Data|	Basic EXIF metadata from the capture device: "exposure", "orientation","flash", "iso", "aperture" "duration","height", "width", "location","whiteBalance","focalLength", "make", "model", "timestamp".|
-|userAppendedData|	|User annotations, based on Open Data Kit forms	Descriptive metadata entered by the user.
-|"intakeData":{"data" (???)|	App	|???|
-|"intakeData":{ … "signature"|	App	|the PGP signature of all the sensor data|
-|"ownershipType"	|App|	???|
-|“alias":	|App|	(Name/ nickname provided on setting up the app)|
-|"pgpKeyFingerprint"|	App| 	OpenPGP public key fingerprint for the user/app (Fingerprint of device + app instance)|
-|genealogy: (“localMediaPath”)|	App|	Represents where the file was originally stored|
-|"dateCreated"|	System clock and NMEA data from GPS|	UNIX timestamp value for when the media capture occured.|
-|"hashes"|	SHA-1 (pic) / MD5 (video)|	checksum of all the pixel values of the image or video frames "j3m_version"	App	Version|
-|"createdOnDevice"|	App|	OpenPGP public key fingerprint for the user/app (Fingerprint of device + app instance)|
-|"signature"|		PGP signature for the entire J3M content||
+|timestamp|	Reloj de sistema + datos NMEA del GPS|	Marca de tiempo UNIX del momento en que se leyó el sensor|
+|pressureAltitude||	Calculada a partir de las mediciones del valor "pressureHPAOrMBAR"	y el valor a nivel de mar de la presión atmosférica y la presión a nivel del mar|
+|pressureHPAOrMBAR|	Barómetro / Sensor de presión|Mide la presión (atmosférica) del aire ambiente en hPa o mbar.|
+|lightMeterValue|	Sensor de luz ambiente y proximidad|	Nivel de luz ambiente en unidades del SI
+|bearingDegrees|	Acelerómetro + Brújula/Magnetómetro|	el acelerómetro se usa para determinar cómo está sujetando su teléfono de forma que la lecturas del magnetómetro puedan ajustarse adecuadamente
+|acc_z, acc_y, acc_x|	Acelerómetro|Este es un evento de acelerómetro, que muestra datos de movimiento X,Y,Z 
+|pitch, roll, azimuth|	Sensor de giroscopio|Este es un evento de orientación, que contiene azimut, inclinación y rotación, en formato crudo basado en la orientación en la que el usuario esté sujetando su teléfono"
+|pitchCorrected, rollCorrected, azimuthCorrected|	datos interpretados a partir de la inclinación, rotación y azimut||
+|temperature|Sensor de temperatura|Temperatura ambiente en grados Celsius (sólo algunos teléfonos tienen este sensor)
+|"""gps_coords"" ""gps_accuracy"" ""gps_bearing"" ""gps_altitude"" “gps_speed” “nmeatime” ""nmeamessage"""|GPS|Evento de localización GPS - latitud, longitud y precisión actual del sensor, basada en si proviene de satélite, wifi, o antenas de móvil/celular. Los datos GPS están siendo continuamente recopilados añadiéndoseles marcas de tiempo (frente a EXIF que contiene sólo una instancia de datos GPS).
+|visibleWifiNetworks| "bssid, ssid, wifiLevel, wifiFreq"|	API de radio WiFi	"Anuncio de BSSID y SSIDs por otros routers wifi.  ""bssid"" (dirección MAC), ”ssid"" (nombre del wifi), ”wifiLevel"" (Fuerza de la señal), ”wifiFreq"" (Frecuencia)"|
+|cellTowerId|	Tarjeta SIM	|Identificación de la antena de red móvil/celular con la que el teléfono está registrado actualmente.| 
+|MCC|	Tarjeta SIM|	Mobile Country Code - (código móvil de país) identifica el país de origen de la tarjeta SIM|
+|LAC|	Tarjeta SIM|	Location Area Code (código de área de la posición)|
+|"bluetoothDeviceAddress" "bluetoothDeviceName":|	API de radio Bluetooth|	Direcciones MAC de los dispositivos bluetooth observados en la zona. La dirección del dispositivo bluetooth NO muestra el nombre del dispositivo de la dirección MAC actual, pero en su lugar muestra un valor de identificador criptográfico (hash) de sentido-único (cálculo no reversible). Esto fue un intento de preservar algo de privacidad para los individuos que podrían estar en la zona.|
+|exif|	Datos de cabecera EXIF de JPEG|	Metadatos de EXIF básicos del dispositivo de captura: "exposure", "orientation","flash", "iso", "aperture" "duration","height", "width", "location","whiteBalance","focalLength", "make", "model", "timestamp" (exposición, orientación, flash, iso, apertura, duración, altura, anchura, ubicación, balance de blancos, distancia focal, fabricante, modelo, marca de tiempo).|
+|userAppendedData|	|Anotaciones del usuario, basadas en formularios Open Data Kit	Metadatos descriptivos introducidos por el usuario.
+|"intakeData":{"datos" (???)|	Aplicación|???|
+|"intakeData":{ … "firma"|	Aplicación	|la firma PGP de todos los datos de sensor|
+|"ownershipType"	|Aplicación|	???|
+|“alias":	|Aplicación|	(Nombre/ apodo proporcionado al configurar la aplicación)|
+|"pgpKeyFingerprint"|	Aplicación| 	Huella de validación (fingerprint) de la clave pública OpenPGP para el usuario/aplicación (Huella de validación del dispositivo + instancia de la aplicación)|
+|genealogía: (“localMediaPath”)|	Aplicación|	Representa el lugar donde se guardó originalmente el fichero|
+|"dateCreated"|	Reloj de sistema y datos NMEA del GPS|	Valor de marca de tiempo UNIX de cuando se realizó la captura del audiovisual.|
+|"hashes"|	SHA-1 (fotografía) / MD5 (vídeo)|	suma de verificación (checksum) de todos los valores de píxeles de la imagen o fotogramas de vídeo "j3m_version"	Aplicación	Versión|
+|"createdOnDevice"|	Aplicación|	Huella de validación de clave pública OpenPGP para el usuario/aplicación (Huella de validación del dispositivo + instancia de la aplicación)|
+|"signature"|		Firma PGP para el contenido J3M al completo||

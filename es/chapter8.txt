@@ -1,25 +1,25 @@
-# Capítulo 8: Usar el "Modo evidencia" con cualquier aplicación de cámara
+# Capítulo 8: Usar el "Modo de evidencia" con cualquier aplicación de cámara
 
-Este capítulo le muestra cómo activar la característica de "Modo de evidencia" de la aplicación para capturar contenido de cualquier aplicación de cámara que guarde fotos y vídeo en el almacenamiento externo público.
+Este capítulo le muestra cómo activar la característica del "Modo de evidencia" de la aplicación para capturar contenido de cualquier aplicación de cámara que guarde fotos y vídeos en el almacenamiento externo público.
 
-## ¿Qué es el "Modo evidencia"?
+## ¿Qué es el "Modo de evidencia"?
 
-Una forma de usar la aplicación CameraV es para un propósito específico, para documentar un incidente específico, un elemento, o grabar un testimonio específico. En ese caso, usted sabe seleccionar la aplicación CameraV, abrirla, escoger la cámara que quiere usar, y capturar entonces el audiovisual. Sin embargo, en algunos casos, puede no estar seguro de cuándo querrá usarla, pero quiere asegurarse de  tener los beneficios de los metadatos del sensor, los metadatos firmantes, y demás, cuando los necesite. También puede que quiera tomar muchas fotografías y vídeos, digamos, en una marcha de protesta o durante el curso de muchas horas, y no tener que pensar sobre qué aplicación de cámara está usando. En casos como este es donde el "Modo de evidencia" entra en juego.
+Una forma de usar la aplicación CameraV es para un propósito específico, para documentar un incidente específico, un elemento, o grabar un testimonio específico. En ese caso, usted sabe seleccionar la aplicación CameraV, abrirla, escoger la cámara que quiere usar, y capturar entonces el audiovisual. Sin embargo, en algunos casos, puede no estar seguro de cuándo querrá usarla, pero quiere asegurarse de  tener los beneficios de los metadatos del sensor, los metadatos firmantes, y demás, cuando los necesite. También puede que quiera tomar muchas fotografías y vídeos, digamos, en una marcha de protesta o durante el curso de muchas horas, y no tener que pensar acerca de qué aplicación de cámara está usando. En casos como este es donde el "Modo de evidencia" entra en juego.
 
 ## Cómo activarlo
 
-El "Modo de evidencia" es el mecanismo en segundo plano, siempre-activo para ejecutar CameraV y el sistema InformaCam en su dispositivo. Cuando desbloquea la aplicación CameraV, en la vista Principal, puede abrir el menú a través de la acción de tres puntos, o de una clave de menú en su dispositivo, y verá la opción del "Modo de evidencia". Seleccionar esto activará el servicio en segundo plano siempre-activo, y mostrará una notificación persistente para indicar esto.
+El "Modo de evidencia" es el mecanismo para ejecutar CameraV y el sistema InformaCam en segundo plano, de forma siempre-activa, en su dispositivo. Cuando desbloquea la aplicación CameraV, en la vista Principal, puede abrir el menú a través de la acción del icono de tres puntos, o una tecla de menú en su dispositivo, y verá la opción del "Modo de evidencia". Seleccionándolo activará el servicio en segundo plano siempre-activo, y mostrará una notificación persistente para indicar esto.
 
 ![proofmode.png](images/proofmode.png)
 
-En este punto, puede alejarse de la aplicación CameraV, y volver a la pantalla del lanzador e Android. Desde aquí, si selecciona cualquier cámara o aplicación de captura de audiovisuales que cree nuevas fotos o vídeos en las ubicaciones estándar esperadas, CameraV detectará esto. El nuevo audiovisual será importado hacia la base de datos de CameraV y adjuntado a los metadatos del sensor, tal como si hubiera tomado la foto o vídeo desde el interior de la aplicación CameraV.
+En este punto, puede marcharse de la aplicación CameraV, y volver a la pantalla del lanzador de Android. Desde aquí, si selecciona cualquier cámara o aplicación de captura de audiovisuales que crea nuevas fotos o vídeos en las ubicaciones estándar esperadas, CameraV detectará esto. El nuevo audiovisual será importado hacia la base de datos de CameraV y adjunto a los metadatos del sensor, como si hubiera tomado la foto o vídeo desde el interior de la aplicación CameraV.
 
 ![proofnotif.png](images/proofnotif.png)
 
 ## Cómo desactivarlo
 
-To deactivate "Proof Mode" and return to the standard use of CameraV, open the notification area of Android, and select the Proof Mode persistent notification display there. This will bring up the CameraV Proof Mode view, from which you can press the button to deactivate the feature.
+Para desactivar el "Modo de evidencia" y volver al uso estándar de CameraV, abra el área de notificación de Android, y seleccione que la notificación persistente del Modo de Evidencia se muestre allí. Esto expondrá la vista del Modo de Evidencia de CameraV, desde la que puede pulsar el botón para desactivar la característica.
 
 ## Administrar datos importados
 
-In the Gallery view, you should see all the photos and videos that were captured while Proof Mode was activated. You can use the multi-select mode to delete any that you do not want to keep, or use it to batch export media or metadata of the many files captured. You can also use the Media view to review specific photos and videos. 
+En la vista de Galería, debería ver todas las fotos y vídeos que fueron capturados mientras el Modo de Evidencia estaba activado. Puede usar el modo multi-selección para borrar cualquiera que no quiera conservar, o usarlo para exportar por lotes audiovisuales o metadatos de los muchos ficheros capturados. También puede usar la vista de Audiovisuales para revisar fotos y vídeos específicos. 
