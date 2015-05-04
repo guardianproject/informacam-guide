@@ -10,11 +10,9 @@ En måte å bruke CameraV på har en helt spesifikk hensikt, nemlig å dokumente
 
 "Bevisførselsmodus" er i bakgrunnen, en 'alltid på' måte å kjøre CameraV og InformaCam-systemet på din enhet. Når du låser opp CameraV-programmet i hjemmevisningen, kan du åpne det gjennom menyen med tre-prikkers-handlingen, eller menyknappen på din enheten. Du vil så se valget "Bevisførselsmodus". Å velge dette vil aktivere 'alltid-på' bakgrunnstjeneste, og du vil alltid se en merknad for å indikere dette.
 
-![proofmode.png](images/proofmode.png)
+![proofmode.png](images/flows/08img_proof_mode.png)
 
 Du kan nå, fra CameraV-programmet, returnere til oppstartsskjermen til Android. Herfra kan du velge ethvert kamera eller opptaksprogram som tar opp nye bilder og video på den forventede måten til vanlig plassering, CameraV vil oppdage dette. Disse nye mediafilene vil bli importert til din CameraV-database og lagt til sensor-metadataen, akkurat som hvis du hadde tatt bildet eller videoen fra inne i CameraV-programmet.
-
-![proofnotif.png](images/proofnotif.png)
 
 ## Hvordan deaktivere
 

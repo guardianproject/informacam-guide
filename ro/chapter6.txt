@@ -12,7 +12,7 @@ You can also 'Share Metadata' from the Gallery view, and share multiple metadata
 
 The metadata you can share from CameraV is the collection of sensor and network event data captured around the time that the photo or video was captured. It is organized and store using the Javascript Object Notation (JSON) format, and more specifically, as JSON Mobile Media Metadata, or J3M (pronounced as in "Gem"). The J3M file is a plain text, human readable format, that are various groups of name=value pairs, grouped in brackets like {name: value}, or {name { name0: value0, name1: value1}, and so on.
 
-![metadata.png](images/metadata.png)
+![metadata.png](images/flows/06img_metadata.png)
 
 ## Why would I want to share it?
 

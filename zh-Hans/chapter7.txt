@@ -8,13 +8,13 @@ Traditionally, the process of having a notary sign a document, proves that that 
 
 Notarization is also very useful, because it only requires you to share a very small, short message, that can easily be sent via something like an SMS text message. It does not require a full Internet connection on your device to share a notarization.
 
-![notarizenote.png](images/notarizenote.png)
+![notarizenote.png](images/flows/07img_notarize.png)
 
 ## What happens when I notarize media?
 
 When you choose the 'Notarize' option, a short message is generated that includes the unique identifier, or "fingerprint", of the media file. This message can then be shared with any of the apps on your device that allow you to share messages, like SMS, email, Twitter, Facebook or other apps of that sort.
 
-![notarizesms.png](images/notarizesms.png)
+![notarizesms.png](images/flows/00.2img_notarize.png)
 
 ## Public versus Private Notarization
 

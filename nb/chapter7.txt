@@ -8,13 +8,13 @@ I tradisjonell forstand er det prosessen der en fullmektig signerer et dokument,
 
 Attestering er også veldig nyttig, fordi de bare krever at du deler en veldig liten, kort melding, som enkelt kan sendes via noe ala SMS. Det kreves ikke full internettilgang på din enhet for å dele en attestering.
 
-![notarizenote.png](images/notarizenote.png)
+![notarizenote.png](images/flows/07img_notarize.png)
 
 ## Hva skjer når jeg attesterer media?
 
 Når du bruker 'Attester' vil en kort melding bli generert, inneholdende unik identifikator, "fingeravtrykket" til mediafila. Denne meldingen kan kan deles med vilkårlig program, forutsett at dek dele korte meldinger, som SMS, e-post, mikroblogg eller sosiale media.
 
-![notarizesms.png](images/notarizesms.png)
+![notarizesms.png](images/flows/00.2img_notarize.png)
 
 ## Offentlig eller privat attestering
 

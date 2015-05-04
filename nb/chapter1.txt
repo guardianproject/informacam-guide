@@ -26,17 +26,16 @@ Sensorer tilknyttet CameraV skrur seg på automatisk når du tar opp noe. Du kan
 
 Galleri-knappen åpner flerfoldig miniatyrvisning. Trykk et miniatyrbilde for å åpne detaljert visning.
 
-![gallerythumb.png](images/gallerythumb.png)
+![views](images/flows/05.2img_main_views.png)
 
 Avkryssningssboks for flerfoldig valg og sletting.
 
-![gallerymulti.png](images/gallerymulti.png)
 
 ## Attestering av bilder og video
 
 Du kan generere en unik visuell fingeravtrykksidentifikator, egentlig en unik kode, for hver enkelt media-fil du har laget. Du kan så dele denne korte koden gjennom SMS, e-post eller mer offentlig gjennom sosiale media.
 
-![notarizesms.png](images/notarizesms.png)
+![notarizesms.png](images/flows/07img_notarize.png)
 
 ## Deling av bilder, videoer og sensor-metadata 
 

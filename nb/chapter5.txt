@@ -10,15 +10,13 @@ Før du kan installere CameraV-programmet, må du installere det. Nedlastingslen
 
 Første gang du bruker CameraV, må du sette det opp med oppstartsvis identitetsinformasjon. Programmet spør om et identifiseringsnavn, hvilket kan være ekte eller et pseudonym. Du kan også fritt etter eget eget ønske oppgi en e-post-adresse, som igjen, kan være din vanlige e-post, eller en egen du har satt opp for formålet. Ved å ha lagt inn en e-post-adresse forsikrer du deg om at noen som senere finner en video eller et bilde tatt opp med enheten delt med CameraV, kan kontakte deg.
 
-![welcome.png](images/welcome.png)![setup.png](images/setup.png) 
+![setup](images/flows/05.0img_setup1.png)
 
 Du må også skrive inn og bekrefte et passord for bruk med CameraV. Dette er et nytt passord som brukes for å beskytte bildene, video, og sensor-metadata lagret i selve programmet. Det er, på en måte, en hemmelig kombinasjon for datahvelvet det beskytter.
 
-![password.png](images/password.png)![password2.png](images/password2.png)
-
 Til sist, må du ta seks eksempelbilder med CameraV-programmet under oppsettsprosessen. Dette genererer et visuelt fingeravtrykk av din kamerasensor, hvilket senere kan brukes til å bevise at en gitt video eller et bilde ble laget med nettopp dette kameraet. Programmet ber deg om å ta et "kjedelig" bilde, hvilket betyr en blank vegg, et bord, eller en annen ukomplisert overflate. Grunnen til denne kjedsomheten er en teknisk detalj i opprettelsen av et fingeravtrykk.
 
-![boring.png](images/boring.png)![boring2.png](images/boring2.png)
+![boring.png](images/flows/05.1img_setup2.png)
 
 Når du har fullført alle disse stegene, er hovedoppsettsprosessen ferdig, og du vil bli presentert for vanlig visning av CameraV-programmet.
 
@@ -34,19 +32,19 @@ CameraV-programmet kan ses på tre forskjellige måter:
 
 Hjemmeskjermen er den første visningen du ser når du åpner programmet for første gang. Det lar deg raskt gjennomgå de siste media-filene som er lagret, og sveipe gjennom samtlige. Du kan trykke på hvilket som helst mediaforhåndsvisningsbilde for å bytte til mediavisning, der du kan se hele bilder eller videoer.
 
-![home.png](images/home.png)![homeview.png](images/homeview.png)
+![home.png](images/flows/05.3img_view_home.png)
 
 Fra denne visningen, som også er der du åpner kameraet, eller navigerer til gallerivisning, er det tre knapper. Disse finner du på bunnen av skjermen, og de er henholdsvis stillbildekamera, videokamera, og galleri. Kameraknappene åpner opptak for media i angitte formater. Galleriknappen åpner gallerivisning for filtrering og gruppe-behandling av mediafiler.
 
 Du kan også låse programmet fra menyvalget, for å logge ut, og for å fjerne all hurtilagret informasjon fra minnet. Programmet vil kreve at du skriver inn et passord neste gang du åpner det. Til sist er det en "panikk-knapp", en handling som er tilgjengelig i denne visningen, der du raskt kan slette all media og programdata fra CameraV. Vi går nærmere inn på sikkerhetsfunksjonene i et annet kapittel.
 
-![homemenu.png](images/homemenu.png)![lockscreen.png](images/lockscreen.png)
+![homemenu.png](images/flows/11img_security.png)
 
 ### Mediavisning
 
 Mediadelen, eller detaljert visning, vil du bli vist hele bilder eller videofiler. Du kan se hele bildet, forstørre og forminske visning for å ta det hele i nærmere øyesyn. Du kan også rotere telefonen til landskapsmodus, hvis det er et landskapsbilde. Du kan se en video i denne visningen også. Det kan hende det tar et par sekunder å laste den inn, men så kan du trykke spill av for å se videoen. Du kan bruke forløpsindikatoren til å spole, eller ta bilde for bilde, ved å bevege den.
 
-![mediaview.png](images/mediaview.png)
+![mediaview.png](images/flows/05.2img_main_views.png)
 
 I bunnen av visningen ser du "Historikk"-delen. Her vil alle handlinger som er gjort med den lagrede mediafilen bli loggført. Inkludert når filen ble laget, når den ble eksportert og delt, osv.
 
@@ -54,17 +52,17 @@ På toppen av mediavsiningen ser du tre handlingsikoner: Informativ visning "I",
 
 Informativ visning gir deg full tilgang til rå-metadataen fra sensoren som ble tatt opp sammen med bildet eller videoen. Det blir vist i "J3M"-formatet, som du kan lære om annensteds hen i denne veiledningen.
 
-![metadata.png](images/metadata.png)
+![metadata.png](images/flows/06img_metadata.png)
 
 Å trykke på deling vil avsløre tre valg til: Del media, Del metadata, og Attester. 'Del media' vil pakke mediafilen sammen med metadataen, og generere en ny JPEG- eller MPEG-4 -fil som kan deles med alle programmer. Send via e-post, sosiale media, eller last opp til en nettside. 'Del metadata' vil dele bare sensor-metadata, som klartekst-fil i J3M-formatet.
 
-![mediashare.png](images/mediashare.png)
+![mediashare.png](images/flows/00.3img_share.png)
 
 'Attester' vil dele et kort utdrag av teksten som inneholder mediafilens unike visuelle fingeravtrykksindikator, og kan enkelt deles via SMS, e-post eller mikroblogg. På denne måten er det mulig å tidsstemple mediafilen ved bruk av en tredjepart, og dermed forsikre seg om at tukling eller endring av mediafilen kan sjekkes ved senere anledning.
 
 Å trykke 'Rediger' vil la deg 'Skrive tekst' for å forfatte en kort beskrivelse av hva den lagrede media-filen handler om, eller annen bindeleddinformasjon du ønsker å fremby. 'Legg til merkelapper' lar deg plassere en notisboks i media-filen på et gitt sted, eller en gitt tid for video. Du kan så trykke på notisboksen for å skrive inn mer detaljert informasjon om hva du merker, og hvorfor.
 
-![editmode.png](images/editmode.png)![edittext.png](images/edittext.png)
+![editmode.png](images/flows/05.4img_view_notes.png)
 
 Du kan gå tilbake til hjemmeskjermen ved å pilen øverst til venstre, eller ved å trykke "tilbake" på din enhet.
 
@@ -72,17 +70,17 @@ Du kan gå tilbake til hjemmeskjermen ved å pilen øverst til venstre, eller ve
 
 Gallerivisningen gir miniatyrbildevisning av mange mediafiler samtidig. Du kan filtrere mediaelementer etter type, eller bare se bilder, bare videoer, eller alt samtidig. Du kan også velge flerfoldige mediaelementer for gruppeoperasjoner, ved å bruke avkryssningsvalget, eller ved å trykke på en mediafil i noen sekunder. Dette vil igangsette multi-valgsmodus, hvilket tillater merking av flere elementer samtidig. Du kan også eksportere og dele en gruppe elementer, eller slette dem. Delingsvalgene som tilbys er de samme som i mediavisningen. Del media, Del metadata, og Attester.
 
-![gallerythumb.png](images/gallerythumb.png)![galleryfilter.png](images/galleryfilter.png)
+![gallerythumb.png](images/flows/05.5img_view_gallery.png)
 
 ### Bruk av kameraene
 
 Fra hjemmeskjermen kan du starte enten stillbildefotografi eller videokamera. Som forvalg vil programmet bruke innebygde kameraprogram tilgjengelig på din telefon. Den vil overvåke disse kameraprogrammene, og når nye bilder eller videoer blir tatt opp, vil det sjekke dem, hente metadataen, og lagre et miniatyrbilde og dataen i kryptert intern lagringsområde. Mens de vises i gallerivisning, vil de aktuelle mediafilene være lagret ukryptert på vanlig lagringsområde på eksternt minne eller internt SD-kort.
 
-![camera.png](images/camera.png)
+![camera.png](images/flows/00.0img_take.png)
 
 For å ta i bruk de krypterte kameramulighetene til CameraV, må du først gå til CameraV-innstillingene, for så å fravelge "Bruk eksterne kameraprogram". Kameraknappene i hjemmevisningen vil nå starte opp den innebygde krypterte kamerafunksjonen. Dette gir helt enkle stillbilde og videomuligheter, der den resulterende fil blir lagret til kryptert lagringsområde. Dette betyr at bare CameraV kan se mediafilen, og at hvis du sletter den vil den bli helt borte fra enheten, altså ikke gjenopprettbar.
 
-![useinternal.png](images/useinternal.png)
+![useinternal.png](images/flows/05.6img_use_cameras.png)
 
 Det krypterte kameraet har bare en enkel knapp for å ta et bilde eller for å stoppe eller starte video-opptak. Alle andre innstillinger er automatiske.
 

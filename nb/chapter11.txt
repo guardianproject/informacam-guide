@@ -12,7 +12,7 @@ Bilder og video blir bare kryptert hvis du bruker CameraV's innebygde kamerafunk
 
 Som en del av den krypterte lagringen støtter programmet låsing av tilgang til dataen bak et passord. Når du først har åpnet programmet etter at enheten starter opp, kreves det et passord som du velger ved oppsett. Programmet burde forbli ulåst til neste gang du manuelt låser det opp, eller starter enheten på ny.
 
-![lockaction.png](images/lockaction.png)
+![lockaction.png](images/flows/08img_proof_mode.png)
 
 ## Signering av media og metadata med PGP
 

@@ -12,7 +12,7 @@ Photos and videos are only encrypted if you use CameraV's built-in encrypted cam
 
 As part of the encrypted storage, the app supports locking access to itself and data behind a passphrase. When you first open the app after a device start, you will be required to enter the passphrase you chose on setup. The app should then remain unlocked until you manually lock the app, or restart your device.
 
-![lockaction.png](images/lockaction.png)
+![lockaction.png](images/flows/08img_proof_mode.png)
 
 ## Media and Metadata Signing via PGP
 

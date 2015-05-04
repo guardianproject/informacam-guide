@@ -12,7 +12,7 @@ Du kan også velge 'Del metadata' fra gallerivisning, og dele flerfoldige metada
 
 Metadataen du deler fra CameraV er en ansamling sensor og nettverks-data som har blit tatt opp samtidig med bilde eller video. Det er organisert og delt ved bruk av Javascript Object Notation (JSON) format, mer spesifikt som JSON Mobile Media Metadata, eller J3M (uttalt "Gémm"). J3M-filen er vanlig tekst, i et format leselig for mennesker, inneholdende flere forskjellige gruppenavn=verdigrupper, inndelt i krøllparenteser som {navn: verdi} eller {navn { navn0: verdi0, navn1: verdi1}, osv.
 
-![metadata.png](images/metadata.png)
+![metadata.png](images/flows/06img_metadata.png)
 
 ## Hvorfor skulle jeg ønske å dele det?
 
