@@ -1,0 +1,29 @@
+### InformaCam System and the CameraV App User Guide
+
+## TRUST (BUT VERIFY!) WHAT YOUR EYES SEE
+
+InformaCam is a system that uses the built-in sensors in modern smartphones for tracking movement, light and other environmental inputs, along with Wi-Fi, Bluetooth, and cellular network information to capture a snapshot of the environment around you, while you are taking a photo or video. This extra metadata (the data about the data!) helps verify and validate the date, time and location of capture, and provides an entirely new layer of context and meaning out of "invisible" energy for use in any way you choose. Finally digital signatures and encryption ensure that your media hasn't been tampered with since capture and that it can only be seen by the people you choose.
+
+Currently, you can use InformaCam by installing the CameraV app for Android smartphones. CameraV uses V for Verification, Veritas (Truth!) and Vaulted (secured!). It is also evokes the "V" hand sign for victory and peace. 
+
+## Easy To Use
+
+CameraV is the easiest way to capture and share secure photos and videos on a smartphone or tablet.
+
+![web_hi_res_512.png](images/web_hi_res_512.png)
+
+## Sensor Smart
+
+CameraV turns sensor inputs like compass, light, temperature, location and more into "metadata for good".
+
+## Share Media and Metadata
+
+Upload and share media captured from CameraV wherever you choose, and people can trust what their eyes see.
+
+## Crypto-Power
+
+CameraV has strong encryption and network security built-in using technology OpenPGP, IOCipher and Tor.
+
+## Open and Free
+
+CameraV, and the InformaCam system, is open-source and freely licensed for use by any individual or organization.

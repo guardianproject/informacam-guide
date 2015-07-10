@@ -1,0 +1,23 @@
+# Chapter 9: Scenarios of Use
+
+This chapter will talk through a few different plausible scenarios where this app could be used, and the right steps to make that happen successfully.
+
+## To Capture Photographic Evidence of an Incident
+
+The InformaCam system, and specifically the CameraV app, is well suited for capturing photographic evidence of an incident of any nature. This could range from the aftermath of a car accident, to the damage of property during a natural disaster. It could also be used to document violence between citizens, or between police or military forces and citizens. 
+
+The goal in any of these cases is to capture the state of some thing, at a specific point of time, and then share that media evidence with an authority that can use it for the application of justice or monetary compensation. In this case, the encrypted storage and verification features help prove that the evidence was not tampered with, and was captured at the time and place that matches the crime.
+
+A secondary goal could be for advocacy and awareness. Using CameraV in this cases helps bolster your case, to provide proof to your broader public audience that what they are seeing is true, authentic and unmodified.
+
+## To Record a Video Eyewitness Testimonial
+
+In many war crimes events, evidence is gathered after the fact through testimonial interviews with victims, witneesses, or others with knowledge of the incident. It is of prime importance that these interviews are protected, only accessible to those who need access.
+
+## To Document a Protest March and Public Gathering  
+
+It is a common sight to see hundreds of phones emerging out of the crowd, documenting whatever they can see, during any large public gathering.
+
+## To Add a "Data Journalism" Layer To Your Story
+
+The sensor metadata captured by CameraV provides a fascinating additional layer of real-world data and context that is normally invisible to the naked eye.

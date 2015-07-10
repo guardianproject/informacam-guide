@@ -1,0 +1,50 @@
+# Chapter 1: Quick Start Guide
+
+## Getting Started with Secure & Verified Mobile Media
+
+This document will go into greater detail about the entire InformaCam concept later, but for now we wanted to get your started with some simple useful capabilities. Using Google Play or FDroid.org, you will need to install the CameraV app on your Android phone, running Android OS version 4.0 or higher.
+
+## 3 Things You Can Quickly Do With CameraV
+
+1) Take pictures or video with synchronized sensor metadata capture for later use in verification, analysis, proof or other “blackbox” purposes.
+
+2) Notarize captured photos and videos by sharing the unique ID and sensor metadata through email, SMS or social media.
+
+3) Share photos and videos privately or publicly with the sensor metadata embedded in the media, for later verification and use.
+
+## Taking a Photo or Video With Sensor Metadata
+
+The CameraV sensors automatically activate when you start capture. You can optionally enable Location, Bluetooth and Wifi services in your Android Settings to allow the app to use those sensors.
+
+### Enable Sensors
+
+- You control if Wi-fi, Bluetooth, GPS are used
+- For Location, you can control the type of location service
+- To disable mobile network sensors, put phone into airplane or "flight" mode
+
+### Viewing Photos and Video in the Gallery
+
+Gallery button opens multiple thumbnail screen. Tap on thumbnail to open detailed view.
+
+![views](images/flows/05.2img_main_views.png)
+
+Check mark icon for multiple selection and deletion.
+
+
+## Notarizing Captured Photos and Video
+
+You can generate a unique visual fingerprint identifer, basically a unique code, for each media file captured. Then you can share this code a short message that you share through SMS, email or more publicly on social media.
+
+![notarizesms.png](images/flows/07img_notarize.png)
+
+## Sharing Photos, Videos and Sensor Metadata 
+
+## Sharing Options
+
+SHARE options:
+Share Media
+Share Metadata
+Notarize
+
+Share Metadata metadata only shared as JSON plaintext
+Notarize: unique ID for media and link to media page on secure test bed
