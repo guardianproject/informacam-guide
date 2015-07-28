@@ -1,6 +1,6 @@
 # CameraV app and the InformaCam System 
 
-![playmulti.png](images/playmulti.png)]
+![playmulti.png](images/playmulti.png)
 
 ## TRUST (BUT VERIFY!) WHAT YOUR EYES SEE
 
