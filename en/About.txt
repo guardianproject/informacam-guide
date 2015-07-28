@@ -1,4 +1,4 @@
-# CameraV app and the InformaCam System 
+# CameraV app and the InformaCam Platform
 
 ![playmulti.png](images/playmulti.png)
 
