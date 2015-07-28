@@ -1,4 +1,6 @@
-### InformaCam System and the CameraV App User Guide
+### CameraV app and the InformaCam System 
+
+![playmulti.png](images/playmulti.png)]
 
 ## TRUST (BUT VERIFY!) WHAT YOUR EYES SEE
 
